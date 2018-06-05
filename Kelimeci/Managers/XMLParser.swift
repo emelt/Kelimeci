@@ -76,7 +76,7 @@ extension Parser: XMLParserDelegate {
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         if elementName == Constants.games {
             let word = Word()
-            word.characters = characters.components(separatedBy: ",")
+            word.characters = characters.compactMap { "\($0)" }
             word.thirteenLetters = thirteenLetters?.components(separatedBy: ",") ?? []
             word.twelveLetters = twelveLetters?.components(separatedBy: ",") ?? []
             word.elevenLetters = elevenLetters?.components(separatedBy: ",") ?? []
@@ -97,6 +97,7 @@ extension Parser: XMLParserDelegate {
         data = string.replacingOccurrences(of: " ", with: "").replacingOccurrences(of: "\n", with: "")
         if (!data.isEmpty) {
             if eName == Constants.characters {
+                data = string.replacingOccurrences(of: ",", with: "")
                 characters.append(data)
             } else if eName == Constants.thirteenLetters {
                 if thirteenLetters == nil {

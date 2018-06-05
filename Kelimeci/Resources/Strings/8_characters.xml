@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+    <game id="1">
+        <characters>A A B I I L R T</characters>
+        <letters_8>ABARTILI, RABITALI</letters_8>
+        <letters_7></letters_7>
+        <letters_6>ABARTI, ALBATR, BATILI, RABITA, TARALI</letters_6>
+        <letters_5>ABALI, ATILI, BALAR, BALAT, BALTA, BATAR, BATIL, ILTAR, RABIT, TABLA, TARLA, TIRIL</letters_5>
+        <letters_4>AKİL, AKİS, AKLİ, AKSİ, ASİL, ASLİ, AYİN, AYNİ, AYOL, İKNA, İKON, İLAN, İNAK, İNAL, İSAL, İYON, KAİL, KAİN, KANİ, KANO, KAOS, KİLO, KİLS, KLAN, KLAS, KLON, KOLA, KOLİ, KONİ, KOSA, LAİK, LAİN, LASO, LİKA, LİNK, NAİL, NİSA, OLAY, ONAY, OYSA, SOLO</letters_4>
+    </game>
+        <game id="2">
+        <characters>A A A A F L L M</characters>
+        <letters_8>AFALLAMA</letters_8>
+        <letters_7>ALALAMA, LAFLAMA</letters_7>
+        <letters_6>ALLAMA, MALAFA</letters_6>
+        <letters_5>FLAMA</letters_5>
+        <letters_4>AFAL, ALFA, ALMA, AMAL, FAAL, LALA, LAMA, MALA</letters_4>
+        </game>
+        <game id="3">
+            <characters>A A B D I I M Ş</characters>
+            <letters_8>ADIMBAŞI</letters_8>
+            <letters_5>ADAMI, IŞIMA</letters_5>
+            <letters_4>ADAM, ADAŞ, ADIM, AŞIM, AŞMA, DAMA, MAAŞ, MAŞA, ŞAMA</letters_4>
+        </game>
+        <game id="4">
+            <characters>A A D E K K M İ</characters>
+            <letters_8>AKADEMİK</letters_8>
+            <letters_7>AKADEMİ</letters_7>
+            <letters_6>DAKİKA, DİKMEK</letters_6>
+            <letters_5>AKEMİ, AKİDE, AKMAK, AMADE, DAİMA, DAKİK, DAMAK, DİKME, İDAME, İKAME, İKDAM, KADEM, KADİM, KAİDE, KAİME, KAKMA, KEMİK, MADİK, MAKAK, MEKİK</letters_5>
+            <letters_4>ADAK, ADAM, ADEM, AKAK, AKİK, AKİM, AKMA, DAİM, DAMA, EDİK, EDİM, EKİM, EMİK, İADE, İDAM, İDEA, KAİM, KAKA, KAMA, KAME, KEDİ, KEKA, MAKİ, MİDE, MİKA</letters_4>
+        </game>
+        <game id="5">
+            <characters>A A H I K K L M</characters>
+            <letters_8>AHMAKLIK</letters_8>
+            <letters_7>IHLAMAK, IKLAMAK, KAKILMA, KAKMALI</letters_7>
+            <letters_6>AMALIK, HAMLIK, IHLAMA, IKLAMA, KAKIMA, KALKMA, KALMAK, KAMALI, KILMAK</letters_6>
+            <letters_5>AHKAM, AHLAK, AHMAK, AKLIK, AKMAK, ALKIM, ALMAK, HAKLI, HALKA, HAMAK, HAMAL, HAMLA, IHMAK, KAKIM, KAKMA, KALAK, KALIK, KALIM, KALMA, KILMA, MAHAL, MAKAK, MALAK</letters_5>
+            <letters_4>AKAK, AKIL, AKIM, AKLI, AKMA, ALIK, ALIM, ALMA, AMAL, HALA, HALI, HALK, IHMA, KAKA, KALA, KAMA, LAKA, LAMA, MALA</letters_4>
+        </game>
+        <game id="6">
+            <characters>A A K M R U V Y</characters>
+            <letters_8>AKVARYUM</letters_8>
+            <letters_7>AKYUVAR, KAVURMA, MAVRUKA, UYARMAK</letters_7>
+            <letters_6>KAVRAM, KURAMA, KURMAY, MUKAAR, UYARMA, VARMAK, VURMAK, YARMAK</letters_6>
+            <letters_5>AKVAM, AYMAK, KARMA, KAYAR, KAYMA, KAYRA, KUMAR, KURAM, KURMA, KURYA, MARKA, MARYA, MAVRA, RAKAM, RAMAK, UYMAK, VAKAR, VAKUM, VAKUR, VARAK, VARMA, VURMA, YAKMA, YAMAK, YAMUK, YARAK, YARKA, YARMA, YAVRU, YUMAK, YUVAK, YUVAR</letters_5>
+            <letters_4>AKAR, AKMA, AKUR, AKVA, ARAK, ARKA, ARMA, ARYA, AVAM, AVAR, AYAK, AYAR, AYMA, AYVA, KAMA, KAMU, KARA, KAYA, KUMA, KURA, MARK, MAYA, RUAM, UMAR, URAY, UYAK, UYMA, VAKA, YAKA, YAMA, YARA, YUMA, YUVA
+                </letters_4>
+        </game>
+        <game id="7">
+            <characters>A B E L L N İ İ</characters>
+            <letters_8>ALBENİLİ</letters_8>
+            <letters_6>ALBENİ, BİENAL</letters_6>
+            <letters_5>ALENİ, BELLİ, BENLİ</letters_5>
+            <letters_4>ABLİ, AİLE, ALİL, BALE, BANİ, BELA, BELİ, BİLE, BİLİ, BİNA, BİNİ, ELAN, ELLİ, ENLİ, İANE, İBNE, İLAN, İLLA, İLLE, İLLİ, İNAL, LAİN, LALE, NAİL, NALE, NEBİ</letters_4>
+        </game>
+        <game id="8">
+            <characters>A K L L M O Z İ</characters>
+            <letters_8>ALKOLİZM</letters_8>
+            <letters_6>MOZAİK</letters_6>
+            <letters_5>ALKİL, ALKOL, AZOİK, İKMAL, İLZAM, KAMİL, KLİMA, KOLZA, LAKOZ, LİZOL, LOKAL, LOKMA, MALİK, MİKOZ, MOLLA, MOZAK, OLMAK, OLMAZ, ZALİM</letters_5>
+            <letters_4>AKİL, AKİM, AKLİ, ALİL, ALİM, AMİL, AZİL, AZİM, AZOL, İKAZ, İLAM, İLLA, İMAL, İMLA, İMZA, İZAM, KAİL, KAİM, KİLO, KOLA, KOLİ, KOMA, KOMİ, KOZA, LAİK, LİKA, MAİL, MAKİ, MALİ, MAZİ, MİKA, MİZA, MOKA, MOLA, OLMA, ZAİL, ZAMK, ZOKA</letters_4>
+        </game>
+        <game id="9">
+            <characters>A A B L M N S U</characters>
+            <letters_8>AMBULANS</letters_8>
+            <letters_7>ANSAMBL, BULANMA, BUNALMA, SULANMA, USLANMA</letters_7>
+            <letters_6>ASUMAN, BALANS, BALSAM, BULAMA, BUNAMA, SULAMA, ULANMA, UNLAMA, USANMA</letters_6>
+            <letters_5>ALMAN, ALMUS, ANLAM, ASLAN, BANAL, BANMA, BASMA, BULMA, BUNMA, LAMBA, MANAS, MASAL, MASNU, MASUN, NAMLU, NAMUS, SABAN, SABUN, SALAM, SALMA, SAMAN, SAMBA, SANAL, SANMA, SAUNA, SUNMA, ULAMA</letters_5>
+            <letters_4>ABLA, ABUS, ALAN, ALMA, AMAL, AMAN, ANAL, ANAM, ANMA, ASAL, ASLA, ASMA, BALA, BANA, BLUM, BULA, LAMA, MALA, MANA, MASA, MAUN, SABA, SALA, SANA, SUAL, SUMA, SUNA, ULAM, ULAN</letters_4>
+        </game>
+        <game id="10">
+            <characters>A A A M N P R T</characters>
+            <letters_8>APARTMAN</letters_8>
+            <letters_7>APARTMA, MARANTA, TARANMA</letters_7>
+            <letters_6>APARAT, APARMA, ARANMA, ARATMA, ATAMAN, ATANMA, MANTAR, MATARA, PANAMA, TARAMA, TARPAN, TRAMPA</letters_6>
+            <letters_5>ARAMA, ARTMA, ATAMA, MANAT, RAMPA, TAPAN, TAPMA</letters_5>
+            <letters_4>AMAN, ANAM, ANMA, ARAP, ARMA, ARPA, ATMA, MANA, MAPA, MARN, MART, NAAT, NARA, PARA, PATA, RAMP, RANT, TAAM, TAPA, TRAP</letters_4>
+        </game>
+        <game id="11">
+            <characters>A A E K R S S U</characters>
+            <letters_8>AKSESUAR</letters_8>
+            <letters_6>AKARSU, KARASU, SARSAK</letters_6>
+            <letters_5>ASKER, SAKAR, SARAK, SERAK, SUARE, SUSAK, USARE</letters_5>
+            <letters_4>AKAR, AKSE, AKSU, AKUR, ARAK, ARKA, ARSA, ASAR, ASES, ESAS, KARA, KARE, KARS, KASA, KASE, KURA, KURS, RAKS, SAKA, SAKE, SARA, SEKS, SERA, SURA, SURE</letters_4>
+        </game>
+        <game id="12">
+            <characters>A A A B I K L L</characters>
+            <letters_8>ALABALIK</letters_8>
+            <letters_7>ABLALIK, ALAKALI, BAKLALI, BALALIK</letters_7>
+            <letters_6>BALLIK, KABALA, KALABA, LAAKAL</letters_6>
+            <letters_5>ABALI, ABLAK, AKALA, ALAKA, ALLIK, BAKLA, BALIK, BALKI, BALLI</letters_5>
+            <letters_4>ABLA, AKIL, AKLI, ALIK, ALLI, BAKI, BALA, KABA, KALA, LAKA, LALA</letters_4>
+        </game>
+        <game id="13">
+            <characters>A A K M R U V Y</characters>
+            <letters_8>AKVARYUM</letters_8>
+            <letters_7>AKYUVAR, KAVURMA, MAVRUKA, UYARMAK</letters_7>
+            <letters_6>KAVRAM, KURAMA, KURMAY, MUKAAR, UYARMA, VARMAK, VURMAK, YARMAK</letters_6>
+            <letters_5>AKVAM, AYMAK, KARMA, KAYAR, KAYMA, KAYRA, KUMAR, KURAM, KURMA, KURYA, MARKA, MARYA, MAVRA, RAKAM, RAMAK, UYMAK, VAKAR, VAKUM, VAKUR, VARAK, VARMA, VURMA, YAKMA, YAMAK, YAMUK, YARAK, YARKA, YARMA, YAVRU, YUMAK, YUVAK, YUVAR</letters_5>
+            <letters_4>AKAR, AKMA, AKUR, AKVA, ARAK, ARKA, ARMA, ARYA, AVAM, AVAR, AYAK, AYAR, AYMA, AYVA, KAMA, KAMU, KARA, KAYA, KUMA, KURA, MARK, MAYA, RUAM, UMAR, URAY, UYAK, UYMA, VAKA, YAKA, YAMA, YARA, YUMA, YUVA</letters_4>
+        </game>
+        <game id="14">
+            <characters>A B C D E K M İ</characters>
+            <letters_8>BADEMCİK</letters_8>
+            <letters_7>BADEMCİ</letters_7>
+            <letters_6>ADEMCİ, DİBACE</letters_6>
+            <letters_5>ABİDE, ACEMİ, ACİBE, AKEMİ, AKİDE, BADEM, BADİK, BEDİK, DİBEK, DİKME, EMCİK, İDAME, İKAME, İKDAM, KADEM, KADİM, KAİDE, KAİME, MADİK</letters_5>
+            <letters_4>ACEM, ADEM, AKİM, BADE, BADİ, BAKİ, BEKA, BİDE, CAMİ, CEDİ, CEMİ, CİDE, CİMA, DAİM, DEBİ, DİBA, EDİK, EDİM, EKİM, EMİK, İADE, İBDA, İCMA, İDAM, İDEA, KABE, KAİM, KAME, KEDİ, MAKİ, MİDE, MİKA</letters_4>
+        </game>
+        <game id="15">
+            <characters>B E R S T Y Ü İ</characters>
+            <letters_8>BÜSTİYER</letters_8>
+            <letters_5>BEYİT, BİREY, BİTEY, İBRET, İSTER, RÜTBE, RÜYET, SETİR, SEYİR, SEYİT, SİYER, SÜBYE, SÜTRE, TERBİ, TESİR, TESRİ, TÜRBE</letters_5>
+            <letters_4>BEİS, BERİ, BESİ, BETİ, BİYE, BRİT, BRÜT, BÜST, ESİR, İBRE, REİS, REST, SERİ, SERT, SİTE, STER, SÜET, SÜİT, SÜRE, TERS, TİRE, TÜRE, ÜSTE, YEİS, YETİ</letters_4>
+        </game>
+        <game id="16">
+            <characters>C D D E T Y İ İ</characters>
+            <letters_8>CİDDİYET</letters_8>
+            <letters_5>CEDİT, CİDDİ, DİYET, İYİCE</letters_5>
+            <letters_4>CEDİ, CİDE, DEYİ, DİDE, DİYE, YEDİ, YETİ</letters_4>
+        </game>
+        <game id="17">
+            <characters>C K L M R İ İ İ</characters>
+            <letters_8>CİMRİLİK</letters_8>
+            <letters_7>İKİRCİL, İKİRCİM, KİLİMCİ</letters_7>
+            <letters_6>İRİLİK, MİRİCİ</letters_6>
+            <letters_5>CİMRİ, CİRİM, İKİCİ, İKİLİ, İKLİM, İLMİK, İMLİK, İRMİK, KİLİM, KİRİL, KİRLİ, LİRİK</letters_5>
+            <letters_4>İLİK, İLİM, İLMİ, KİMİ, MİRİ</letters_4>
+        </game>
+        <game id="18">
+            <characters>A A D E E L R V</characters>
+            <letters_8>DALAVERE</letters_8>
+            <letters_7>ALAVERE, VARDELA</letters_7>
+            <letters_6>ELVEDA</letters_6>
+            <letters_5>ADALE, AVARE, DAVAR, DEVRE, EDVAR, LARVA, VARDA</letters_5>
+            <letters_4>ALEV, ARDA, AVAL, AVAR, DARA, DAVA, DERE, DEVA, DEVE, EDER, ELDE, EVLA, EVRE, LAVA, LEVA, REEL, REVA, VADE, VALE, VEDA, VERE</letters_4>
+        </game>
+        <game id="19">
+            <characters>D E E E L N S Y</characters>
+            <letters_8>DENEYSEL</letters_8>
+            <letters_6>SENEYE</letters_6>
+            <letters_5>DENEY, DESEN, ELDEN, NEYSE, SEDYE, SELEN</letters_5>
+            <letters_4>ELDE, ENSE, ESEN, LENS, SELE, SENE, YELE</letters_4>
+        </game>
+        <game id="20">
+            <characters>E J K K L O O İ</characters>
+            <letters_8>EKOLOJİK</letters_8>
+            <letters_7>EKOLOJİ</letters_7>
+            <letters_6></letters_6>
+            <letters_5>JİKLE, KELİK, KOLEJ, KOLİK, LOJİK, OJELİ, OLEİK</letters_5>
+            <letters_4>EKLİ, EKOL, ELİK, İLKE, JİLE, KİLE, KİLO, KLİK, KOLİ</letters_4>
+        </game>
+        <game id="21">
+            <characters>C E M T Ğ İ İ İ</characters>
+            <letters_8>EĞİTİMCİ</letters_8>
+            <letters_7>EĞİTİCİ</letters_7>
+            <letters_6>EĞİTİM</letters_6>
+            <letters_5>EMİCİ, İTEĞİ, İTİCİ, TECİM</letters_5>
+            <letters_4>CEMİ, EĞİM, İĞCİ, İTME</letters_4>
+        </game>
+</games>

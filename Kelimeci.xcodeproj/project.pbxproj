@@ -40,6 +40,12 @@
 		E8654C3520C6617700A50819 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3420C6617700A50819 /* MainViewController.swift */; };
 		E8654C3720C662CC00A50819 /* GameTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3620C662CC00A50819 /* GameTypeButton.swift */; };
 		E8654C3920C66BBF00A50819 /* HintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3820C66BBF00A50819 /* HintsView.swift */; };
+		E8654C4220C7055200A50819 /* 12_characters.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654C3C20C7055100A50819 /* 12_characters.xml */; };
+		E8654C4320C7055200A50819 /* 11_characters.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654C3D20C7055100A50819 /* 11_characters.xml */; };
+		E8654C4420C7055200A50819 /* 10_characters.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654C3E20C7055100A50819 /* 10_characters.xml */; };
+		E8654C4520C7055200A50819 /* 9_characters.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654C3F20C7055100A50819 /* 9_characters.xml */; };
+		E8654C4620C7055200A50819 /* 13_characters.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654C4020C7055200A50819 /* 13_characters.xml */; };
+		E8654C4720C7055200A50819 /* 8_characters.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654C4120C7055200A50819 /* 8_characters.xml */; };
 		E8664E061F4F9D10005D2F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E051F4F9D10005D2F53 /* ViewController.swift */; };
 		E8664E081F4F9D58005D2F53 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E071F4F9D58005D2F53 /* ViewModel.swift */; };
 		E8664E0A1F4F9D60005D2F53 /* LetterGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E091F4F9D60005D2F53 /* LetterGame.swift */; };
@@ -120,6 +126,12 @@
 		E8654C3420C6617700A50819 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E8654C3620C662CC00A50819 /* GameTypeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTypeButton.swift; sourceTree = "<group>"; };
 		E8654C3820C66BBF00A50819 /* HintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsView.swift; sourceTree = "<group>"; };
+		E8654C3C20C7055100A50819 /* 12_characters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 12_characters.xml; sourceTree = "<group>"; };
+		E8654C3D20C7055100A50819 /* 11_characters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 11_characters.xml; sourceTree = "<group>"; };
+		E8654C3E20C7055100A50819 /* 10_characters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 10_characters.xml; sourceTree = "<group>"; };
+		E8654C3F20C7055100A50819 /* 9_characters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 9_characters.xml; sourceTree = "<group>"; };
+		E8654C4020C7055200A50819 /* 13_characters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 13_characters.xml; sourceTree = "<group>"; };
+		E8654C4120C7055200A50819 /* 8_characters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 8_characters.xml; sourceTree = "<group>"; };
 		E8664E051F4F9D10005D2F53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8664E071F4F9D58005D2F53 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E8664E091F4F9D60005D2F53 /* LetterGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGame.swift; sourceTree = "<group>"; };
@@ -336,6 +348,12 @@
 		E80219401F3979490027C662 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				E8654C4120C7055200A50819 /* 8_characters.xml */,
+				E8654C3F20C7055100A50819 /* 9_characters.xml */,
+				E8654C3E20C7055100A50819 /* 10_characters.xml */,
+				E8654C3D20C7055100A50819 /* 11_characters.xml */,
+				E8654C3C20C7055100A50819 /* 12_characters.xml */,
+				E8654C4020C7055200A50819 /* 13_characters.xml */,
 				E8664E281F4F9E3C005D2F53 /* Localizable.strings */,
 				E8654BC420C4E40000A50819 /* games.xml */,
 			);
@@ -512,10 +530,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8654C4420C7055200A50819 /* 10_characters.xml in Resources */,
 				E80219051F3979160027C662 /* LaunchScreen.storyboard in Resources */,
+				E8654C4320C7055200A50819 /* 11_characters.xml in Resources */,
 				E80219021F3979160027C662 /* Assets.xcassets in Resources */,
+				E8654C4720C7055200A50819 /* 8_characters.xml in Resources */,
 				E8664E291F4F9E3C005D2F53 /* Localizable.strings in Resources */,
 				E8654BC520C4E40000A50819 /* games.xml in Resources */,
+				E8654C4220C7055200A50819 /* 12_characters.xml in Resources */,
+				E8654C4620C7055200A50819 /* 13_characters.xml in Resources */,
+				E8654C4520C7055200A50819 /* 9_characters.xml in Resources */,
 				E8664E261F4F9E07005D2F53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
