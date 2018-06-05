@@ -33,14 +33,14 @@ class GameplayViewController: ViewController {
         
         timerView.delegate = self
         timerView.snp.makeConstraints { make in
-            make.top.equalTo(topLayoutGuide.snp.bottom)
+            make.top.equalToSuperview().offset(30.0)
             make.centerX.equalToSuperview()
             make.width.equalTo(60.0)
             make.height.equalTo(60.0)
         }
         
         matchesView.snp.makeConstraints { make in
-            make.top.equalToSuperview()
+            make.top.equalTo(timerView.snp.bottom).offset(10.0)
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
             make.height.equalToSuperview().multipliedBy(0.4)
@@ -80,7 +80,7 @@ class GameplayViewController: ViewController {
         viewModel.word = words.first
         matchesView.word = viewModel.word
         lettersView.update(with: (viewModel.word?.characters)!)
-        timerView.startTimer(for: 5)
+        timerView.startTimer(for: 180)
     }
     
     func userDidType(character: String) {

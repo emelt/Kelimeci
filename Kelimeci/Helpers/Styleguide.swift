@@ -68,6 +68,8 @@ extension TextStyle {
     static let matchingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kPink)
     static let missingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kDarkGray)
     static let guessedWord = TextStyle(font: UIFont.mfAvenirMedium(size: 40.0), color: UIColor.kPink)
+    static let gameTypeLabel = TextStyle(font: UIFont.mfAvenirHeavy(size: 23.0), color: UIColor.kWhite)
+    static let gameTypeDetailLabel = TextStyle(font: UIFont.mfAvenirRoman(size: 14.0), color: UIColor.kWhite)
 }
 
 extension ShadowStyle {
@@ -86,5 +88,5 @@ extension LayerStyle {
     static let pinkBorder = BorderStyle(color: .kPink, width: 5.0)
     static let yellowBorder = BorderStyle(color: .kBlack, width: K.Border.defaultBorderWidth)
     static let yellowBorderMedium = BorderStyle(color: .kBlack, width: K.Border.mediumBorderWidth)
-    static let whiteBorder = BorderStyle(color: .kBlack, width: K.Border.mediumBorderWidth)
+    static let gameTypeButtonBorder = BorderStyle(color: .kGray, width: 25.0)
 }

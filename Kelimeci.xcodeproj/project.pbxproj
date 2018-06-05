@@ -37,6 +37,8 @@
 		E8654C2E20C6510E00A50819 /* UITableViewCell+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C2020C6510E00A50819 /* UITableViewCell+Helpers.swift */; };
 		E8654C2F20C6510E00A50819 /* UICollectionView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C2120C6510E00A50819 /* UICollectionView+Helpers.swift */; };
 		E8654C3320C65B2900A50819 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3220C65B2900A50819 /* ResultsView.swift */; };
+		E8654C3520C6617700A50819 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3420C6617700A50819 /* MainViewController.swift */; };
+		E8654C3720C662CC00A50819 /* GameTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3620C662CC00A50819 /* GameTypeButton.swift */; };
 		E8664E061F4F9D10005D2F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E051F4F9D10005D2F53 /* ViewController.swift */; };
 		E8664E081F4F9D58005D2F53 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E071F4F9D58005D2F53 /* ViewModel.swift */; };
 		E8664E0A1F4F9D60005D2F53 /* LetterGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E091F4F9D60005D2F53 /* LetterGame.swift */; };
@@ -114,6 +116,8 @@
 		E8654C2020C6510E00A50819 /* UITableViewCell+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Helpers.swift"; sourceTree = "<group>"; };
 		E8654C2120C6510E00A50819 /* UICollectionView+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Helpers.swift"; sourceTree = "<group>"; };
 		E8654C3220C65B2900A50819 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		E8654C3420C6617700A50819 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E8654C3620C662CC00A50819 /* GameTypeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTypeButton.swift; sourceTree = "<group>"; };
 		E8664E051F4F9D10005D2F53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8664E071F4F9D58005D2F53 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E8664E091F4F9D60005D2F53 /* LetterGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGame.swift; sourceTree = "<group>"; };
@@ -357,6 +361,8 @@
 				E8664E191F4F9DCE005D2F53 /* MatchesView.swift */,
 				E8664E1F1F4F9DE8005D2F53 /* StatsView.swift */,
 				E8654C3220C65B2900A50819 /* ResultsView.swift */,
+				E8654C3420C6617700A50819 /* MainViewController.swift */,
+				E8654C3620C662CC00A50819 /* GameTypeButton.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -570,6 +576,7 @@
 				E8664E201F4F9DE8005D2F53 /* StatsView.swift in Sources */,
 				E8654C2D20C6510E00A50819 /* UIFont.swift in Sources */,
 				E8654BD520C4ECC300A50819 /* TableViewCell.swift in Sources */,
+				E8654C3520C6617700A50819 /* MainViewController.swift in Sources */,
 				E8654C2320C6510E00A50819 /* String+Helpers.swift in Sources */,
 				E8654BC720C4E4B700A50819 /* Word.swift in Sources */,
 				E8654C2420C6510E00A50819 /* UIViewController+Helpers.swift in Sources */,
@@ -589,6 +596,7 @@
 				E8654C2A20C6510E00A50819 /* UINavigationItem+Styling.swift in Sources */,
 				E8654C2F20C6510E00A50819 /* UICollectionView+Helpers.swift in Sources */,
 				E8654C1320C6184200A50819 /* NavigationBar.swift in Sources */,
+				E8654C3720C662CC00A50819 /* GameTypeButton.swift in Sources */,
 				E8664E241F4F9DFD005D2F53 /* GuessedWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

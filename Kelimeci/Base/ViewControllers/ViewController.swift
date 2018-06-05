@@ -13,5 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         navigationController?.styleClear()
+        edgesForExtendedLayout = .all
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
     }
 }

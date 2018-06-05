@@ -10,21 +10,39 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Gameplay View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tck-MU-fd5">
             <objects>
-                <viewController id="EbX-Yg-0Qd" customClass="GameplayViewController" customModule="Kelimeci" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="w9i-1y-gx1">
+                <viewController id="EbX-Yg-0Qd" customClass="MainViewController" customModule="Kelimeci" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w9i-1y-gx1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="N3w-wS-K9H"/>
                     </view>
                     <navigationItem key="navigationItem" id="5Zt-1p-Ryz"/>
+                    <connections>
+                        <segue destination="pdn-y1-are" kind="show" identifier="GameViewController" id="Oj9-nb-lTb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yxN-Ts-c6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="770.39999999999998" y="-326.08695652173918"/>
+            <point key="canvasLocation" x="1044" y="-326"/>
+        </scene>
+        <!--Gameplay View Controller-->
+        <scene sceneID="Lvd-o7-HQv">
+            <objects>
+                <viewController id="pdn-y1-are" customClass="GameplayViewController" customModule="Kelimeci" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ca4-An-uiJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5NQ-4U-YHP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZNb-We-Jam" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2158" y="-326"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jHv-u1-aP0">
