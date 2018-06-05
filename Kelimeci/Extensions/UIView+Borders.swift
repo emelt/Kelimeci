@@ -14,9 +14,8 @@ enum UIAxis: Int {
     case vertical
 }
 
-public extension UIView {
-    
-    fileprivate struct Constants {
+extension UIView {
+    struct K {
         static fileprivate let tag = 721
         static let defaultSeperatorWidth: CGFloat = 0.5
     }
@@ -31,17 +30,17 @@ public extension UIView {
         border.path = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.frame.size.width / 2).cgPath
     }
     
-    func addBorders(_ color: UIColor, thickness: CGFloat = Constants.defaultSeperatorWidth, insets: UIEdgeInsets = UIEdgeInsets.zero) {
+    func addBorders(_ color: UIColor, thickness: CGFloat = K.defaultSeperatorWidth, insets: UIEdgeInsets = UIEdgeInsets.zero) {
         clearBorders()
         addBordersTo([UIRectEdge.top, UIRectEdge.left, UIRectEdge.bottom, UIRectEdge.right], color: color, thickness: thickness, insets: insets)
     }
     
-    func addBordersTo(_ edges: [UIRectEdge], color: UIColor, thickness: CGFloat = Constants.defaultSeperatorWidth, insets: UIEdgeInsets = UIEdgeInsets.zero) {
+    func addBordersTo(_ edges: [UIRectEdge], color: UIColor, thickness: CGFloat = K.defaultSeperatorWidth, insets: UIEdgeInsets = UIEdgeInsets.zero) {
         clearBorders()
         edges.forEach { addBorderTo($0, color: color, thickness: thickness, insets: insets) }
     }
     
-    func addBorderTo(_ edge: UIRectEdge, color: UIColor, thickness: CGFloat = Constants.defaultSeperatorWidth, insets: UIEdgeInsets = UIEdgeInsets.zero) {
+    func addBorderTo(_ edge: UIRectEdge, color: UIColor, thickness: CGFloat = K.defaultSeperatorWidth, insets: UIEdgeInsets = UIEdgeInsets.zero) {
         switch edge {
         case UIRectEdge.top:
             let border = createBorder(color, thickness: thickness, axis: .horizontal)
@@ -74,7 +73,7 @@ public extension UIView {
     
     func clearBorders() {
         subviews.filter({ (subview: UIView) -> Bool in
-            return subview.tag == Constants.tag
+            return subview.tag == K.tag
         }).forEach({ (subview: UIView) in
             subview.removeFromSuperview()
         })
@@ -84,7 +83,7 @@ public extension UIView {
         let border = UIView()
         border.backgroundColor = color
         border.translatesAutoresizingMaskIntoConstraints = false
-        border.tag = Constants.tag
+        border.tag = K.tag
         switch axis {
         case .horizontal:
             border.heightAnchor.constraint(equalToConstant: thickness).isActive = true

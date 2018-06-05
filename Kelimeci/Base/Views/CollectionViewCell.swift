@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Kelimeci
 
 class CollectionViewCell: UICollectionViewCell {
     static var reuseIdentifier: String {

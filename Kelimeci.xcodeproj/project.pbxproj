@@ -18,19 +18,7 @@
 		E8654BD320C4ECB500A50819 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BD220C4ECB500A50819 /* TimerView.swift */; };
 		E8654BD520C4ECC300A50819 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BD420C4ECC300A50819 /* TableViewCell.swift */; };
 		E8654BE020C4FA7000A50819 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BDF20C4FA7000A50819 /* ControlPanelView.swift */; };
-		E8654BEE20C5121400A50819 /* CollectionViewCardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BE220C5121400A50819 /* CollectionViewCardLayout.swift */; };
-		E8654BEF20C5121400A50819 /* CollectionViewCaterpillarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BE320C5121400A50819 /* CollectionViewCaterpillarLayout.swift */; };
-		E8654BF020C5121400A50819 /* CollectionViewCircleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BE420C5121400A50819 /* CollectionViewCircleLayout.swift */; };
-		E8654BF120C5121400A50819 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BE520C5121400A50819 /* CollectionViewLayout.swift */; };
-		E8654BF220C5121400A50819 /* CollectionViewStageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BE620C5121400A50819 /* CollectionViewStageLayout.swift */; };
-		E8654BF320C5121400A50819 /* CollectionViewTimeMachineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BE720C5121400A50819 /* CollectionViewTimeMachineLayout.swift */; };
-		E8654BF420C5121400A50819 /* CollectionViewTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BE820C5121400A50819 /* CollectionViewTransitionLayout.swift */; };
-		E8654BF520C5121400A50819 /* CollectionViewTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BE920C5121400A50819 /* CollectionViewTransitionManager.swift */; };
-		E8654BF620C5121400A50819 /* CollectionViewWheelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BEA20C5121400A50819 /* CollectionViewWheelLayout.swift */; };
-		E8654BF720C5121400A50819 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8654BEC20C5121400A50819 /* Info.plist */; };
-		E8654BF820C5121400A50819 /* LayoutConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BED20C5121400A50819 /* LayoutConfiguration.swift */; };
 		E8654BFF20C531B800A50819 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BFE20C531B800A50819 /* Sequence.swift */; };
-		E8654C0320C5327400A50819 /* NutsAndBolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8654C0120C5327400A50819 /* NutsAndBolts.framework */; };
 		E8654C0420C5327400A50819 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8654C0220C5327400A50819 /* SnapKit.framework */; };
 		E8654C0620C537FD00A50819 /* MatchTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C0520C537FD00A50819 /* MatchTile.swift */; };
 		E8654C0C20C60F0E00A50819 /* KTCenterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E8654C0A20C60F0E00A50819 /* KTCenterFlowLayout.m */; };
@@ -44,7 +32,6 @@
 		E8654C2820C6510E00A50819 /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C1A20C6510C00A50819 /* UIImage+Helpers.swift */; };
 		E8654C2920C6510E00A50819 /* NSObject+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C1B20C6510D00A50819 /* NSObject+Helpers.swift */; };
 		E8654C2A20C6510E00A50819 /* UINavigationItem+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C1C20C6510D00A50819 /* UINavigationItem+Styling.swift */; };
-		E8654C2B20C6510E00A50819 /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C1D20C6510D00A50819 /* UIView+Autolayout.swift */; };
 		E8654C2C20C6510E00A50819 /* UITableView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C1E20C6510D00A50819 /* UITableView+Helpers.swift */; };
 		E8654C2D20C6510E00A50819 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C1F20C6510D00A50819 /* UIFont.swift */; };
 		E8654C2E20C6510E00A50819 /* UITableViewCell+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C2020C6510E00A50819 /* UITableViewCell+Helpers.swift */; };
@@ -105,20 +92,7 @@
 		E8654BD220C4ECB500A50819 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		E8654BD420C4ECC300A50819 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E8654BDF20C4FA7000A50819 /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
-		E8654BE220C5121400A50819 /* CollectionViewCardLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCardLayout.swift; sourceTree = "<group>"; };
-		E8654BE320C5121400A50819 /* CollectionViewCaterpillarLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCaterpillarLayout.swift; sourceTree = "<group>"; };
-		E8654BE420C5121400A50819 /* CollectionViewCircleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCircleLayout.swift; sourceTree = "<group>"; };
-		E8654BE520C5121400A50819 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
-		E8654BE620C5121400A50819 /* CollectionViewStageLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewStageLayout.swift; sourceTree = "<group>"; };
-		E8654BE720C5121400A50819 /* CollectionViewTimeMachineLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTimeMachineLayout.swift; sourceTree = "<group>"; };
-		E8654BE820C5121400A50819 /* CollectionViewTransitionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTransitionLayout.swift; sourceTree = "<group>"; };
-		E8654BE920C5121400A50819 /* CollectionViewTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTransitionManager.swift; sourceTree = "<group>"; };
-		E8654BEA20C5121400A50819 /* CollectionViewWheelLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewWheelLayout.swift; sourceTree = "<group>"; };
-		E8654BEB20C5121400A50819 /* CPCollectionViewKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCollectionViewKit.h; sourceTree = "<group>"; };
-		E8654BEC20C5121400A50819 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8654BED20C5121400A50819 /* LayoutConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConfiguration.swift; sourceTree = "<group>"; };
 		E8654BFE20C531B800A50819 /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = ../../../../Sequence.swift; sourceTree = "<group>"; };
-		E8654C0120C5327400A50819 /* NutsAndBolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NutsAndBolts.framework; path = Carthage/Build/iOS/NutsAndBolts.framework; sourceTree = "<group>"; };
 		E8654C0220C5327400A50819 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		E8654C0520C537FD00A50819 /* MatchTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTile.swift; sourceTree = "<group>"; };
 		E8654C0A20C60F0E00A50819 /* KTCenterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTCenterFlowLayout.m; sourceTree = "<group>"; };
@@ -134,7 +108,6 @@
 		E8654C1A20C6510C00A50819 /* UIImage+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
 		E8654C1B20C6510D00A50819 /* NSObject+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Helpers.swift"; sourceTree = "<group>"; };
 		E8654C1C20C6510D00A50819 /* UINavigationItem+Styling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Styling.swift"; sourceTree = "<group>"; };
-		E8654C1D20C6510D00A50819 /* UIView+Autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
 		E8654C1E20C6510D00A50819 /* UITableView+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Helpers.swift"; sourceTree = "<group>"; };
 		E8654C1F20C6510D00A50819 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		E8654C2020C6510E00A50819 /* UITableViewCell+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Helpers.swift"; sourceTree = "<group>"; };
@@ -166,7 +139,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8654C0320C5327400A50819 /* NutsAndBolts.framework in Frameworks */,
 				E8654C0420C5327400A50819 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,7 +288,6 @@
 				E8654C1C20C6510D00A50819 /* UINavigationItem+Styling.swift */,
 				E8654C1E20C6510D00A50819 /* UITableView+Helpers.swift */,
 				E8654C2020C6510E00A50819 /* UITableViewCell+Helpers.swift */,
-				E8654C1D20C6510D00A50819 /* UIView+Autolayout.swift */,
 				E8654C1420C6510B00A50819 /* UIView+Borders.swift */,
 				E8654C1720C6510C00A50819 /* UIView+NibLoading.swift */,
 				E8654C1620C6510C00A50819 /* UIViewController+Helpers.swift */,
@@ -328,7 +299,6 @@
 		E80219341F3979490027C662 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				E8654BE120C5121400A50819 /* CPCollectionViewKit */,
 				E8654C0920C60F0000A50819 /* KTCenterFlowLayout */,
 			);
 			path = External;
@@ -404,29 +374,9 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		E8654BE120C5121400A50819 /* CPCollectionViewKit */ = {
-			isa = PBXGroup;
-			children = (
-				E8654BEB20C5121400A50819 /* CPCollectionViewKit.h */,
-				E8654BE220C5121400A50819 /* CollectionViewCardLayout.swift */,
-				E8654BE320C5121400A50819 /* CollectionViewCaterpillarLayout.swift */,
-				E8654BE420C5121400A50819 /* CollectionViewCircleLayout.swift */,
-				E8654BE520C5121400A50819 /* CollectionViewLayout.swift */,
-				E8654BE620C5121400A50819 /* CollectionViewStageLayout.swift */,
-				E8654BE720C5121400A50819 /* CollectionViewTimeMachineLayout.swift */,
-				E8654BE820C5121400A50819 /* CollectionViewTransitionLayout.swift */,
-				E8654BE920C5121400A50819 /* CollectionViewTransitionManager.swift */,
-				E8654BEA20C5121400A50819 /* CollectionViewWheelLayout.swift */,
-				E8654BEC20C5121400A50819 /* Info.plist */,
-				E8654BED20C5121400A50819 /* LayoutConfiguration.swift */,
-			);
-			path = CPCollectionViewKit;
-			sourceTree = "<group>";
-		};
 		E8654C0020C5321C00A50819 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E8654C0120C5327400A50819 /* NutsAndBolts.framework */,
 				E8654C0220C5327400A50819 /* SnapKit.framework */,
 			);
 			name = Frameworks;
@@ -552,7 +502,6 @@
 			files = (
 				E80219051F3979160027C662 /* LaunchScreen.storyboard in Resources */,
 				E80219021F3979160027C662 /* Assets.xcassets in Resources */,
-				E8654BF720C5121400A50819 /* Info.plist in Resources */,
 				E8664E291F4F9E3C005D2F53 /* Localizable.strings in Resources */,
 				E8654BC520C4E40000A50819 /* games.xml in Resources */,
 				E8664E261F4F9E07005D2F53 /* Main.storyboard in Resources */,
@@ -583,7 +532,6 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/NutsAndBolts.framework",
 			);
 			outputPaths = (
 			);
@@ -598,40 +546,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8654BEE20C5121400A50819 /* CollectionViewCardLayout.swift in Sources */,
 				E8654C2720C6510E00A50819 /* UIApplication+Helpers.swift in Sources */,
 				E8654C0620C537FD00A50819 /* MatchTile.swift in Sources */,
 				E8664E221F4F9DF3005D2F53 /* CharacterTile.swift in Sources */,
 				E8664E121F4F9D89005D2F53 /* LocalizationManager.swift in Sources */,
 				E8654BE020C4FA7000A50819 /* ControlPanelView.swift in Sources */,
-				E8654BF020C5121400A50819 /* CollectionViewCircleLayout.swift in Sources */,
 				E8654BD120C4ECA800A50819 /* CollectionViewCell.swift in Sources */,
 				E8654BFF20C531B800A50819 /* Sequence.swift in Sources */,
 				E8664E2D1F4FA49F005D2F53 /* XMLParser.swift in Sources */,
-				E8654BF520C5121400A50819 /* CollectionViewTransitionManager.swift in Sources */,
 				E8654C2220C6510E00A50819 /* UIView+Borders.swift in Sources */,
 				E8664E0E1F4F9D76005D2F53 /* Styleguide.swift in Sources */,
 				E8664E1C1F4F9DD5005D2F53 /* LettersView.swift in Sources */,
-				E8654BF320C5121400A50819 /* CollectionViewTimeMachineLayout.swift in Sources */,
 				E8664E141F4F9D92005D2F53 /* GameSession.swift in Sources */,
 				E8664E061F4F9D10005D2F53 /* ViewController.swift in Sources */,
 				E8654BD320C4ECB500A50819 /* TimerView.swift in Sources */,
 				E8664E101F4F9D7F005D2F53 /* StyleguideHelpers.swift in Sources */,
 				E8654C2C20C6510E00A50819 /* UITableView+Helpers.swift in Sources */,
 				E8654C0C20C60F0E00A50819 /* KTCenterFlowLayout.m in Sources */,
-				E8654BEF20C5121400A50819 /* CollectionViewCaterpillarLayout.swift in Sources */,
-				E8654BF420C5121400A50819 /* CollectionViewTransitionLayout.swift in Sources */,
 				E8664E201F4F9DE8005D2F53 /* StatsView.swift in Sources */,
 				E8654C2D20C6510E00A50819 /* UIFont.swift in Sources */,
-				E8654BF220C5121400A50819 /* CollectionViewStageLayout.swift in Sources */,
-				E8654BF120C5121400A50819 /* CollectionViewLayout.swift in Sources */,
-				E8654BF620C5121400A50819 /* CollectionViewWheelLayout.swift in Sources */,
 				E8654BD520C4ECC300A50819 /* TableViewCell.swift in Sources */,
 				E8654C2320C6510E00A50819 /* String+Helpers.swift in Sources */,
 				E8654BC720C4E4B700A50819 /* Word.swift in Sources */,
 				E8654C2420C6510E00A50819 /* UIViewController+Helpers.swift in Sources */,
 				E8664E0C1F4F9D6E005D2F53 /* Constants.swift in Sources */,
-				E8654C2B20C6510E00A50819 /* UIView+Autolayout.swift in Sources */,
 				E8664E1E1F4F9DDF005D2F53 /* GameplayViewModel.swift in Sources */,
 				E8654C2E20C6510E00A50819 /* UITableViewCell+Helpers.swift in Sources */,
 				E8654C2620C6510E00A50819 /* Array+Helpers.swift in Sources */,
@@ -642,7 +580,6 @@
 				E80218FB1F3979160027C662 /* AppDelegate.swift in Sources */,
 				E8664E0A1F4F9D60005D2F53 /* LetterGame.swift in Sources */,
 				E8654C2820C6510E00A50819 /* UIImage+Helpers.swift in Sources */,
-				E8654BF820C5121400A50819 /* LayoutConfiguration.swift in Sources */,
 				E8654C2520C6510E00A50819 /* UIView+NibLoading.swift in Sources */,
 				E8654C2920C6510E00A50819 /* NSObject+Helpers.swift in Sources */,
 				E8654C2A20C6510E00A50819 /* UINavigationItem+Styling.swift in Sources */,

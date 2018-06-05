@@ -35,7 +35,7 @@ struct K {
     }
     
     struct Keychain {
-        static let service = "com.swensonhe.mavfarm"
+        static let service = "com.emeltopaloglu.kelimeci"
         static let authToken = "authToken"
         static let pushToken = "pushToken"
         static let user = "user"
