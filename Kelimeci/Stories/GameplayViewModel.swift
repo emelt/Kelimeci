@@ -35,7 +35,7 @@ class GameplayViewModel: NSObject {
             } else if currentWord.count == 11 {
                 return word.elevenLetters.contains(currentWord)
             } else if currentWord.count == 12 {
-                return word.thirteenLetters.contains(currentWord)
+                return word.twelveLetters.contains(currentWord)
             } else if currentWord.count == 13 {
                 return word.thirteenLetters.contains(currentWord)
             }

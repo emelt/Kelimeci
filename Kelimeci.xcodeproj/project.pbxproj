@@ -39,6 +39,7 @@
 		E8654C3320C65B2900A50819 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3220C65B2900A50819 /* ResultsView.swift */; };
 		E8654C3520C6617700A50819 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3420C6617700A50819 /* MainViewController.swift */; };
 		E8654C3720C662CC00A50819 /* GameTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3620C662CC00A50819 /* GameTypeButton.swift */; };
+		E8654C3920C66BBF00A50819 /* HintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3820C66BBF00A50819 /* HintsView.swift */; };
 		E8664E061F4F9D10005D2F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E051F4F9D10005D2F53 /* ViewController.swift */; };
 		E8664E081F4F9D58005D2F53 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E071F4F9D58005D2F53 /* ViewModel.swift */; };
 		E8664E0A1F4F9D60005D2F53 /* LetterGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E091F4F9D60005D2F53 /* LetterGame.swift */; };
@@ -118,6 +119,7 @@
 		E8654C3220C65B2900A50819 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		E8654C3420C6617700A50819 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E8654C3620C662CC00A50819 /* GameTypeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTypeButton.swift; sourceTree = "<group>"; };
+		E8654C3820C66BBF00A50819 /* HintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsView.swift; sourceTree = "<group>"; };
 		E8664E051F4F9D10005D2F53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8664E071F4F9D58005D2F53 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E8664E091F4F9D60005D2F53 /* LetterGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGame.swift; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 				E8654C3220C65B2900A50819 /* ResultsView.swift */,
 				E8654C3420C6617700A50819 /* MainViewController.swift */,
 				E8654C3620C662CC00A50819 /* GameTypeButton.swift */,
+				E8654C3820C66BBF00A50819 /* HintsView.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -582,6 +585,7 @@
 				E8654C2420C6510E00A50819 /* UIViewController+Helpers.swift in Sources */,
 				E8664E0C1F4F9D6E005D2F53 /* Constants.swift in Sources */,
 				E8664E1E1F4F9DDF005D2F53 /* GameplayViewModel.swift in Sources */,
+				E8654C3920C66BBF00A50819 /* HintsView.swift in Sources */,
 				E8654C2E20C6510E00A50819 /* UITableViewCell+Helpers.swift in Sources */,
 				E8654C2620C6510E00A50819 /* Array+Helpers.swift in Sources */,
 				E8664E181F4F9DC2005D2F53 /* GameplayViewController.swift in Sources */,

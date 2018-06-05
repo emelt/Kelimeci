@@ -65,6 +65,7 @@ class MatchesView: UIView {
 
     func guess(word: String) {
         //find a place to insert the word
+        guard !matches.contains(word) else { return }
         matches.append(word)
         matches.sort { $0.count > $1.count || ($0.count == $1.count && $0 < $1) } //
         let newIndex = matches.index(of: word)

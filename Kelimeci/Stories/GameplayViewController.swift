@@ -10,6 +10,7 @@ import UIKit
 
 class GameplayViewController: ViewController {
     fileprivate var timerView = TimerView()
+    fileprivate var hintsView = HintsView()
     fileprivate var matchesView = MatchesView()
     fileprivate var lettersView = LettersView()
     fileprivate var guessView = GuessedWord()
@@ -27,6 +28,7 @@ class GameplayViewController: ViewController {
     fileprivate func addSubviews() {
         view.addSubview(timerView)
         view.addSubview(matchesView)
+        view.addSubview(hintsView)
         view.addSubview(lettersView)
         view.addSubview(guessView)
         view.addSubview(controlView)
@@ -39,11 +41,18 @@ class GameplayViewController: ViewController {
             make.height.equalTo(60.0)
         }
         
-        matchesView.snp.makeConstraints { make in
+        hintsView.snp.makeConstraints { make in
             make.top.equalTo(timerView.snp.bottom).offset(10.0)
+            make.leading.equalToSuperview().offset(20.0)
+            make.trailing.equalToSuperview().offset(-20.0)
+            make.height.equalTo(50.0)
+        }
+        
+        matchesView.snp.makeConstraints { make in
+            make.top.equalTo(hintsView.snp.bottom).offset(10.0)
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
-            make.height.equalToSuperview().multipliedBy(0.4)
+            make.height.equalToSuperview().multipliedBy(0.3)
         }
         
         controlView.delegate = self
@@ -77,7 +86,8 @@ class GameplayViewController: ViewController {
     
     fileprivate func loadCharacters() {
         let words = Parser().parseGames(with: "games")
-        viewModel.word = words.first
+        viewModel.word = words[1]
+        hintsView.update(withWord: viewModel.word!)
         matchesView.word = viewModel.word
         lettersView.update(with: (viewModel.word?.characters)!)
         timerView.startTimer(for: 180)
