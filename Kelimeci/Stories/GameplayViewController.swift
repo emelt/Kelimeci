@@ -9,6 +9,7 @@
 import UIKit
 
 class GameplayViewController: ViewController {
+    fileprivate var timerView = TimerView()
     fileprivate var matchesView = MatchesView()
     fileprivate var lettersView = LettersView()
     fileprivate var guessView = GuessedWord()
@@ -24,10 +25,19 @@ class GameplayViewController: ViewController {
     }
     
     fileprivate func addSubviews() {
+        view.addSubview(timerView)
         view.addSubview(matchesView)
         view.addSubview(lettersView)
         view.addSubview(guessView)
         view.addSubview(controlView)
+        
+        timerView.delegate = self
+        timerView.snp.makeConstraints { make in
+            make.top.equalTo(topLayoutGuide.snp.bottom)
+            make.centerX.equalToSuperview()
+            make.width.equalTo(60.0)
+            make.height.equalTo(60.0)
+        }
         
         matchesView.snp.makeConstraints { make in
             make.top.equalToSuperview()
@@ -70,6 +80,7 @@ class GameplayViewController: ViewController {
         viewModel.word = words.first
         matchesView.word = viewModel.word
         lettersView.update(with: (viewModel.word?.characters)!)
+        timerView.startTimer(for: 5)
     }
     
     func userDidType(character: String) {
@@ -125,5 +136,14 @@ extension GameplayViewController: ControlPanelViewDelegate {
     
     func shuffleButtonTapped(view: ControlPanelView) {
         userDidShuffle()
+    }
+}
+
+extension GameplayViewController: TimerViewDelegate {
+    func timerViewDidEnd(timerView: TimerView) {
+        timerView.stopTimer()
+        matchesView.revealAll()
+        let resultsView = ResultsView()
+        resultsView.show(animated: true)
     }
 }

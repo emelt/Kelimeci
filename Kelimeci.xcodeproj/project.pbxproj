@@ -36,6 +36,7 @@
 		E8654C2D20C6510E00A50819 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C1F20C6510D00A50819 /* UIFont.swift */; };
 		E8654C2E20C6510E00A50819 /* UITableViewCell+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C2020C6510E00A50819 /* UITableViewCell+Helpers.swift */; };
 		E8654C2F20C6510E00A50819 /* UICollectionView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C2120C6510E00A50819 /* UICollectionView+Helpers.swift */; };
+		E8654C3320C65B2900A50819 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C3220C65B2900A50819 /* ResultsView.swift */; };
 		E8664E061F4F9D10005D2F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E051F4F9D10005D2F53 /* ViewController.swift */; };
 		E8664E081F4F9D58005D2F53 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E071F4F9D58005D2F53 /* ViewModel.swift */; };
 		E8664E0A1F4F9D60005D2F53 /* LetterGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E091F4F9D60005D2F53 /* LetterGame.swift */; };
@@ -112,6 +113,7 @@
 		E8654C1F20C6510D00A50819 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		E8654C2020C6510E00A50819 /* UITableViewCell+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Helpers.swift"; sourceTree = "<group>"; };
 		E8654C2120C6510E00A50819 /* UICollectionView+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Helpers.swift"; sourceTree = "<group>"; };
+		E8654C3220C65B2900A50819 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		E8664E051F4F9D10005D2F53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8664E071F4F9D58005D2F53 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E8664E091F4F9D60005D2F53 /* LetterGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGame.swift; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 				E8654C0520C537FD00A50819 /* MatchTile.swift */,
 				E8664E191F4F9DCE005D2F53 /* MatchesView.swift */,
 				E8664E1F1F4F9DE8005D2F53 /* StatsView.swift */,
+				E8654C3220C65B2900A50819 /* ResultsView.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -557,6 +560,7 @@
 				E8654C2220C6510E00A50819 /* UIView+Borders.swift in Sources */,
 				E8664E0E1F4F9D76005D2F53 /* Styleguide.swift in Sources */,
 				E8664E1C1F4F9DD5005D2F53 /* LettersView.swift in Sources */,
+				E8654C3320C65B2900A50819 /* ResultsView.swift in Sources */,
 				E8664E141F4F9D92005D2F53 /* GameSession.swift in Sources */,
 				E8664E061F4F9D10005D2F53 /* ViewController.swift in Sources */,
 				E8654BD320C4ECB500A50819 /* TimerView.swift in Sources */,

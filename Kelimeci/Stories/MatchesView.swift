@@ -105,7 +105,7 @@ extension MatchesView: UICollectionViewDataSource {
         
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MatchTile.reuseIdentifier, for: indexPath) as? MatchTile {
             if missingIndexes.contains(indexPath) {
-                cell.update(with: matches[indexPath.row], state: .missing)
+                cell.update(with: matches[indexPath.row], state: .failed)
             } else {
                 cell.update(with: matches[indexPath.row], state: .guessed)
             }
@@ -118,7 +118,7 @@ extension MatchesView: UICollectionViewDataSource {
 extension MatchesView: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let text = matches[indexPath.row]
-        let textAttributes = [NSAttributedStringKey.font : UIFont.mfAvenirRoman(size: 10.0)]
+        let textAttributes = [NSAttributedStringKey.font : UIFont.mfAvenirRoman(size: 12.0)]
         let size = text.size(withAttributes: textAttributes)
         return CGSize(width: size.width + 10.0, height: size.height + 8.0)
     }

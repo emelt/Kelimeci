@@ -65,8 +65,8 @@ extension TextStyle {
     static let book12White = TextStyle(font: UIFont.mfAvenirBook(size: 12.0), color: UIColor.kWhite)
     static let book13White = TextStyle(font: UIFont.mfAvenirBook(size: 13.0), color: UIColor.kWhite)
     static let characterTile = TextStyle(font: UIFont.mfAvenirMedium(size: 22.0), color: UIColor.kPink)
-    static let matchingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 10.0), color: UIColor.kPink)
-    static let missingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 10.0), color: UIColor.kDarkGray)
+    static let matchingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kPink)
+    static let missingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kDarkGray)
     static let guessedWord = TextStyle(font: UIFont.mfAvenirMedium(size: 40.0), color: UIColor.kPink)
 }
 

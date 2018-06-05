@@ -10,14 +10,13 @@ import UIKit
 
 class MatchTile: CollectionViewCell {
     enum State {
-        case missing
         case guessed
         case failed
     }
     
     fileprivate var label = UILabel()
     fileprivate var word = ""
-    var state: State = .missing
+    var state: State = .guessed
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -48,9 +47,6 @@ class MatchTile: CollectionViewCell {
         self.word = word
         self.state = state
         switch state {
-            case .missing:
-            label.style(.missingGuess)
-            label.text = String(repeating: "*", count: word.count)
             case .guessed:
             label.style(.matchingGuess)
             label.text = word
@@ -58,42 +54,5 @@ class MatchTile: CollectionViewCell {
             label.style(.missingGuess)
             label.text = word
         }
-    }
-    
-    func highlight() {
-        let animator = UIViewPropertyAnimator(duration: 0.1, curve: .easeIn) {
-            self.label.font = .mfAvenirRoman(size: 12.0)
-            }
-        animator.addCompletion { _ in
-            self.label.font = .mfAvenirRoman(size: 10.0)
-        }
-        animator.startAnimation()
-    }
-    
-    func correctGuess() {
-        self.label.text = self.word
-        let animator = UIViewPropertyAnimator(duration: 0.3, curve: .easeIn) {
-            self.label.font = .mfAvenirRoman(size: 12.0)
-            self.label.textColor = .kPink
-        }
-        
-        animator.addCompletion { _ in
-            self.label.font = .mfAvenirRoman(size: 10.0)
-            self.state = .guessed
-        }
-        animator.startAnimation()
-    }
-    
-    func revealAnswer() {
-        self.label.text = self.word
-        let animator = UIViewPropertyAnimator(duration: 0.1, curve: .easeIn) {
-            self.label.font = .mfAvenirRoman(size: 12.0)
-            self.label.textColor = .kGray
-        }
-        animator.addCompletion { _ in
-            self.label.font = .mfAvenirRoman(size: 10.0)
-            self.state = .failed
-        }
-        animator.startAnimation()
     }
 }
