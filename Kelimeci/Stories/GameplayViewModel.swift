@@ -14,12 +14,19 @@ class GameplayViewModel: NSObject {
     var isMinimal = false
     var currentWord = ""
     var currentCharacters: [String] = []
+    var guessedWords: [String] = []
     
-    func checkCurrentWord() -> Bool {
-        guard let word = word else { return false }
+    func guessCurrentWord() -> Bool {
+        guard let word = word, !guessedWords.contains(currentWord) else { return false }
         
         if validateCharacterCount() {
-            return word.allWords.contains(currentWord)
+            let success = word.allWords.contains(currentWord)
+            if success {
+                let pointsEarned = getPoints(forGuess: currentWord)
+                score += pointsEarned
+                guessedWords.append(currentWord)
+            }
+            return success
         }
         return false
     }
@@ -29,7 +36,9 @@ class GameplayViewModel: NSObject {
         return characterCount >= 4
     }
     
-    func getPoints(forWord word: Word, guess: String) -> Int {
+    func getPoints(forGuess guess: String) -> Int {
+        guard let word = word else { return 0 }
+        
         var score = (guess.count - 3) * 10
         if word.characters.count == guess.count {
             score *= 2

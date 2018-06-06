@@ -94,7 +94,7 @@ extension Parser: XMLParserDelegate {
     // 3
     func parser(_ parser: XMLParser, foundCharacters string: String) {
         var data = string.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
-//        data = data.replacingOccurrences(of: " ", with: "").replacingOccurrences(of: "\n", with: "")
+        data = data.replacingOccurrences(of: " ", with: "").replacingOccurrences(of: "\n", with: "")
         if (!data.isEmpty) {
             if eName == Constants.characters {
                 data = data.replacingOccurrences(of: ",", with: "")

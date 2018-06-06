@@ -15,6 +15,7 @@ class GameplayViewController: ViewController {
     fileprivate var lettersView = LettersView()
     fileprivate var guessView = GuessedWord()
     fileprivate var controlView = ControlPanelView()
+    fileprivate var scoresView = ScoreView()
     var viewModel = GameplayViewModel()
     
     override func viewDidLoad() {
@@ -32,6 +33,7 @@ class GameplayViewController: ViewController {
         view.addSubview(lettersView)
         view.addSubview(guessView)
         view.addSubview(controlView)
+        view.addSubview(scoresView)
         
         timerView.delegate = self
         timerView.snp.makeConstraints { make in
@@ -39,6 +41,11 @@ class GameplayViewController: ViewController {
             make.centerX.equalToSuperview()
             make.width.equalTo(60.0)
             make.height.equalTo(60.0)
+        }
+        
+        scoresView.snp.makeConstraints { make in
+            make.centerY.equalTo(timerView.snp.centerY)
+            make.trailing.equalToSuperview().offset(-30.0)
         }
         
         hintsView.snp.makeConstraints { make in
@@ -101,9 +108,12 @@ class GameplayViewController: ViewController {
     }
     
     func userDidGuessWord() {
-        if viewModel.checkCurrentWord() {
+        if viewModel.guessCurrentWord() {
             matchesView.guess(word: viewModel.currentWord)
+            scoresView.animateScoreChange(score: viewModel.score)
             userDidReset()
+        } else {
+            scoresView.animateFail()
         }
     }
     

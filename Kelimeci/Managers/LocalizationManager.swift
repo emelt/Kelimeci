@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+func Localized(_ string: String) -> String {
+    return NSLocalizedString(string, comment: "")
+}
+
+func LocalizedUppercase(_ string: String) -> String {
+    return NSLocalizedString(string, comment: "").uppercased()
+}
