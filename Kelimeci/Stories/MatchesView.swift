@@ -30,8 +30,8 @@ class MatchesView: UIView {
                 allWords = []
                 return
             }
-            let allResults = word.thirteenLetters + word.twelveLetters + word.elevenLetters + word.tenLetters + word.nineLetters + word.eightLetters + word.sevenLetters + word.sixLetters + word.fiveLetters + word.fourLetters
-            allWords = allResults
+
+            allWords = word.allWords
             collectionView.reloadData()
         }
     }

@@ -9,6 +9,7 @@
 import Foundation
 
 class GameplayViewModel: NSObject {
+    var score = 0
     var word: Word?
     var isMinimal = false
     var currentWord = ""
@@ -18,27 +19,7 @@ class GameplayViewModel: NSObject {
         guard let word = word else { return false }
         
         if validateCharacterCount() {
-            if currentWord.count == 4 {
-               return word.fourLetters.contains(currentWord)
-            } else if currentWord.count == 5 {
-                return word.fiveLetters.contains(currentWord)
-            } else if currentWord.count == 6 {
-                return word.sixLetters.contains(currentWord)
-            } else if currentWord.count == 7 {
-                return word.sevenLetters.contains(currentWord)
-            } else if currentWord.count == 8 {
-                return word.eightLetters.contains(currentWord)
-            } else if currentWord.count == 9 {
-                return word.nineLetters.contains(currentWord)
-            } else if currentWord.count == 10 {
-                return word.tenLetters.contains(currentWord)
-            } else if currentWord.count == 11 {
-                return word.elevenLetters.contains(currentWord)
-            } else if currentWord.count == 12 {
-                return word.twelveLetters.contains(currentWord)
-            } else if currentWord.count == 13 {
-                return word.thirteenLetters.contains(currentWord)
-            }
+            return word.allWords.contains(currentWord)
         }
         return false
     }
@@ -46,5 +27,13 @@ class GameplayViewModel: NSObject {
     func validateCharacterCount() -> Bool {
         let characterCount = currentWord.count
         return characterCount >= 4
+    }
+    
+    func getPoints(forWord word: Word, guess: String) -> Int {
+        var score = (guess.count - 3) * 10
+        if word.characters.count == guess.count {
+            score *= 2
+        }
+        return score
     }
 }

@@ -94,10 +94,10 @@ extension Parser: XMLParserDelegate {
     // 3
     func parser(_ parser: XMLParser, foundCharacters string: String) {
         var data = string.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
-        data = string.replacingOccurrences(of: " ", with: "").replacingOccurrences(of: "\n", with: "")
+//        data = data.replacingOccurrences(of: " ", with: "").replacingOccurrences(of: "\n", with: "")
         if (!data.isEmpty) {
             if eName == Constants.characters {
-                data = string.replacingOccurrences(of: ",", with: "")
+                data = data.replacingOccurrences(of: ",", with: "")
                 characters.append(data)
             } else if eName == Constants.thirteenLetters {
                 if thirteenLetters == nil {

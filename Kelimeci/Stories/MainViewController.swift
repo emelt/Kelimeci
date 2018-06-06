@@ -71,16 +71,19 @@ class MainViewController: ViewController {
     
     @objc
     func easyLvlSelected() {
+        GameSession.shared.difficulty = .easy
         performSegue(withIdentifier: Constants.gameSegue, sender: self)
     }
     
     @objc
     func mediumLvlSelected() {
+        GameSession.shared.difficulty = .medium
         performSegue(withIdentifier: Constants.gameSegue, sender: self)
     }
     
     @objc
     func difficultLvlSelected() {
+        GameSession.shared.difficulty = .difficult
         performSegue(withIdentifier: Constants.gameSegue, sender: self)
     }
 }

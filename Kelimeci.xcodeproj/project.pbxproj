@@ -46,6 +46,12 @@
 		E8654C4520C7055200A50819 /* 9_characters.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654C3F20C7055100A50819 /* 9_characters.xml */; };
 		E8654C4620C7055200A50819 /* 13_characters.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654C4020C7055200A50819 /* 13_characters.xml */; };
 		E8654C4720C7055200A50819 /* 8_characters.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654C4120C7055200A50819 /* 8_characters.xml */; };
+		E8654C4920C756FB00A50819 /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8654C4820C756FB00A50819 /* KeychainAccess.framework */; };
+		E8654C4B20C7572100A50819 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C4A20C7572100A50819 /* KeychainManager.swift */; };
+		E8654C4D20C8426C00A50819 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C4C20C8426C00A50819 /* ScoreView.swift */; };
+		E8654C5020C84D0100A50819 /* check.json in Resources */ = {isa = PBXBuildFile; fileRef = E8654C4F20C84D0100A50819 /* check.json */; };
+		E8654C5220C84D0C00A50819 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = E8654C5120C84D0C00A50819 /* error.json */; };
+		E8654C5420C84FE400A50819 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8654C5320C84FE400A50819 /* Lottie.framework */; };
 		E8664E061F4F9D10005D2F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E051F4F9D10005D2F53 /* ViewController.swift */; };
 		E8664E081F4F9D58005D2F53 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E071F4F9D58005D2F53 /* ViewModel.swift */; };
 		E8664E0A1F4F9D60005D2F53 /* LetterGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E091F4F9D60005D2F53 /* LetterGame.swift */; };
@@ -132,6 +138,12 @@
 		E8654C3F20C7055100A50819 /* 9_characters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 9_characters.xml; sourceTree = "<group>"; };
 		E8654C4020C7055200A50819 /* 13_characters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 13_characters.xml; sourceTree = "<group>"; };
 		E8654C4120C7055200A50819 /* 8_characters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 8_characters.xml; sourceTree = "<group>"; };
+		E8654C4820C756FB00A50819 /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
+		E8654C4A20C7572100A50819 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		E8654C4C20C8426C00A50819 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		E8654C4F20C84D0100A50819 /* check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = check.json; sourceTree = "<group>"; };
+		E8654C5120C84D0C00A50819 /* error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
+		E8654C5320C84FE400A50819 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
 		E8664E051F4F9D10005D2F53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8664E071F4F9D58005D2F53 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E8664E091F4F9D60005D2F53 /* LetterGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGame.swift; sourceTree = "<group>"; };
@@ -159,7 +171,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8654C4920C756FB00A50819 /* KeychainAccess.framework in Frameworks */,
 				E8654C0420C5327400A50819 /* SnapKit.framework in Frameworks */,
+				E8654C5420C84FE400A50819 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +355,7 @@
 				E8664E131F4F9D92005D2F53 /* GameSession.swift */,
 				E8664E111F4F9D89005D2F53 /* LocalizationManager.swift */,
 				E8664E2C1F4FA49F005D2F53 /* XMLParser.swift */,
+				E8654C4A20C7572100A50819 /* KeychainManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -363,6 +378,7 @@
 		E80219411F3979490027C662 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E8654C4E20C84CF400A50819 /* Animations */,
 				E80219401F3979490027C662 /* Strings */,
 			);
 			path = Resources;
@@ -384,6 +400,7 @@
 				E8654C3420C6617700A50819 /* MainViewController.swift */,
 				E8654C3620C662CC00A50819 /* GameTypeButton.swift */,
 				E8654C3820C66BBF00A50819 /* HintsView.swift */,
+				E8654C4C20C8426C00A50819 /* ScoreView.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -407,6 +424,8 @@
 		E8654C0020C5321C00A50819 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E8654C5320C84FE400A50819 /* Lottie.framework */,
+				E8654C4820C756FB00A50819 /* KeychainAccess.framework */,
 				E8654C0220C5327400A50819 /* SnapKit.framework */,
 			);
 			name = Frameworks;
@@ -419,6 +438,15 @@
 				E8654C0A20C60F0E00A50819 /* KTCenterFlowLayout.m */,
 			);
 			path = KTCenterFlowLayout;
+			sourceTree = "<group>";
+		};
+		E8654C4E20C84CF400A50819 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				E8654C5120C84D0C00A50819 /* error.json */,
+				E8654C4F20C84D0100A50819 /* check.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -530,8 +558,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8654C5020C84D0100A50819 /* check.json in Resources */,
 				E8654C4420C7055200A50819 /* 10_characters.xml in Resources */,
 				E80219051F3979160027C662 /* LaunchScreen.storyboard in Resources */,
+				E8654C5220C84D0C00A50819 /* error.json in Resources */,
 				E8654C4320C7055200A50819 /* 11_characters.xml in Resources */,
 				E80219021F3979160027C662 /* Assets.xcassets in Resources */,
 				E8654C4720C7055200A50819 /* 8_characters.xml in Resources */,
@@ -568,6 +598,8 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KeychainAccess.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
 			);
 			outputPaths = (
 			);
@@ -586,6 +618,7 @@
 				E8654C0620C537FD00A50819 /* MatchTile.swift in Sources */,
 				E8664E221F4F9DF3005D2F53 /* CharacterTile.swift in Sources */,
 				E8664E121F4F9D89005D2F53 /* LocalizationManager.swift in Sources */,
+				E8654C4B20C7572100A50819 /* KeychainManager.swift in Sources */,
 				E8654BE020C4FA7000A50819 /* ControlPanelView.swift in Sources */,
 				E8654BD120C4ECA800A50819 /* CollectionViewCell.swift in Sources */,
 				E8654BFF20C531B800A50819 /* Sequence.swift in Sources */,
@@ -604,6 +637,7 @@
 				E8654C2D20C6510E00A50819 /* UIFont.swift in Sources */,
 				E8654BD520C4ECC300A50819 /* TableViewCell.swift in Sources */,
 				E8654C3520C6617700A50819 /* MainViewController.swift in Sources */,
+				E8654C4D20C8426C00A50819 /* ScoreView.swift in Sources */,
 				E8654C2320C6510E00A50819 /* String+Helpers.swift in Sources */,
 				E8654BC720C4E4B700A50819 /* Word.swift in Sources */,
 				E8654C2420C6510E00A50819 /* UIViewController+Helpers.swift in Sources */,

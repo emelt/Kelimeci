@@ -1,1 +1,3 @@
 github "SnapKit/SnapKit" "3.2.0"
+github "airbnb/lottie-ios" "ed80ee4830dc5f399ed8bd2469e214e1f559f4e2"
+github "kishikawakatsumi/KeychainAccess" "v3.1.1"

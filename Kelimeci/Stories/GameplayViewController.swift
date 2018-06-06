@@ -85,12 +85,13 @@ class GameplayViewController: ViewController {
     }
     
     fileprivate func loadCharacters() {
-        let words = Parser().parseGames(with: "games")
-        viewModel.word = words[1]
-        hintsView.update(withWord: viewModel.word!)
-        matchesView.word = viewModel.word
-        lettersView.update(with: (viewModel.word?.characters)!)
-        timerView.startTimer(for: 180)
+        if let word = GameSession.shared.nextWord {
+            viewModel.word = word
+            hintsView.update(withWord: viewModel.word!)
+            matchesView.word = viewModel.word
+            lettersView.update(with: (viewModel.word?.characters)!)
+            timerView.startTimer(for: GameSession.shared.time)
+        }
     }
     
     func userDidType(character: String) {

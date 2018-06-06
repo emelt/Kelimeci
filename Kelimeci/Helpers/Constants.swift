@@ -33,13 +33,7 @@ struct K {
         static let banner: TimeInterval = 2.0
         static let fast: TimeInterval = 0.1
     }
-    
-    struct Keychain {
-        static let service = "com.emeltopaloglu.kelimeci"
-        static let authToken = "authToken"
-        static let pushToken = "pushToken"
-        static let user = "user"
-    }
+
     
     struct Radius {
         static let defaultButton: CGFloat = 25.0
