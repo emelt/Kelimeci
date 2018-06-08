@@ -9,19 +9,21 @@
 import Foundation
 
 class HintsView: UIView {
+    fileprivate lazy var collectionView: UICollectionView = {
+        var flowLayout = KTCenterFlowLayout()
+        flowLayout.scrollDirection = .vertical
+        flowLayout.minimumInteritemSpacing = 10.0
+        flowLayout.sectionInset = UIEdgeInsetsMake(0.0, 0.0, 0.0, 0.0)
+        let collectionView = UICollectionView(frame: self.bounds, collectionViewLayout: flowLayout)
+        collectionView.register(HintCell.self, forCellWithReuseIdentifier: HintCell.reuseIdentifier)
+        collectionView.showsVerticalScrollIndicator = false
+        return collectionView
+    }()
+    
     fileprivate var backgroundImageView = UIImageView()
     fileprivate var stackView = UIStackView()
     fileprivate var word: Word?
-    fileprivate var label = UILabel()
-    fileprivate var fiveLetters = UILabel()
-    fileprivate var sixLetters = UILabel()
-    fileprivate var sevenLetters = UILabel()
-    fileprivate var eightLetters = UILabel()
-    fileprivate var nineLetters = UILabel()
-    fileprivate var tenLetters = UILabel()
-    fileprivate var elevenLetters = UILabel()
-    fileprivate var twelveLetters = UILabel()
-    fileprivate var thirteenLetters = UILabel()
+    fileprivate var guessedWords = Word()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -36,48 +38,118 @@ class HintsView: UIView {
     }
     
     fileprivate func setupSubviews() {
-        addSubview(label)
+        addSubview(collectionView)
         
-        label.snp.makeConstraints { (make) in
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        collectionView.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
         }
     }
     
     fileprivate func style() {
         backgroundColor = .clear
-        label.style(.book13White)
-        label.numberOfLines = 0
+        collectionView.backgroundColor = .clear
     }
     
     func update(withWord word: Word) {
-        var text = ""
-        if word.twelveLetters.count > 0 {
-            text.append("\(word.twelveLetters.count) - 12 Char, ")
+        self.word = word
+        guessedWords = Word()
+        guessedWords.characters = []
+    }
+    
+    func userDidGuess(word: String) {
+        if word.count == 13 {
+            guessedWords.thirteenLetters.append(word)
         }
-        if word.elevenLetters.count > 0 {
-            text.append("\(word.elevenLetters.count) - 11 Char, ")
+        if word.count == 12 {
+            guessedWords.twelveLetters.append(word)
         }
-        if word.tenLetters.count > 0 {
-            text.append("\(word.tenLetters.count) - 10 Char, ")
+        if word.count == 11 {
+            guessedWords.elevenLetters.append(word)
         }
-        if word.nineLetters.count > 0 {
-            text.append("\(word.nineLetters.count) - 9 Char, ")
+        if word.count == 10 {
+            guessedWords.tenLetters.append(word)
         }
-        if word.eightLetters.count > 0 {
-            text.append("\(word.eightLetters.count) - 8 Char, ")
+        if word.count == 9 {
+            guessedWords.nineLetters.append(word)
         }
-        if word.sevenLetters.count > 0 {
-            text.append("\(word.sevenLetters.count) - 7 Char, ")
+        if word.count == 8 {
+            guessedWords.eightLetters.append(word)
         }
-        if word.sixLetters.count > 0 {
-            text.append("\(word.sixLetters.count) - 6 Char, ")
+        if word.count == 7 {
+            guessedWords.sevenLetters.append(word)
         }
-        if word.fiveLetters.count > 0 {
-            text.append("\(word.fiveLetters.count) - 5 Char, ")
+        if word.count == 6 {
+            guessedWords.sixLetters.append(word)
         }
-        if word.fourLetters.count > 0 {
-            text.append("\(word.fourLetters.count) - 4 Char")
+        if word.count == 5 {
+            guessedWords.fiveLetters.append(word)
         }
-        label.text = text
+        if word.count == 4 {
+            guessedWords.fourLetters.append(word)
+        }
+        
+        let indexPath = IndexPath(row: abs(word.count - 13), section: 0)
+        collectionView.reloadItems(at: [indexPath])
+    }
+}
+
+
+// MARK: - UICollectionViewDataSource
+extension HintsView: UICollectionViewDataSource {
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView,
+                        numberOfItemsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func collectionView(_ collectionView: UICollectionView,
+                        cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: HintCell.reuseIdentifier, for: indexPath) as? HintCell {
+            guard let word = word else { return cell }
+            
+            switch indexPath.row {
+            case 0:
+                cell.update(withWords: word.thirteenLetters, guessedWords: guessedWords.thirteenLetters)
+            case 1:
+                cell.update(withWords: word.twelveLetters, guessedWords: guessedWords.twelveLetters)
+            case 2:
+                cell.update(withWords: word.elevenLetters, guessedWords: guessedWords.elevenLetters)
+            case 3:
+                cell.update(withWords: word.tenLetters, guessedWords: guessedWords.tenLetters)
+            case 4:
+                cell.update(withWords: word.nineLetters, guessedWords: guessedWords.nineLetters)
+            case 5:
+                cell.update(withWords: word.eightLetters, guessedWords: guessedWords.eightLetters)
+            case 6:
+                cell.update(withWords: word.sevenLetters, guessedWords: guessedWords.sevenLetters)
+            case 7:
+                cell.update(withWords: word.sixLetters, guessedWords: guessedWords.sixLetters)
+            case 8:
+                cell.update(withWords: word.fiveLetters, guessedWords: guessedWords.fiveLetters)
+            case 9:
+                cell.update(withWords: word.fourLetters, guessedWords: guessedWords.fourLetters)
+            default:
+                return cell
+            }
+            
+            return cell
+        }
+        return UICollectionViewCell()
+    }
+    
+    
+}
+
+extension HintsView: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = (frame.size.width - 40.0) / 4
+        let height = (frame.size.height - 20.0) / 3
+        return CGSize(width: width, height: height)
     }
 }

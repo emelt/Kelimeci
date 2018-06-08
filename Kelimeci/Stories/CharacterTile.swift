@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 
 class CharacterTile: CollectionViewCell {
-    fileprivate var characterLabel = UILabel()
+    var characterLabel = UILabel()
     fileprivate var backgroundImageView = UIImageView()
     
     override init(frame: CGRect) {

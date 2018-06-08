@@ -52,6 +52,7 @@
 		E8654C5020C84D0100A50819 /* check.json in Resources */ = {isa = PBXBuildFile; fileRef = E8654C4F20C84D0100A50819 /* check.json */; };
 		E8654C5220C84D0C00A50819 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = E8654C5120C84D0C00A50819 /* error.json */; };
 		E8654C5420C84FE400A50819 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8654C5320C84FE400A50819 /* Lottie.framework */; };
+		E8654C5C20CA499700A50819 /* HintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C5B20CA499700A50819 /* HintCell.swift */; };
 		E8664E061F4F9D10005D2F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E051F4F9D10005D2F53 /* ViewController.swift */; };
 		E8664E081F4F9D58005D2F53 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E071F4F9D58005D2F53 /* ViewModel.swift */; };
 		E8664E0A1F4F9D60005D2F53 /* LetterGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E091F4F9D60005D2F53 /* LetterGame.swift */; };
@@ -144,6 +145,7 @@
 		E8654C4F20C84D0100A50819 /* check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = check.json; sourceTree = "<group>"; };
 		E8654C5120C84D0C00A50819 /* error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
 		E8654C5320C84FE400A50819 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		E8654C5B20CA499700A50819 /* HintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintCell.swift; sourceTree = "<group>"; };
 		E8664E051F4F9D10005D2F53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8664E071F4F9D58005D2F53 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E8664E091F4F9D60005D2F53 /* LetterGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGame.swift; sourceTree = "<group>"; };
@@ -401,6 +403,7 @@
 				E8654C3620C662CC00A50819 /* GameTypeButton.swift */,
 				E8654C3820C66BBF00A50819 /* HintsView.swift */,
 				E8654C4C20C8426C00A50819 /* ScoreView.swift */,
+				E8654C5B20CA499700A50819 /* HintCell.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -620,6 +623,7 @@
 				E8664E121F4F9D89005D2F53 /* LocalizationManager.swift in Sources */,
 				E8654C4B20C7572100A50819 /* KeychainManager.swift in Sources */,
 				E8654BE020C4FA7000A50819 /* ControlPanelView.swift in Sources */,
+				E8654C5C20CA499700A50819 /* HintCell.swift in Sources */,
 				E8654BD120C4ECA800A50819 /* CollectionViewCell.swift in Sources */,
 				E8654BFF20C531B800A50819 /* Sequence.swift in Sources */,
 				E8664E2D1F4FA49F005D2F53 /* XMLParser.swift in Sources */,

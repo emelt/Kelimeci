@@ -45,4 +45,15 @@ class GameplayViewModel: NSObject {
         }
         return score
     }
+    
+    func getMaximumScore() -> Int {
+        guard let word = word else { return 0 }
+        var maximumAvailableScore = 0
+        
+        for possibleWord in word.allWords {
+            maximumAvailableScore += getPoints(forGuess: possibleWord)
+        }
+        
+        return maximumAvailableScore
+    }
 }

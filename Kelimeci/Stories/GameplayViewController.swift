@@ -45,6 +45,7 @@ class GameplayViewController: ViewController {
         
         scoresView.snp.makeConstraints { make in
             make.centerY.equalTo(timerView.snp.centerY)
+            
             make.trailing.equalToSuperview().offset(-30.0)
         }
         
@@ -52,7 +53,7 @@ class GameplayViewController: ViewController {
             make.top.equalTo(timerView.snp.bottom).offset(10.0)
             make.leading.equalToSuperview().offset(20.0)
             make.trailing.equalToSuperview().offset(-20.0)
-            make.height.equalTo(50.0)
+            make.height.equalTo(60.0)
         }
         
         matchesView.snp.makeConstraints { make in
@@ -111,6 +112,7 @@ class GameplayViewController: ViewController {
         if viewModel.guessCurrentWord() {
             matchesView.guess(word: viewModel.currentWord)
             scoresView.animateScoreChange(score: viewModel.score)
+            hintsView.userDidGuess(word: viewModel.currentWord)
             userDidReset()
         } else {
             scoresView.animateFail()
@@ -165,6 +167,6 @@ extension GameplayViewController: TimerViewDelegate {
         timerView.stopTimer()
         matchesView.revealAll()
         let resultsView = ResultsView()
-        resultsView.show(animated: true)
+        resultsView.show(animated: true, currentScore: viewModel.score, maximumAvailableScore: viewModel.getMaximumScore())
     }
 }

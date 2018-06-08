@@ -64,6 +64,7 @@ extension UIFont {
 extension TextStyle {
     static let book12White = TextStyle(font: UIFont.mfAvenirBook(size: 12.0), color: UIColor.kWhite)
     static let book13White = TextStyle(font: UIFont.mfAvenirBook(size: 13.0), color: UIColor.kWhite)
+    static let hintTile = TextStyle(font: UIFont.mfAvenirMedium(size: 12.0), color: UIColor.kPink)
     static let characterTile = TextStyle(font: UIFont.mfAvenirMedium(size: 22.0), color: UIColor.kPink)
     static let matchingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kPink)
     static let missingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kDarkGray)

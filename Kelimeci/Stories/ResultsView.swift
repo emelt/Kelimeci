@@ -95,7 +95,7 @@ class ResultsView: UIView {
         circleLayer.position = center
     }
     
-    func show(animated: Bool) {
+    func show(animated: Bool, currentScore: Int, maximumAvailableScore: Int) {
         alpha = 0.5
         layer.transform = CATransform3DMakeScale(0.1, 0.1, 0.1)
         UIApplication.shared.keyWindow?.addSubview(self)
@@ -110,7 +110,7 @@ class ResultsView: UIView {
             self.alpha = 1.0
             self.layer.transform = CATransform3DMakeScale(1.0, 1.0, 1.0)
         }, completion: { (_: Bool) in
-            self.animateCircle(duration: 1.0, score: 0.8)
+            self.animateCircle(duration: 1.0, score: CGFloat(CGFloat(currentScore) / CGFloat(maximumAvailableScore)))
         })
     }
     
