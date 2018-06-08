@@ -38,7 +38,9 @@ class HintCell: CollectionViewCell {
         }
         
         stackView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+            make.top.equalToSuperview()
+            make.bottom.equalToSuperview()
+            make.centerX.equalToSuperview()
         }
     }
     
@@ -46,6 +48,7 @@ class HintCell: CollectionViewCell {
         backgroundColor = .clear
         stackView.axis = .horizontal
         stackView.spacing = 10.0
+        stackView.alignment = .center
         numberOfCharacters.characterLabel.style(.hintTile)
         wordsFount.style(.book13White)
         totalWords.style(.book13White)

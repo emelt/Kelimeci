@@ -32,7 +32,7 @@
         <!--Gameplay View Controller-->
         <scene sceneID="Lvd-o7-HQv">
             <objects>
-                <viewController id="pdn-y1-are" customClass="GameplayViewController" customModule="Kelimeci" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GameplayViewController" id="pdn-y1-are" customClass="GameplayViewController" customModule="Kelimeci" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ca4-An-uiJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

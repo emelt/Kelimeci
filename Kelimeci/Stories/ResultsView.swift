@@ -8,30 +8,50 @@
 
 import Foundation
 
+protocol ResultsViewDelegate: class {
+    func resultsViewDidTapMissedWords(view: ResultsView)
+    func resultsViewDidTapNext(view: ResultsView)
+}
+
 class ResultsView: UIView {
     fileprivate var backgroundView = UIView()
     fileprivate var cartView = UIView()
+    fileprivate var largeStackView = UIStackView()
+    fileprivate var noteLabel = UILabel()
+    fileprivate var detailLabel = UILabel()
     fileprivate var scoreLabel = UILabel()
     fileprivate let circleLayer = CAShapeLayer()
-    fileprivate let wordsView = MatchesView()
-    weak var delegate: TimerViewDelegate?
+    fileprivate var buttonsStackView = UIStackView()
+    fileprivate var missedWordsButton = UIButton()
+    fileprivate var nextButton = UIButton()
+    fileprivate var animationView = UIView()
+    weak var delegate: ResultsViewDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupSubviews()
         style()
+        addButtonActions()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupSubviews()
         style()
+        addButtonActions()
     }
     
     open func setupSubviews() {
         addSubview(backgroundView)
         addSubview(cartView)
-        addSubview(scoreLabel)
+        cartView.addSubview(largeStackView)
+        largeStackView.addArrangedSubview(noteLabel)
+        largeStackView.addArrangedSubview(detailLabel)
+        largeStackView.addArrangedSubview(scoreLabel)
+        largeStackView.addArrangedSubview(animationView)
+        largeStackView.addArrangedSubview(buttonsStackView)
+        buttonsStackView.addArrangedSubview(missedWordsButton)
+        buttonsStackView.addArrangedSubview(nextButton)
         
         backgroundView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -44,8 +64,23 @@ class ResultsView: UIView {
             make.height.equalToSuperview().multipliedBy(0.7)
         }
         
-        scoreLabel.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
+        largeStackView.snp.makeConstraints { make in
+            make.leading.equalToSuperview().offset(20.0)
+            make.trailing.equalToSuperview().offset(-20.0)
+            make.top.equalToSuperview().offset(20.0)
+            make.bottom.equalToSuperview().offset(-20.0)
+        }
+        
+        buttonsStackView.snp.makeConstraints { make in
+            make.height.equalTo(50.0)
+        }
+        
+        addCircle()
+    }
+    
+    fileprivate func addCircle(){
+        animationView.snp.makeConstraints { make in
+            make.width.equalToSuperview()
         }
         
         let circularPath = UIBezierPath(arcCenter: .zero, radius: 50, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
@@ -54,18 +89,48 @@ class ResultsView: UIView {
         circleLayer.lineWidth = 10.0
         circleLayer.fillColor = UIColor.clear.cgColor
         circleLayer.lineCap = kCALineCapRound
-        circleLayer.position = center
+        circleLayer.position = animationView.center
         circleLayer.transform = CATransform3DMakeRotation(-CGFloat.pi / 2, 0, 0, 1)
         circleLayer.strokeEnd = 0
-        layer.addSublayer(circleLayer)
+        animationView.layer.addSublayer(circleLayer)
     }
     
-    open func style() {
+    fileprivate func style() {
         backgroundColor = .clear
+        
+        buttonsStackView.axis = .horizontal
+        buttonsStackView.spacing = 20.0
+        buttonsStackView.distribution = .fillEqually
+        largeStackView.axis = .vertical
+        largeStackView.spacing = 30.0
+        largeStackView.distribution = .equalCentering
+        
+        nextButton.layer.cornerRadius = 25.0
+        nextButton.backgroundColor = .kPink
+        nextButton.setTitle(Localized("next"), for: .normal)
+        
+        missedWordsButton.layer.cornerRadius = 25.0
+        missedWordsButton.layer.borderColor = UIColor.kPink.cgColor
+        missedWordsButton.layer.borderWidth = 2.0
+        missedWordsButton.setTitle(Localized("missed_words"), for: .normal)
+        
         backgroundView.backgroundColor = UIColor.black.withAlphaComponent(0.1)
         cartView.backgroundColor = UIColor.kSoftWhite.withAlphaComponent(0.9)
+        
         scoreLabel.textAlignment = .center
-        scoreLabel.style(.book12White)
+        scoreLabel.style(.book13Gray)
+        noteLabel.textAlignment = .center
+        noteLabel.style(.book13Gray)
+        detailLabel.textAlignment = .center
+        detailLabel.style(.book13Gray)
+        scoreLabel.numberOfLines = 0
+        noteLabel.numberOfLines = 0
+        detailLabel.numberOfLines = 0
+    }
+    
+    fileprivate func addButtonActions() {
+        nextButton.addTarget(self, action: #selector(nextButtonTapped(sender:)), for: .touchUpInside)
+        missedWordsButton.addTarget(self, action: #selector(missedWordsButtonTapped(sender:)), for: .touchUpInside)
     }
     
     func animateCircle(duration: TimeInterval, score: CGFloat) {
@@ -92,10 +157,14 @@ class ResultsView: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        circleLayer.position = center
+        circleLayer.position = animationView.center
     }
     
-    func show(animated: Bool, currentScore: Int, maximumAvailableScore: Int) {
+    func show(animated: Bool, currentScore: Int, maximumAvailableScore: Int, guessedWordCount: Int, totalWordCount: Int, longestWord: String) {
+        noteLabel.text = longestWord
+        detailLabel.text = "\(totalWordCount) kelimenin \(guessedWordCount) tanesini buldunuz"
+        scoreLabel.text = "\(currentScore)"
+
         alpha = 0.5
         layer.transform = CATransform3DMakeScale(0.1, 0.1, 0.1)
         UIApplication.shared.keyWindow?.addSubview(self)
@@ -116,9 +185,18 @@ class ResultsView: UIView {
     
     func hide(animated: Bool) {
         UIView.animate(withDuration: animated ? 0.3 : 0.0, animations: {
-            self.alpha = 0.0
+            self.alpha = 0.5
+            self.layer.transform = CATransform3DMakeScale(0.1, 0.1, 0.1)
         }) { _ in
             self.removeFromSuperview()
         }
+    }
+    
+    @objc func nextButtonTapped(sender: UIButton) {
+        delegate?.resultsViewDidTapNext(view: self)
+    }
+    
+    @objc func missedWordsButtonTapped(sender: UIButton) {
+        delegate?.resultsViewDidTapMissedWords(view: self)
     }
 }

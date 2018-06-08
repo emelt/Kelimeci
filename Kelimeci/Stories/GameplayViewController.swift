@@ -16,6 +16,8 @@ class GameplayViewController: ViewController {
     fileprivate var guessView = GuessedWord()
     fileprivate var controlView = ControlPanelView()
     fileprivate var scoresView = ScoreView()
+    fileprivate var nextButton = UIButton()
+    fileprivate var buttonView = UIView()
     var viewModel = GameplayViewModel()
     
     override func viewDidLoad() {
@@ -34,6 +36,8 @@ class GameplayViewController: ViewController {
         view.addSubview(guessView)
         view.addSubview(controlView)
         view.addSubview(scoresView)
+        view.addSubview(buttonView)
+        buttonView.addSubview(nextButton)
         
         timerView.delegate = self
         timerView.snp.makeConstraints { make in
@@ -53,7 +57,7 @@ class GameplayViewController: ViewController {
             make.top.equalTo(timerView.snp.bottom).offset(10.0)
             make.leading.equalToSuperview().offset(20.0)
             make.trailing.equalToSuperview().offset(-20.0)
-            make.height.equalTo(60.0)
+            make.height.equalTo(100.0)
         }
         
         matchesView.snp.makeConstraints { make in
@@ -61,6 +65,18 @@ class GameplayViewController: ViewController {
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
             make.height.equalToSuperview().multipliedBy(0.3)
+        }
+        
+        buttonView.snp.makeConstraints { make in
+            make.top.equalTo(matchesView.snp.bottom)
+            make.bottom.equalTo(guessView.snp.top)
+            make.leading.equalToSuperview().offset(20.0)
+            make.trailing.equalToSuperview().offset(-20.0)
+            make.height.equalTo(0.0)
+        }
+        
+        nextButton.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
         }
         
         controlView.delegate = self
@@ -81,8 +97,6 @@ class GameplayViewController: ViewController {
         }
         
         guessView.snp.makeConstraints { make in
-            make.bottom.equalTo(lettersView.snp.top)
-            make.top.equalTo(matchesView.snp.bottom)
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
         }
@@ -90,6 +104,14 @@ class GameplayViewController: ViewController {
     
     fileprivate func style() {
         view.backgroundColor = .kGray
+        nextButton.setTitle(Localized("next"), for: .normal)
+        nextButton.layer.cornerRadius = 25.0
+        nextButton.backgroundColor = .kPink
+        
+        buttonView.clipsToBounds = true
+        lettersView.clipsToBounds = true
+        guessView.clipsToBounds = true
+        nextButton.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
     }
     
     fileprivate func loadCharacters() {
@@ -136,6 +158,42 @@ class GameplayViewController: ViewController {
     func userDidShuffle() {
         lettersView.shuffle()
     }
+    
+    func transitionToResults() {
+        controlView.snp.updateConstraints { make in
+            make.height.equalTo(0.0)
+        }
+        
+        lettersView.snp.remakeConstraints { make in
+            make.bottom.equalTo(controlView.snp.top)
+            make.top.equalTo(guessView.snp.bottom)
+            make.leading.equalToSuperview()
+            make.trailing.equalToSuperview()
+            make.height.equalTo(0.0)
+        }
+        
+        buttonView.snp.updateConstraints { make in
+            make.height.equalTo(50.0)
+            make.bottom.equalTo(guessView.snp.top).offset(-20.0)
+        }
+
+        UIView.animate(withDuration: 0.3) {
+            self.view.layoutIfNeeded()
+        }
+    }
+    
+    func nextGame() {
+        guard let word = viewModel.word else { return }
+        
+        GameSession.shared.finishWord(word: word)
+        if let newGameViewController = GameplayViewController.instanceFromStoryboard(name: "Main") {
+            navigationController?.pushViewController(newGameViewController, animated: true)
+        }
+    }
+    
+    @objc func nextButtonTapped() {
+        nextGame()
+    }
 }
 
 extension GameplayViewController: LettersViewDelegate {
@@ -166,7 +224,43 @@ extension GameplayViewController: TimerViewDelegate {
     func timerViewDidEnd(timerView: TimerView) {
         timerView.stopTimer()
         matchesView.revealAll()
+        
+        guessView.snp.remakeConstraints { make in
+            make.leading.equalToSuperview()
+            make.trailing.equalToSuperview()
+            make.height.equalTo(0.0)
+            make.top.equalTo(buttonView.snp.bottom)
+            make.bottom.equalTo(lettersView.snp.top)
+        }
+        
+        matchesView.snp.remakeConstraints { make in
+            make.top.equalTo(hintsView.snp.bottom).offset(10.0)
+            make.leading.equalToSuperview()
+            make.trailing.equalToSuperview()
+            make.bottom.equalTo(buttonView.snp.top).offset(10.0)
+        }
+        
+        UIView.animate(withDuration: 0.3) {
+            self.view.layoutIfNeeded()
+        }
+        
         let resultsView = ResultsView()
-        resultsView.show(animated: true, currentScore: viewModel.score, maximumAvailableScore: viewModel.getMaximumScore())
+        resultsView.delegate = self
+        resultsView.show(animated: true, currentScore: viewModel.score, maximumAvailableScore: viewModel.getMaximumScore(), guessedWordCount: viewModel.guessedWords.count, totalWordCount: viewModel.word?.allWords.count ?? 0, longestWord: "ORNEKKELIMEBURAYAGELECEK")
+    }
+}
+
+extension GameplayViewController: ResultsViewDelegate {
+    func resultsViewDidTapMissedWords(view: ResultsView) {
+        //todo switch view state to something else
+        view.hide(animated: true)
+        guard let word = viewModel.word else { return }
+        GameSession.shared.finishWord(word: word)
+        transitionToResults()
+    }
+    
+    func resultsViewDidTapNext(view: ResultsView) {
+        view.hide(animated: true)
+        nextGame()
     }
 }
