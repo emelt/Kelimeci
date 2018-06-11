@@ -53,6 +53,7 @@ class GameplayViewController: ViewController {
             make.trailing.equalToSuperview().offset(-30.0)
         }
         
+        hintsView.delegate = self
         hintsView.snp.makeConstraints { make in
             make.top.equalTo(timerView.snp.bottom).offset(10.0)
             make.leading.equalToSuperview().offset(20.0)
@@ -122,10 +123,6 @@ class GameplayViewController: ViewController {
             matchesView.word = viewModel.word
             lettersView.update(with: (viewModel.word?.characters)!)
             timerView.startTimer(for: GameSession.shared.time)
-            
-            hintsView.snp.updateConstraints { make in
-                make.height.equalTo(hintsView.maximumHeight)
-            }
         }
     }
     
@@ -268,5 +265,13 @@ extension GameplayViewController: ResultsViewDelegate {
     func resultsViewDidTapNext(view: ResultsView) {
         view.hide(animated: true)
         nextGame()
+    }
+}
+
+extension GameplayViewController: HintsViewDelegate {
+    func hintsViewDidChangeContentSize(hintsView: HintsView, newSize: CGSize) {
+        hintsView.snp.updateConstraints { make in
+            make.height.equalTo(newSize.height)
+        }
     }
 }

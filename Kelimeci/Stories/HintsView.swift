@@ -8,6 +8,10 @@
 
 import Foundation
 
+protocol HintsViewDelegate: class {
+    func hintsViewDidChangeContentSize(hintsView: HintsView, newSize: CGSize)
+}
+
 class HintsView: UIView {
     fileprivate lazy var collectionView: UICollectionView = {
         var flowLayout = KTCenterFlowLayout()
@@ -25,21 +29,24 @@ class HintsView: UIView {
     fileprivate var word: Word?
     fileprivate var guessedWords = Word()
     fileprivate var existingWordIndexes: [Int] = []
-    var maximumHeight: CGFloat {
-        collectionView.reloadData()
-        return collectionView.contentSize.height
+    weak var delegate: HintsViewDelegate?
+    
+    deinit {
+        collectionView.removeObserver(self, forKeyPath: "contentSize")
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupSubviews()
         style()
+        addObserver()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupSubviews()
         style()
+        addObserver()
     }
     
     fileprivate func setupSubviews() {
@@ -55,6 +62,10 @@ class HintsView: UIView {
     fileprivate func style() {
         backgroundColor = .clear
         collectionView.backgroundColor = .clear
+    }
+    
+    fileprivate func addObserver() {
+        collectionView.addObserver(self, forKeyPath: "contentSize", options: .new, context: nil)
     }
     
     func update(withWord word: Word) {
@@ -138,6 +149,12 @@ class HintsView: UIView {
         if let wordIndex = existingWordIndexes.index(of: word.count) {
             let indexPath = IndexPath(row: wordIndex, section: 0)
             collectionView.reloadItems(at: [indexPath])
+        }
+    }
+    
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if keyPath == "contentSize" {
+            delegate?.hintsViewDidChangeContentSize(hintsView: self, newSize: collectionView.contentSize)
         }
     }
 }
