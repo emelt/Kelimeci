@@ -22,7 +22,7 @@ extension UIColor {
     }
     
     class var kPink: UIColor {
-        return UIColor(red: 164.0 / 255.0, green: 113.0 / 255.0, blue: 114.0 / 255.0, alpha: 1.0)
+        return UIColor(red: 193.0 / 255.0, green: 141.0 / 255.0, blue: 143.0 / 255.0, alpha: 1.0)
     }
     
     class var kGray: UIColor {
@@ -65,13 +65,18 @@ extension TextStyle {
     static let book12White = TextStyle(font: UIFont.mfAvenirBook(size: 12.0), color: UIColor.kWhite)
     static let book13White = TextStyle(font: UIFont.mfAvenirBook(size: 13.0), color: UIColor.kWhite)
     static let book13Gray = TextStyle(font: UIFont.mfAvenirBook(size: 13.0), color: UIColor.kGray)
+    static let book17Gray = TextStyle(font: UIFont.mfAvenirBook(size: 17.0), color: UIColor.kGray)
     static let hintTile = TextStyle(font: UIFont.mfAvenirMedium(size: 12.0), color: UIColor.kPink)
     static let characterTile = TextStyle(font: UIFont.mfAvenirMedium(size: 22.0), color: UIColor.kPink)
     static let matchingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kPink)
     static let missingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kDarkGray)
     static let guessedWord = TextStyle(font: UIFont.mfAvenirMedium(size: 40.0), color: UIColor.kPink)
     static let gameTypeLabel = TextStyle(font: UIFont.mfAvenirHeavy(size: 23.0), color: UIColor.kWhite)
+    static let nextButtonLabel = TextStyle(font: UIFont.mfAvenirMedium(size: 17.0), color: UIColor.kWhite)
+    static let missedWordsButtonLabel = TextStyle(font: UIFont.mfAvenirMedium(size: 17.0), color: UIColor.kPink)
     static let gameTypeDetailLabel = TextStyle(font: UIFont.mfAvenirRoman(size: 14.0), color: UIColor.kWhite)
+    static let missedWordLabel = TextStyle(font: UIFont.mfAvenirBlack(size: 23.0), color: UIColor.kPink)
+    static let finalScoreLabel = TextStyle(font: UIFont.mfAvenirHeavy(size: 40.0), color: UIColor.kPink)
 }
 
 extension ShadowStyle {

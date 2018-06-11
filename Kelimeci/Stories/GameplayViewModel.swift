@@ -56,4 +56,11 @@ class GameplayViewModel: NSObject {
         
         return maximumAvailableScore
     }
+    
+    func getLongestWord() -> String {
+        if let max = word?.allWords.max(by: {$1.count > $0.count}) {
+            return max
+        }
+        return ""
+    }
 }

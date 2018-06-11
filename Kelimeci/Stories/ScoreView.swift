@@ -13,7 +13,6 @@ class ScoreView: UIView {
     fileprivate var titleLabel = UILabel()
     fileprivate var stackView = UIStackView()
     fileprivate var animationView = LOTAnimationView()
-    fileprivate var scoreLabel = UILabel()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -31,7 +30,6 @@ class ScoreView: UIView {
         addSubview(stackView)
         stackView.addSubview(titleLabel)
         stackView.addArrangedSubview(animationView)
-        stackView.addArrangedSubview(scoreLabel)
         
         stackView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -52,11 +50,9 @@ class ScoreView: UIView {
         backgroundColor = .clear
         stackView.axis = .vertical
         stackView.spacing = 10.0
-        scoreLabel.textAlignment = .center
-        scoreLabel.style(.book12White)
+        titleLabel.textAlignment = .center
         titleLabel.style(.book12White)
-        titleLabel.text = Localized("score")
-        scoreLabel.text = ""
+        titleLabel.text = Localized("score") + "0"
     }
     
     func animateScoreChange(score: Int) {
@@ -65,17 +61,14 @@ class ScoreView: UIView {
             self.animationView.alpha = 1.0
         }) { _ in
             self.animationView.animation = "check.json"
-            self.animationView.play(completion: { _ in
+            self.animationView.play(fromProgress: 0.3, toProgress: 0.8, withCompletion: { _ in
                 UIView.animate(withDuration: 0.1) {
                     self.titleLabel.alpha = 1.0
                     self.animationView.alpha = 0.0
+                    self.titleLabel.text = Localized("score") + "\(score)"
                 }
             })
         }
-        
-        UIViewPropertyAnimator(duration: 0.3, curve: .easeIn) {
-            self.scoreLabel.text = "\(score)"
-        }.startAnimation()
     }
     
     func animateFail() {
@@ -84,7 +77,7 @@ class ScoreView: UIView {
             self.animationView.alpha = 1.0
         }) { _ in
             self.animationView.animation = "error.json"
-            self.animationView.play(completion: { _ in
+            self.animationView.play(fromProgress: 0.3, toProgress: 0.7, withCompletion: { _ in
                 UIView.animate(withDuration: 0.1) {
                     self.titleLabel.alpha = 1.0
                     self.animationView.alpha = 0.0

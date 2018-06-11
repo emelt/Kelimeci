@@ -47,11 +47,11 @@ class ResultsView: UIView {
         cartView.addSubview(largeStackView)
         largeStackView.addArrangedSubview(noteLabel)
         largeStackView.addArrangedSubview(detailLabel)
-        largeStackView.addArrangedSubview(scoreLabel)
         largeStackView.addArrangedSubview(animationView)
         largeStackView.addArrangedSubview(buttonsStackView)
         buttonsStackView.addArrangedSubview(missedWordsButton)
         buttonsStackView.addArrangedSubview(nextButton)
+        animationView.addSubview(scoreLabel)
         
         backgroundView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -61,7 +61,7 @@ class ResultsView: UIView {
             make.centerX.equalToSuperview()
             make.centerY.equalToSuperview()
             make.width.equalToSuperview().multipliedBy(0.85)
-            make.height.equalToSuperview().multipliedBy(0.7)
+            make.height.equalToSuperview().multipliedBy(0.6)
         }
         
         largeStackView.snp.makeConstraints { make in
@@ -75,14 +75,14 @@ class ResultsView: UIView {
             make.height.equalTo(50.0)
         }
         
+        scoreLabel.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+        
         addCircle()
     }
     
     fileprivate func addCircle(){
-        animationView.snp.makeConstraints { make in
-            make.width.equalToSuperview()
-        }
-        
         let circularPath = UIBezierPath(arcCenter: .zero, radius: 50, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
         circleLayer.path = circularPath.cgPath
         circleLayer.strokeColor = UIColor.kPink.cgColor
@@ -103,26 +103,29 @@ class ResultsView: UIView {
         buttonsStackView.distribution = .fillEqually
         largeStackView.axis = .vertical
         largeStackView.spacing = 30.0
-        largeStackView.distribution = .equalCentering
+//        largeStackView.distribution = .fill
         
         nextButton.layer.cornerRadius = 25.0
         nextButton.backgroundColor = .kPink
         nextButton.setTitle(Localized("next"), for: .normal)
+        nextButton.titleLabel?.style(.nextButtonLabel)
         
         missedWordsButton.layer.cornerRadius = 25.0
         missedWordsButton.layer.borderColor = UIColor.kPink.cgColor
         missedWordsButton.layer.borderWidth = 2.0
         missedWordsButton.setTitle(Localized("missed_words"), for: .normal)
+        missedWordsButton.titleLabel?.style(.missedWordsButtonLabel)
+        missedWordsButton.setTitleColor(.kPink, for: .normal)
         
         backgroundView.backgroundColor = UIColor.black.withAlphaComponent(0.1)
         cartView.backgroundColor = UIColor.kSoftWhite.withAlphaComponent(0.9)
         
         scoreLabel.textAlignment = .center
-        scoreLabel.style(.book13Gray)
+        scoreLabel.style(.finalScoreLabel)
         noteLabel.textAlignment = .center
-        noteLabel.style(.book13Gray)
+        noteLabel.style(.missedWordLabel)
         detailLabel.textAlignment = .center
-        detailLabel.style(.book13Gray)
+        detailLabel.style(.book17Gray)
         scoreLabel.numberOfLines = 0
         noteLabel.numberOfLines = 0
         detailLabel.numberOfLines = 0
@@ -179,7 +182,8 @@ class ResultsView: UIView {
             self.alpha = 1.0
             self.layer.transform = CATransform3DMakeScale(1.0, 1.0, 1.0)
         }, completion: { (_: Bool) in
-            self.animateCircle(duration: 1.0, score: CGFloat(CGFloat(currentScore) / CGFloat(maximumAvailableScore)))
+            self.addCircle()
+            self.animateCircle(duration: 1.0, score: 0.65)
         })
     }
     

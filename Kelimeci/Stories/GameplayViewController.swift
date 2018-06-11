@@ -64,7 +64,7 @@ class GameplayViewController: ViewController {
             make.top.equalTo(hintsView.snp.bottom).offset(10.0)
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
-            make.height.equalToSuperview().multipliedBy(0.3)
+            make.height.equalToSuperview().multipliedBy(0.2)
         }
         
         buttonView.snp.makeConstraints { make in
@@ -99,6 +99,7 @@ class GameplayViewController: ViewController {
         guessView.snp.makeConstraints { make in
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
+            make.bottom.equalTo(lettersView.snp.top)
         }
     }
     
@@ -225,19 +226,22 @@ extension GameplayViewController: TimerViewDelegate {
         timerView.stopTimer()
         matchesView.revealAll()
         
-        guessView.snp.remakeConstraints { make in
+        guard let word = viewModel.word else { return }
+        GameSession.shared.finishWord(word: word)
+        
+        guessView.snp.makeConstraints { make in
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
-            make.height.equalTo(0.0)
-            make.top.equalTo(buttonView.snp.bottom)
             make.bottom.equalTo(lettersView.snp.top)
+            make.top.equalTo(buttonView.snp.bottom)
+            make.height.equalTo(0.0)
         }
         
         matchesView.snp.remakeConstraints { make in
             make.top.equalTo(hintsView.snp.bottom).offset(10.0)
+            make.bottom.equalTo(buttonView.snp.top)
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
-            make.bottom.equalTo(buttonView.snp.top).offset(10.0)
         }
         
         UIView.animate(withDuration: 0.3) {
@@ -246,7 +250,7 @@ extension GameplayViewController: TimerViewDelegate {
         
         let resultsView = ResultsView()
         resultsView.delegate = self
-        resultsView.show(animated: true, currentScore: viewModel.score, maximumAvailableScore: viewModel.getMaximumScore(), guessedWordCount: viewModel.guessedWords.count, totalWordCount: viewModel.word?.allWords.count ?? 0, longestWord: "ORNEKKELIMEBURAYAGELECEK")
+        resultsView.show(animated: true, currentScore: viewModel.score, maximumAvailableScore: viewModel.getMaximumScore(), guessedWordCount: viewModel.guessedWords.count, totalWordCount: viewModel.word?.allWords.count ?? 0, longestWord: viewModel.getLongestWord())
     }
 }
 
@@ -254,8 +258,6 @@ extension GameplayViewController: ResultsViewDelegate {
     func resultsViewDidTapMissedWords(view: ResultsView) {
         //todo switch view state to something else
         view.hide(animated: true)
-        guard let word = viewModel.word else { return }
-        GameSession.shared.finishWord(word: word)
         transitionToResults()
     }
     

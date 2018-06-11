@@ -24,6 +24,7 @@ class HintsView: UIView {
     fileprivate var stackView = UIStackView()
     fileprivate var word: Word?
     fileprivate var guessedWords = Word()
+    fileprivate var charCountToIndexMap: [Int: Int] = [:]
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -142,8 +143,6 @@ extension HintsView: UICollectionViewDataSource {
         }
         return UICollectionViewCell()
     }
-    
-    
 }
 
 extension HintsView: UICollectionViewDelegateFlowLayout {
