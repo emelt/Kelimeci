@@ -89,7 +89,6 @@ class GameplayViewController: ViewController {
         }
         
         lettersView.delegate = self
-        lettersView.isMinimal = viewModel.isMinimal
         lettersView.snp.makeConstraints { make in
             make.bottom.equalTo(controlView.snp.top)
             make.leading.equalToSuperview()
@@ -109,6 +108,7 @@ class GameplayViewController: ViewController {
         nextButton.setTitle(Localized("next"), for: .normal)
         nextButton.layer.cornerRadius = 25.0
         nextButton.backgroundColor = .kPink
+        nextButton.titleLabel?.style(.nextButtonLabel)
         
         buttonView.clipsToBounds = true
         lettersView.clipsToBounds = true
@@ -158,6 +158,8 @@ class GameplayViewController: ViewController {
     }
     
     func userDidShuffle() {
+        viewModel.currentWord = ""
+        guessView.clear()
         lettersView.shuffle()
     }
     
@@ -190,6 +192,7 @@ class GameplayViewController: ViewController {
         GameSession.shared.finishWord(word: word)
         if let newGameViewController = GameplayViewController.instanceFromStoryboard(name: "Main") {
             navigationController?.pushViewController(newGameViewController, animated: true)
+            navigationController?.viewControllers.remove(self)
         }
     }
     
@@ -199,6 +202,10 @@ class GameplayViewController: ViewController {
 }
 
 extension GameplayViewController: LettersViewDelegate {
+    func tilesViewDidShuffle(view: LettersView) {
+        userDidShuffle()
+    }
+    
     func tilesViewDidSelectItem(view: LettersView, character: String) {
         userDidType(character: character)
     }
@@ -240,7 +247,7 @@ extension GameplayViewController: TimerViewDelegate {
         
         matchesView.snp.remakeConstraints { make in
             make.top.equalTo(hintsView.snp.bottom).offset(10.0)
-            make.bottom.equalTo(buttonView.snp.top)
+            make.bottom.equalTo(buttonView.snp.top).offset(10.0)
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
         }

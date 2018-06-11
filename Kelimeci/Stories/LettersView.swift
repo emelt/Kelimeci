@@ -29,11 +29,6 @@ class LettersView: UIView {
     fileprivate var backgroundImageView = UIImageView()
     fileprivate var characters: [String] = []
     fileprivate var disabledIndexes: [IndexPath] = []
-    var isMinimal: Bool = false {
-        didSet {
-            collectionView.reloadData()
-        }
-    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -69,7 +64,7 @@ class LettersView: UIView {
     }
     
     func update(with characters: [String]) {
-        self.characters = characters
+        self.characters = characters.shuffled()
         self.disabledIndexes = []
         collectionView.reloadData()
     }
@@ -89,8 +84,7 @@ class LettersView: UIView {
         UIView.animate(withDuration: 0.2, animations: {
             self.collectionView.alpha = 0.0
         }) { completed in
-            self.characters.shuffle()
-            self.collectionView.reloadData()
+            self.update(with: self.characters)
             UIView.animate(withDuration: 0.2, animations: {
                 self.collectionView.alpha = 1.0
             })
@@ -102,16 +96,14 @@ extension LettersView: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:
         UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         var count: Int = characters.count
-        if !isMinimal {
-            if count >= 7 {
-                count = Int(floor(Double(characters.count / 2)))
-            }
-            
-            if count < 5 {
-                count = 5
-            }
+        if count >= 7 {
+            count = Int(floor(Double(characters.count / 2)))
         }
-    
+        
+        if count < 5 {
+            count = 5
+        }
+        
         if let flowLayout = collectionViewLayout as? UICollectionViewFlowLayout {
             let itemSpacing = CGFloat(count - 1) * flowLayout.minimumInteritemSpacing
             let width = (UIScreen.main.bounds.width - flowLayout.sectionInset.left - flowLayout.sectionInset.right - itemSpacing) / CGFloat(count)
@@ -152,6 +144,10 @@ extension LettersView: UICollectionViewDataSource {
 
 extension LettersView: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if disabledIndexes.contains(indexPath) {
+            return
+        }
+        
         let item = characters[indexPath.row]
         let cell = collectionView.cellForItem(at: indexPath)
         disabledIndexes.append(indexPath)

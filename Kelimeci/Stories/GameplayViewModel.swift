@@ -11,7 +11,6 @@ import Foundation
 class GameplayViewModel: NSObject {
     var score = 0
     var word: Word?
-    var isMinimal = false
     var currentWord = ""
     var currentCharacters: [String] = []
     var guessedWords: [String] = []
