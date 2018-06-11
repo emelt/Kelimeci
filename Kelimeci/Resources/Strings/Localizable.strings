@@ -9,3 +9,4 @@
 "missed_words" = "Neleri kaçırdım";
 "next" = "Devam";
 "score" = "Puan: ";
+"words_found_format" = "%d / %d";

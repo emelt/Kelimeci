@@ -11,8 +11,7 @@ import Foundation
 class HintCell: CollectionViewCell {
     fileprivate var stackView = UIStackView()
     fileprivate var numberOfCharacters = CharacterTile()
-    fileprivate var wordsFount = UILabel()
-    fileprivate var totalWords = UILabel()
+    fileprivate var wordsFound = UILabel()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -29,8 +28,7 @@ class HintCell: CollectionViewCell {
     fileprivate func setupSubviews() {
         addSubview(stackView)
         stackView.addArrangedSubview(numberOfCharacters)
-        stackView.addArrangedSubview(wordsFount)
-        stackView.addArrangedSubview(totalWords)
+        stackView.addArrangedSubview(wordsFound)
         
         numberOfCharacters.snp.makeConstraints { make in
             make.width.equalTo(numberOfCharacters.snp.height)
@@ -50,8 +48,7 @@ class HintCell: CollectionViewCell {
         stackView.spacing = 10.0
         stackView.alignment = .center
         numberOfCharacters.characterLabel.style(.hintTile)
-        wordsFount.style(.book13White)
-        totalWords.style(.book13White)
+        wordsFound.style(.book13White)
     }
     
     func update(withWords words: [String], guessedWords:[String]) {
@@ -60,7 +57,6 @@ class HintCell: CollectionViewCell {
             "\(count)")
         }
         
-        wordsFount.text = "\(guessedWords.count)"
-        totalWords.text = "of \(words.count)"
+        wordsFound.text = String(format: Localized("words_found_format"), guessedWords.count, words.count)
     }
 }

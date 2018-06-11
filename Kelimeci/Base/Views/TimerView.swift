@@ -61,6 +61,7 @@ class TimerView: UIView {
         counter = seconds
         originalTime = seconds
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer(with:)), userInfo: nil, repeats: true)
+        updateUI()
     }
     
     func stopTimer() {
@@ -71,6 +72,14 @@ class TimerView: UIView {
     @objc
     fileprivate func updateTimer(with timer: Timer) {
         counter -= 1
+        updateUI()
+        
+        if counter == 0 {
+            delegate?.timerViewDidEnd(timerView: self)
+        }
+    }
+    
+    func updateUI() {
         let seconds = (counter) % 60
         let minutes = ((counter) / 60)
         timerLabel.text = String(format: "%02d:%02d", minutes, seconds)
@@ -78,10 +87,6 @@ class TimerView: UIView {
         progressLayer.strokeEnd = percentage
         if percentage > 0.9 {
             progressLayer.strokeColor = UIColor.red.cgColor
-        }
-        
-        if counter == 0 {
-            delegate?.timerViewDidEnd(timerView: self)
         }
     }
     

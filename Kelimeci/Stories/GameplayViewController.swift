@@ -62,13 +62,13 @@ class GameplayViewController: ViewController {
         
         matchesView.snp.makeConstraints { make in
             make.top.equalTo(hintsView.snp.bottom).offset(10.0)
+            make.bottom.equalTo(buttonView.snp.top)
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
             make.height.equalToSuperview().multipliedBy(0.2)
         }
         
         buttonView.snp.makeConstraints { make in
-            make.top.equalTo(matchesView.snp.bottom)
             make.bottom.equalTo(guessView.snp.top)
             make.leading.equalToSuperview().offset(20.0)
             make.trailing.equalToSuperview().offset(-20.0)
@@ -122,6 +122,10 @@ class GameplayViewController: ViewController {
             matchesView.word = viewModel.word
             lettersView.update(with: (viewModel.word?.characters)!)
             timerView.startTimer(for: GameSession.shared.time)
+            
+            hintsView.snp.updateConstraints { make in
+                make.height.equalTo(hintsView.maximumHeight)
+            }
         }
     }
     
