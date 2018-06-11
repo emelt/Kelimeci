@@ -67,8 +67,8 @@ class ResultsView: UIView {
         largeStackView.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(20.0)
             make.trailing.equalToSuperview().offset(-20.0)
-            make.top.equalToSuperview().offset(20.0)
-            make.bottom.equalToSuperview().offset(-20.0)
+            make.top.equalToSuperview().offset(30.0)
+            make.bottom.equalToSuperview().offset(-30.0)
         }
         
         buttonsStackView.snp.makeConstraints { make in
@@ -78,21 +78,19 @@ class ResultsView: UIView {
         scoreLabel.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
-        
-        addCircle()
     }
     
     fileprivate func addCircle(){
-        let circularPath = UIBezierPath(arcCenter: .zero, radius: 50, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
+        largeStackView.layer.addSublayer(circleLayer)
+        let circularPath = UIBezierPath(arcCenter: .zero, radius: 70, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
         circleLayer.path = circularPath.cgPath
         circleLayer.strokeColor = UIColor.kPink.cgColor
         circleLayer.lineWidth = 10.0
         circleLayer.fillColor = UIColor.clear.cgColor
         circleLayer.lineCap = kCALineCapRound
-        circleLayer.position = animationView.center
         circleLayer.transform = CATransform3DMakeRotation(-CGFloat.pi / 2, 0, 0, 1)
         circleLayer.strokeEnd = 0
-        animationView.layer.addSublayer(circleLayer)
+        circleLayer.position = animationView.center
     }
     
     fileprivate func style() {
@@ -103,7 +101,6 @@ class ResultsView: UIView {
         buttonsStackView.distribution = .fillEqually
         largeStackView.axis = .vertical
         largeStackView.spacing = 30.0
-//        largeStackView.distribution = .fill
         
         nextButton.layer.cornerRadius = 25.0
         nextButton.backgroundColor = .kPink
@@ -183,7 +180,7 @@ class ResultsView: UIView {
             self.layer.transform = CATransform3DMakeScale(1.0, 1.0, 1.0)
         }, completion: { (_: Bool) in
             self.addCircle()
-            self.animateCircle(duration: 1.0, score: 0.65)
+            self.animateCircle(duration: 1.0, score: CGFloat(CGFloat(currentScore) / CGFloat(maximumAvailableScore)))
         })
     }
     
