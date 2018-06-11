@@ -42,7 +42,7 @@ class GameSession: NSObject {
         switch difficulty {
         case .easy:
             availableWords.append(contentsOf: Parser().parseGames(with: "8_characters"))
-//            availableWords.append(contentsOf: Parser().parseGames(with: "9_characters"))
+            availableWords.append(contentsOf: Parser().parseGames(with: "9_characters"))
         case .medium:
             availableWords.append(contentsOf: Parser().parseGames(with: "10_characters"))
             availableWords.append(contentsOf: Parser().parseGames(with: "11_characters"))

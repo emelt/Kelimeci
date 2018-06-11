@@ -10,251 +10,193 @@
         <letters_4>AKİL, AKİS, AKLİ, AKSİ, ASİL, ASLİ, AYİN, AYNİ, AYOL, İKNA, İKON, İLAN, İNAK, İNAL, İSAL, İYON, KAİL, KAİN, KANİ, KANO, KAOS, KİLO, KİLS, KLAN, KLAS, KLON, KOLA, KOLİ, KONİ, KOSA, LAİK, LAİN, LASO, LİKA, LİNK, NAİL, NİSA, OLAY, ONAY, OYSA, SOLO</letters_4>
     </game>
         <game id="2">
-        <characters>K,B,A,M,A,M,U,Ş,K,R,L,A</characters>
-        <letters_12>KAMBURLAŞMAK</letters_12>
-        <letters_11>KAMBURLAŞMA</letters_11>
-        <letters_10>ABUKLAŞMAK, KABUKLAŞMA</letters_10>
-        <letters_9>ABUKLAMAK, ABUKLAŞMA, KARMAŞMAK, KUŞAKLAMA, RUMLAŞMAK</letters_9>
-        <letters_8>ABUKLAMA, AKLAŞMAK, BAŞARMAK, BAŞLAMAK, BULAŞMAK, BUMLAMAK, KABARMAK, KAMAŞMAK, KARLAMAK, KARMAŞMA, KAŞLAMAK, KUBARMAK, KUBAŞMAK, KUMLAMAK, RUMLAŞMA, ŞAKLAMAK, ŞAKRAMAK, ŞARLAMAK, URLAŞMAK</letters_8>
-        <letters_7>ABRAMAK, AKBAKLA, AKLAMAK, AKLAŞMA, ALARMAK, BAKARAK, BAŞARMA, BAŞLAMA, BULAMAK, BULAŞMA, BUMLAMA, BURKMAK, KABALAK, KABARMA, KALAMAR, KAMAŞMA, KAMBURA, KARABAŞ, KARAKAŞ, KARAKUL, KARAKUŞ, KARAMAK, KARAMUK, KARLAMA, KARMAŞA, KAŞLAMA, KUBARMA, KUBAŞMA, KUMBARA, KUMLAMA, MAKRAMA, MALKARA, MUAŞAKA, MUŞAMBA, ŞAKLAMA, ŞAKRAMA, ŞARLAMA, ULAŞMAK, URLAŞMA</letters_7>
-        <letters_6>ABLUKA, ABRAMA, AKLAMA, AKRABA, ALABAŞ, ALARMA, ARAMAK, BAKARA, BAKKAL, BAKMAK, BALAMA, BALKAR, BARAKA, BARLAM, BAŞMAK, BAŞMAL, BULAMA, BULMAK, BURKMA, BURMAK, KABALA, KABARA, KALABA, KALBUR, KALKMA, KALMAK, KAMARA, KAMBUR, KARAMA, KARLUK, KARMAK, KUMRAL, KURAMA, KURMAK, KUŞLAK, KUŞLAR, KUŞMAR, MABLAK, MAKARA, MAKBUL</letters_6>
-        <letters_5>ABLAK, ABRAŞ, AKALA, AKBAŞ, AKKUŞ, AKMAK, AKŞAM, ALAKA, ALARM, ALMAK, ALMAŞ, AMBAR, ARABA, ARAKA, ARAMA, AŞAMA, AŞMAK, BAKAM, BAKLA, BAKMA, BALAR, BARAK, BARKA, BAŞAK, BAŞKA, BULAK, BULMA, BURAK, BURMA, KABAK, KABUK, KABUL, KAKMA, KALAK, KALMA, KARMA, KAŞAR, KUKLA, KULAK, KUMAR</letters_5>
-        <letters_4>ABLA, ABRA, ABUK, AKAK, AKAR, AKMA, AKUR, ALMA, AMAL, AMMA, ARAK, ARKA, ARMA, AŞAR, AŞMA, BALA, BARA, BARK, BLUM, BULA, BURA, KABA, KAKA, KALA, KAMA, KAMU, KARA, KRAL, KUKA, KULA, KUMA, KURA, LAKA, LAMA, MAAŞ, MALA, MAMA, MARK, MARŞ, MAŞA</letters_4>
+        <characters>A C C C E Y Z Ü İ</characters>
+        <letters_9>ZÜCCACİYE</letters_9>
+        <letters_5>CAİZE, CEZAİ, CİZYE</letters_5>
+        <letters_4>ACİZ, CAİZ, CEZA, CÜCE, CÜZİ, ECZA, İCAZ, YÜCE, ZAYİ, ZİYA</letters_4>
         </game>
         <game id="3">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_12>KAKTÜSGİLLER</letters_12>
-            <letters_9>AKTÜELLİK</letters_9>
-            <letters_8>ASKERLİK, ATGİLLER, KALKERLİ, KASKETLİ, LATEKSLİ</letters_8>
-            <letters_7>ELASTİK, GERİLLA, KARSTİK, KRİSTAL, KÜREKLİ, REALİST, RESİTAL, SELÜLİT, SERTLİK, STEARİK, SÜRATLE, SÜRATLİ, SÜREKLİ, TAKKELİ, TEKASÜL, TELAKKİ, TELKARİ, TERAKKİ, TERSLİK, TÜRKELİ, ÜSTELİK</letters_7>
-            <letters_6>AKSEKİ, AKTRİS, AKTÜEL, AKTÜER, ALEKSİ, ALETLİ, ALGLER, ARKTİK, ASETİK, ASKERİ, EKSTRA, ESATİR, GALERİ, GÜRLEK, İSTEKA, KAKTÜS, KALİTE, KALKER, KALSİT, KARELİ, KARTEL, KASKET, KELKİT, KELLİK, KERTİK, KLASİK, KRİKET, KÜRKAS, LASTİK, LATEKS, RİKKAT, RİSALE, RİTÜEL, SELİKA, SİLÜET, SİRKAT, STERİL, SÜLALE, SÜRELİ, SÜRGİT</letters_6>
-            <letters_5>ALKİL, ALTES, ASKER, ASTİK, EKSİK, EKÜRİ, ELLİK, ERİKA, ERKLİ, ERLİK, ESKİL, ESRİK, ETLİK, GAİLE, GASİL, GELİR, GİTAR, GLASE, GÜLLE, İLKEL, İLLET, İRSAL, İSALE, İSTEK, İSTER, KAGİR, KAKÜL, KARST, KASET, KASTİ, KATİL, KATRE, KELİK, KELLİ, KERKİ, KERTİ, KESAT, KESİK, KESİR, KESİT</letters_5>
-            <letters_4>AGEL, AİLE, AKİK, AKİL, AKİS, AKİT, AKLİ, AKSE, AKSİ, ALET, ALİL, ASİL, ASİT, ASLİ, ASRİ, ATEL, ATİK, EKLİ, EKSİ, EKTİ, ELİK, ELİT, ELLİ, ELTİ, ERAT, ERGİ, ERİK, ERİL, ESİK, ESİR, ESKİ, ETİK, ETİL, ETKİ, ETLİ, GALE, GALİ, GARK, GERİ, GETR</letters_4>
+            <characters>E E K K L V Z Z İ</characters>
+            <letters_9>ZEVZEKLİK</letters_9>
+            <letters_6>ZEVKLİ, ZEVZEK</letters_6>
+            <letters_5>EVLEK, EVLİK, EZELİ, İZLEK, KELEK, KELİK, KEVEL, LEZİZ, VEKİL, ZELVE</letters_5>
+            <letters_4>EKLİ, ELEK, ELİK, EVLİ, EZEL, EZİK, İLKE, KEKE, KELE, KİLE, KLİK, LEKE, VELİ, VİZE, ZEKİ, ZEVK, ZİLE</letters_4>
         </game>
         <game id="4">
-            <characters>A,A,C,I,I,I,I,K,K,L,L,Y,Ç</characters>
-            <letters_13>AÇIKLAYICILIK</letters_13>
-            <letters_10>AÇIKLAYICI, AYLAKÇILIK, AYLIKÇILIK, KALAYCILIK</letters_10>
-            <letters_9>ACIKLILIK, AÇIKLIKLA, AÇKICILIK, AKILCILIK, ALAYCILIK, ALÇICILIK, AYAKÇILIK, AYAKLILIK, ÇAYLAKLIK, KALICILIK, KIYICILIK, LAKACILIK, YAKALIKLI, YAKICILIK, YIKICILIK</letters_9>
-            <letters_8>ACILILIK, AÇICILIK, AKÇILLIK, AKICILIK, AKILLICA, ALÇAKLIK, ALICILIK, AYICILIK, AYLAKLIK, ÇAKILLIK, ÇAYCILIK, KALÇALIK, KILÇIKLI, LAÇKALIK, LAKÇILIK, YILKILIK, YILLIKÇI</letters_8>
-            <letters_7>AÇIKLIK, ALÇACIK, ALIKLIK, AYAKLIK, AYIKLIK, AYLAKÇI, AYLIKÇI, AYLIKLI, CILKLIK, ÇAKILLI, ÇALILIK, ÇIKACAK, ILIKÇIL, ILIKLIK, KALAYCI, KALAYLI, KALÇALI, KAYAKÇI, KAYALIK, KAYIKÇI, KILIÇLI, KILIKLI, KIYAKÇI, KIYILIK, YAKALIK, YILKICI</letters_7>
-            <letters_6>ACIKLI, ACILIK, AÇKICI, AÇKILI, AKILCI, AKILLI, ALAÇIK, ALAYCI, ALAYLI, ALÇICI, ALÇILI, ALIKÇA, AYAKÇI, AYAKLI, AYILIK, CAKALI, ÇAKICI, ÇAKILI, ÇALILI, ÇALKAK, ÇAYLAK, ÇAYLIK, ILICAK, ILIKÇA, KAÇLIK, KALICI, KILCAL, KILÇIK, KIYACI, KIYICI, LAKACI, LAKLAK, YAKALI, YAKICI, YIKICI, YILLIK</letters_6>
-            <letters_5>ACILI, AÇICI, AÇLIK, AKÇIL, AKICI, AKLIK, ALÇAK, ALICI, ALLIK, AYICI, AYLAK, AYLIK, ÇAKAL, ÇAKIL, ÇALAK, ÇALIK, ÇALKI, ÇAYCI, ÇAYLI, ÇIKAK, ÇIKIK, ILICA, KAÇAK, KAÇIK, KAÇLI, KAKAÇ, KAKIÇ, KALAK, KALAY, KALCI, KALÇA, KALIÇ, KALIK, KALYA, KAYAÇ, KAYAK, KAYIK, KILIÇ, KILIK, KILLI</letters_5>
-            <letters_4>AÇIK, AÇKI, AKAÇ, AKAK, AKÇA, AKIL, AKLI, ALAY, ALÇI, ALIÇ, ALIK, ALLI, AYAK, AYAL, AYÇA, AYIK, AYLA, AYLI, CAKA, CILK, ÇAKI, ÇALI, ÇIKI, ILIK, KAÇA, KAÇI, KAKA, KALA, KAYA, KAYI, KIYA, KIYI, LAKA, LALA, YAKA, YAKI, YALI, YIKI</letters_4>
-        </game>
-        <game id="5">
-            <characters>A C D E K L N O P S İ İ İ</characters>
-            <letters_13>ANSİKLOPEDİCİ</letters_13>
-            <letters_11>ANSİKLOPEDİ</letters_11>
-            <letters_9>DİSİPLİNE, PİDECİLİK, SEPİCİLİK</letters_9>
-            <letters_8>DİNCİLİK, DİSİPLİN, İSKANDİL, KANDİLCİ, KASİDECİ, SENDİKAL</letters_8>
-            <letters_7>AKPELİN, CANİLİK, CİNSLİK, DİKENLİ, DİKENSİ, DİLENCİ, EPSİLON, ESKALOP, İKİNCİL, İNCELİK, İPLİCİK, İPLİKSİ, İSKİLİP, KAİDECİ, KAİDELİ, KALİNİS, KALİNOS, KALİPSO, KOCAELİ, LAPSEKİ, LASKİNE, LEPİSKA, NAİPLİK, NASİPLİ, NİCELİK, NİKELSİ, PELİKAN, SADELİK, SAKİNCE, SELANİK, SENDİKA, SİDİKLİ, SİLİKON, SİPOLİN</letters_7>
-            <letters_6>ACİLEN, ADİLİK, AKSİNE, ALEKSİ, APLİKE, APSELİ, ASİLİK, CİNSEL, DASNİK, DELİCİ, DİKİCİ, DİKİLİ, DİKİNE, DİLCİK, DİNSEL, DOKSAN, EKİNCİ, ESKİCİ, İADELİ, İKİNCİ, İKİNDİ, İLİKSİ, İLİNEK, İLKECİ, İNDEKS, İNİKAS, İPEKLİ, İPİNCE, İSİLİK, KALECİ, KANDİL, KAOLİN, KASİDE, KESİCİ, KİLDAN, KİLİSE, KODEİN, LADİNİ, LİKİDE, LİSANİ</letters_6>
-            <letters_5>AKİDE, AKLEN, AKSON, ALENİ, ANİDE, APİKO, APLİK, ASİDE, ASLEN, CALİP, CANİP, CENAP, CİDAL, CİNAİ, CİNAS, CİNLİ, CİNSİ, DEKAN, DELİK, DENLİ, DİCLE, DİKEL, DİKEN, DİKSE, DİLCİ, DİLEK, DİLSİ, DİNCE, DİNCİ, DİNEK, DİNLİ, DİPLİ, DİSKO, DOLAK, DOLAP, EKİCİ, EKİLİ, EKSİN, ELCİK, ELİPS</letters_5>
-            <letters_4>ACEP, ACİL, ADİL, ADLİ, AİLE, AKİL, AKİS, AKLİ, AKNE, AKSE, AKSİ, APEL, APSE, ASİL, ASLİ, CALİ, CANİ, CEDİ, CELİ, CELP, CENK, CİDE, CİLA, CİNS, CİPS, DANE, DANK, DANS, DELİ, DELK, DENİ, DENK, DEPO, DİNE, DİNİ, DİNK, DİSK, DONE, EDİK, EDİP</letters_4>
-        </game>
-        <game id="6">
-            <characters>A A B D H K N O R R T İ</characters>
-            <letters_12>KARBONHİDRAT</letters_12>
-            <letters_8>KARBONAT, KARBONİT, KARNABİT</letters_8>
-            <letters_7>AKROBAT, ANARTRİ, ANTİKOR, BARİKAT, BARİTON, BİKARAR, BOTANİK, DOKTRİN, HORANTA, NADİRAT, ORDİNAT, TAHARRİ</letters_7>
-            <letters_6>ABORDA, ANORAK, ANTİKA, ANTROK, ARAROT, ARNİKA, BARDAK, BARDAN, BARKOD, BİNKAT, BOKTAN, BORANİ, BORİNA, BRANDA, BROKAR, HARABİ, HARİKA, HARİTA, HARRAN, HİDRAT, HODBİN, KADRAN, KADRAT, KAİNAT, KANTAR, KARBON, KARİHA, KARİNA, KARTON, KATRAN, KİNDAR, KONTRA, KORİDA, ORADAN, ORTADA, RADİKA, TAHKİR, TAHRİK, TAHRİR, TAKBİH</letters_6>
-            <letters_5>KARAT, ABADİ, ABANİ, AİDAT, AKAİT, AKONT, AKORT, AKRAN, AKTAR, ANTİK, ARABİ, ARDAK, ATARİ, BADAT, BADİK, BAHAİ, BAHAR, BAHİR, BAHRİ, BAKAN, BAKİR, BANAK, BANDO, BANKA, BANKO, BARAK, BARAN, BARDA, BARDO, BARİT, BARKA, BAROK, BARON, BATAK, BATAR, BATİK, BİDAR, BİDAT, BİDON, BORAK</letters_5>
-            <letters_4>ABAT, ABRA, ADAK, AHAR, AHDİ, AHİR, AHİT, AKAR, AKİT, AKOR, ANKA, ANOT, AORT, ARAK, ARDA, ARKA, ATAK, ATİK, BADİ, BAHT, BAKİ, BANA, BANİ, BANK, BANT, BARA, BARİ, BARK, BARO, BATİ, BİAT, BİNA, BİRA, BORA, BRİK, BRİT, DAHA, DAHİ, DAİR, DANA</letters_4>
+            <characters>A A G M N O Z Z İ</characters>
+            <letters_9>ZAMAZİNGO</letters_9>
+            <letters_7>MAGAZİN</letters_7>
+            <letters_6>AGNOZİ, AMAZON, GAZİNO, MANGİZ, MİZANA, NAZİZM</letters_6>
+            <letters_5>AGAMİ, AMİGO, AZAMİ, AZMAN, GAZOZ, MANGA, MANGO, MANİA, MİZAN, NAMAZ, NİZAM, ONAMA, ZAMAN, ZİGON</letters_5>
+            <letters_4>AMAN, AMİN, ANAM, ANMA, AZİM, AZİZ, AZMA, GAMA, GANİ, GAZA, GAZİ, İMAN, İMZA, İNAM, İZAM, İZAN, İZAZ, MAİN, MANA, MANİ, MANO, MAZİ, MİZA, NAZİ, NİZA, ONMA, OZAN, ZİNA, ZONA</letters_4>
         </game>
         <game id="7">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>E E E H L M R Z İ</characters>
+            <letters_9>ZEHİRLEME</letters_9>
+            <letters_7>ZEMHERİ</letters_7>
+            <letters_6>ELEZER, ERİMEZ, EZİLME, İZLEME</letters_6>
+            <letters_5>ELEME, ELZEM, ERİME, ERZEL, EZELİ, HELME, HEMZE, HERZE, HEZEL, İZLEM, LEHİM, LERZE, MEHEL, MEHİL, MEHLE, MELEZ, MERİH, REMEL, REMİL, REMİZ, REZİL, RİMEL, ZEHİR</letters_5>
+            <letters_4>EHEM, EHİL, EHLİ, ELEM, ELİM, EMEL, EMİR, ERİL, ERİM, ERME, EZEL, EZME, HELE, HİLE, İLME, LİME, MERİ, MEZE, MİHR, REEL, REMİ, REZE, RİZE, ZİLE</letters_4>
         </game>
         <game id="8">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>A E R T Y Z Ç İ İ</characters>
+            <letters_9>ZİYARETÇİ</letters_9>
+            <letters_7>RİYAZET, TARZİYE, ZİYARET</letters_7>
+            <letters_6>ARİYET, ÇİTARİ, İTİRAZ, İTİZAR, RİAYET, RİYAZİ, TAZİYE, TERAZİ, ZAYİÇE</letters_6>
+            <letters_5>AZERİ, ÇEYİZ, ÇİTAR, ÇİZER, İÇERİ, İRİTE, RAYİÇ, TARİZ, TERZİ, TİRİZ, YEZİT, ZİRAİ</letters_5>
+            <letters_4>AYET, AZİT, ÇARE, ÇERİ, ÇİTA, ÇİTİ, ÇİZİ, ERAT, ETÇİ, İARE, İÇİT, İÇRE, İRAT, İTÇE, İZAÇ, RATE, RİYA, RİZE, TARZ, TAZE, TİRE, YETİ, ZAİT, ZATİ, ZAYİ, ZİRA, ZİYA</letters_4>
         </game>
         <game id="9">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>ZORLAYICI</characters>
+            <letters_9>ZORLAYICI</letters_9>
+            <letters_6>AYRILI, YARICI, YAZICI, YAZILI</letters_6>
+            <letters_5>ACILI, ALICI, ARICI, AYICI, AZILI, CARLI, CAZLI, CILIZ, ILICA, ORALI, OYACI, OYALI, YALIZ, YAZIR, ZARCI, ZORCA, ZORLA</letters_5>
+            <letters_4>ACYO, ARIZ, ARLI, AYLI, AYOL, AYRI, AZOL, LOCA, OLAY, ORAL, ORYA, RAZI, RIZA, ROZA, YALI, YARI, YAZI</letters_4>
         </game>
         <game id="10">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YABANİLİK</characters>
+            <letters_9>YABANİLİK</letters_9>
+            <letters_7>BAYİLİK</letters_7>
+            <letters_6>BAKLAN, BALİNA, BALKAN, BAYKAN, BAYLAN, BİNLİK, YABANİ, YİLBİK</letters_6>
+            <letters_5>ABANİ, ABLAK, AKLAN, ALBAY, ALKAN, ALYAN, ANLAK, AYLAK, BAKAN, BAKLA, BALYA, BANAK, BANAL, BANKA, BAYAN, İKBAL, İLBAY, İLKİN, KABAN, KABİL, KABİN, KALAN, KALAY, KALBİ, KALYA, KANAL, KAYAN, KİNLİ, LAKİN, LİYAN, NAKİL, NAKLİ, YABAN, YAKİN, YALAK, YALAN, YANAK, YANAL</letters_5>
+            <letters_4>ABLA, ABLİ, AKİL, AKLİ, ALAN, ALAY, ANAL, ANKA, AYAK, AYAL, AYAN, AYİN, AYLA, AYNA, AYNİ, BAKİ, BALA, BANA, BANİ, BANK, BAYİ, BİLİ, BİNA, BİNİ, İBİK, İKNA, İLAN, İLİK, İNAK, İNAL, İNİK, KABA, KAİL, KAİN, KALA, KANA, KANİ, KAYA, KLAN, LAİK</letters_4>
         </game>
         <game id="11">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YAKIŞIKLI</characters>
+            <letters_9>YAKIŞIKLI</letters_9>
+            <letters_7>AŞIKLIK, AYIKLIK, KIYILIK, YAKIŞIK, YIKILIŞ, YILIŞIK</letters_7>
+            <letters_6>AKIŞLI, ALIŞIK, ALIŞKI, AŞIKLI, AYILIK, IŞIKLI, IŞILAK, KALKIŞ, KIŞLAK, KIŞLIK, ŞIKLIK, YAŞLIK</letters_6>
+            <letters_5>AKLIK, ALKIŞ, AŞILI, AŞLIK, AYLIK, KAKIŞ, KALIK, KALIŞ, KAŞIK, KAŞLI, KAYIK, KAYIŞ, KILIK, KILIŞ, KIŞLA, KIYAK, KIYIK, KIYIŞ, LAYIK, YAKIŞ, YAŞLI, YIKIK, YIKIŞ, YILIK, YILKI</letters_5>
+            <letters_4>AKIL, AKIŞ, AKLI, ALIK, ALIŞ, AŞIK, AYIK, AYLI, ILIK, IŞIK, IŞIL, IŞKI, KAYI, KIYA, KIYI, YAKI, YALI, YIKI</letters_4>
         </game>
         <game id="12">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YAĞMURLUK</characters>
+            <letters_9>YAĞMURLUK</letters_9>
+            <letters_8>YAĞMURLU</letters_8>
+            <letters_7>KURULMA, UYULMAK</letters_7>
+            <letters_6>KUMRAL, KURMAY, KURUMA, MUĞLAK, RUMLUK, ULUMAK, UYULMA, UYUMAK, YAĞMUR, YUMRUK</letters_6>
+            <letters_5>KUMAR, KUMLA, KUMLU, KUMRU, KUMUL, KURAL, KURAM, KURMA, KURUL, KURUM, KURYA, KUYUM, MAKUL, MARUL, MUĞLA, MUYLU, UĞRAK, ULUMA, UYLUK, UYMAK, UYRUK, UYUMA, YAMUK, YULAR, YUMAK, YUMRU, YUMUK</letters_5>
+            <letters_4>AKUR, KAMU, KRAL, KUĞU, KULA, KULU, KUMA, KURA, KURU, KUYU, MARK, RUAM, UĞRA, UĞRU, UĞUR, ULAK, ULAM, ULUM, UMAR, UMUR, URAY, URLA, URUK, UYAK, UYKU, UYMA, UYUM, UYUR, YUMA</letters_4>
         </game>
         <game id="13">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YAMYAMLIK</characters>
+            <letters_9>YAMYAMLIK</letters_9>
+            <letters_8>YAYILMAK</letters_8>
+            <letters_7>AYILMAK, MAYALIK, YAKILMA, YAMALIK, YAYALIK, YAYILMA</letters_7>
+            <letters_6>AMALIK, AYAKLI, AYIKMA, AYILMA, IKLAMA, KAMALI, MAYALI, YAKALI, YAMALI, YAMYAM, YAYLAK, YAYLIM, YAYMAK, YIKAMA, YILMAK</letters_6>
+            <letters_5>ALKIM, ALMAK, AYLAK, AYLIK, AYMAK, KALAY, KALIM, KALMA, KALYA, KAYMA, KILMA, KIYAM, KIYMA, LAYIK, MAKAM, MALAK, MALYA, MAMAK, YAKIM, YAKMA, YALAK, YALIM, YAMAK, YAYIK, YAYIM, YAYLA, YAYLI, YAYMA, YIKMA, YILMA</letters_5>
+            <letters_4>AKIL, AKIM, AKLI, AKMA, ALAY, ALIK, ALIM, ALMA, AMAL, AMMA, AYAK, AYAL, AYIK, AYLA, AYLI, AYMA, KALA, KAMA, KAYA, KAYI, KIYA, LAKA, LAMA, MALA, MAMA, MAYA, YAKA, YAKI, YALI, YAMA, YAYA</letters_4>
         </game>
         <game id="14">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YANKESİCİ</characters>
+            <letters_9>YANKESİCİ</letters_9>
+            <letters_7>İNSİYAK, NİSAİYE, SAKİNCE</letters_7>
+            <letters_6>AKSİNE, EKİNCİ, ESKİCİ, İNİKAS, KESİCİ, KİNAYE, NEKAİS, SANİYE, SİNCİK, YEKSAN, YENİCİ</letters_6>
+            <letters_5>KENYA, CİNAİ, CİNAS, CİNSİ, EKİCİ, EKSİN, ENAYİ, İNCİK, İSKAN, İSYAN, İYİCE, KESİN, KİNCİ, NİSAİ, SAKİN, SANKİ, SİNEK, SİNİK, SİYAK, SİYEK, YAKİN, YASİN, YENİK</letters_5>
+            <letters_4>AKİS, AKNE, AKSE, AKSİ, AYİN, AYNİ, CANİ, CENK, CİNS, EKİN, EKSİ, ENİK, ESİK, ESİN, ESKİ, ESNA, İANE, İKEN, İKNA, İNAK, İNCE, İNCİ, İNEK, İNİK, KAİN, KANİ, KASE, NECİ, NESİ, NİCE, NİSA, NİYE, SAİK, SAKE, SAKİ, SAYE, SECİ, SEKİ, SENA, SİNE</letters_4>
         </game>
         <game id="15">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YARADILIŞ</characters>
+            <letters_9>YARADILIŞ</letters_9>
+            <letters_7>ALDIRIŞ, AYRILIŞ, DALAYIŞ, DARALIŞ</letters_7>
+            <letters_6>ADAYIŞ, ARAYIŞ, AYARLI, AYIRIŞ, AYRILI, DAYALI, DIŞARI, ŞIRALI, YARALI</letters_6>
+            <letters_5>ADALI, ARDIL, AŞILI, AŞIRI, DALAŞ, DALIŞ, DALYA, DARAŞ, YARAŞ, YARDA, YARIŞ, YAŞLI</letters_5>
+            <letters_4>ADAŞ, ADAY, ADIL, ADLI, ALAY, ALDI, ALIŞ, ARDA, ARIŞ, ARLI, ARYA, AŞAR, AYAL, AYAR, AYAŞ, AYLA, AYLI, AYRI, DARA, DARI, DAYI, IŞIL, ŞIRA, YALI, YARA, YARI, YAŞA</letters_4>
         </game>
         <game id="16">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YARGIÇLIK</characters>
+            <letters_9>YARGIÇLIK</letters_9>
+            <letters_8>ÇAYIRLIK</letters_8>
+            <letters_7>AYLIKÇI, AYRIKLI, AYRILIK, ÇARIKLI, ÇAYIRLI, ÇIRALIK, KAYGILI</letters_7>
+            <letters_6>AÇKILI, ARIKÇI, ARILIK, AYILIK, AYKIRI, AYRILI, ÇAKILI, ÇARKLI, ÇARLIK, ÇAYLIK, ÇIRALI, ILIKÇA, IRAKLI, KARILI, KIRÇIL, YARGIÇ, YARLIK</letters_6>
+            <letters_5>AÇLIK, AKÇIL, AYGIR, AYLIK, AYRIÇ, AYRIK, ÇAKIL, ÇAKIR, ÇALGI, ÇALIK, ÇALKI, ÇARIK, ÇAYIR, ÇAYLI, ÇIKAR, ÇIKRA, ÇIRAK, GAYRI, GIRLA, ILGAR, IRKÇI, KAÇLI, KALIÇ, KARGI, KARLI, KAYGI, KAYIR, KILGI, KILIÇ, KILIR, KIRAÇ, KIRAY, KIYGI, LAKÇI, LAYIK, LIKIR, YARGI, YARIK, YILGI, YILIK</letters_5>
+            <letters_4>AÇIK, AÇKI, AKIL, AKLI, ALÇI, ALGI, ALIÇ, ALIK, ARIK, ARLI, AYIK, AYLI, AYRI, ÇAKI, ÇALI, ÇARK, ÇIKI, ÇIRA, GARK, GAYR, ILIK, IRAK, KAÇI, KARI, KAYI, KIRÇ, KIYA, KIYI, KRAL, RAKI, YAKI, YALI, YARI, YIKI</letters_4>
         </game>
         <game id="17">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YAŞLANMAK</characters>
+            <letters_9>YAŞLANMAK</letters_9>
+            <letters_8>ANLAŞMAK, AYLANMAK, KAYNAŞMA, YAKLAŞMA, YALANMAK, YANAŞMAK, YANLAMAK, YANŞAMAK, YAŞANMAK, YAŞLANMA</letters_8>
+            <letters_7>AKLANMA, AKLAŞMA, ALMANAK, ANLAMAK, ANLAŞMA, AYLAMAK, AYLANMA, KANLAMA, KAŞANMA, KAŞLAMA, KAYNAMA, KAYŞAMA, ŞAKLAMA, YALAMAK, YALANMA, YANAŞMA, YANLAMA, YANŞAMA, YAŞAMAK, YAŞANAK, YAŞANMA</letters_7>
+            <letters_6>AKLAMA, ALANYA, ANAMAL, ANLAMA, AYLAMA, KANAMA, MANYAK, MAŞALA, YALAKA, YALAMA, YALMAN, YANMAK, YANŞAK, YAŞAMA, YAŞMAK</letters_6>
+            <letters_5>AKALA, AKLAN, AKMAN, AKŞAM, ALAKA, ALKAN, ALMAK, ALMAN, ALMAŞ, ALYAN, ANLAK, ANLAM, ANMAK, AŞAMA, AŞMAK, AYLAK, AYMAK, KALAN, KALAY, KALMA, KALYA, KAMAN, KANAL, KANMA, KAŞAN, KAYAN, KAYMA, KAYŞA, MALAK, MALYA, MAYNA, ŞALAK, ŞAMAN, ŞAYAK, ŞAYAN, ŞAYKA, YAKMA, YALAK, YALAN, YAMAK</letters_5>
+            <letters_4>AKMA, ALAN, ALAY, ALMA, AMAL, AMAN, ANAL, ANAM, ANKA, ANMA, AŞMA, AYAK, AYAL, AYAN, AYAŞ, AYLA, AYMA, AYNA, KALA, KAMA, KANA, KAYA, KLAN, LAKA, LAMA, MAAŞ, MALA, MANA, MAŞA, MAYA, NAAŞ, ŞAKA, ŞAMA, YAKA, YAMA, YAŞA</letters_4>
         </game>
         <game id="18">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YATIRIMCI</characters>
+            <letters_9>YATIRIMCI</letters_9>
+            <letters_8>YIRTIMCI</letters_8>
+            <letters_7>ARITICI, AYIRICI, AYRIMCI, CAYIRTI, CIYIRTI, TARIMCI, TIMARCI, YARIMCI, YATIRIM, YIRTICI</letters_7>
+            <letters_6>ARITIM, ATIMCI, AYIRTI, YARICI, YIRTIM, YIRTMA</letters_6>
+            <letters_5>ARICI, ARTIM, ATICI, AYICI, AYRIM, AYRIT, MARTI, MICIR, TARIM, TIMAR, YARIM, YATIM, YATIR</letters_5>
+            <letters_4>ARTI, ATIM, AYIT, AYRI, CART, CIRT, ITIR, MART, YARI, YATI</letters_4>
         </game>
         <game id="19">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YENİLİKÇİ</characters>
+            <letters_9>YENİLİKÇİ</letters_9>
+            <letters_7>YENİLİK</letters_7>
+            <letters_6>ÇİNİLİ, İÇKİLİ, İLİKÇİ, İLİNEK, İNEKÇİ, İYELİK, İYİLİK</letters_6>
+            <letters_5>ÇELİK, ÇİLEK, ÇİNLİ, EKİLİ, İÇKİN, İÇLİK, İKİLİ, İLENÇ, İLKİN, KİNLİ, LİKEN, NİKEL, YELİN, YENİK, YENLİ</letters_5>
+            <letters_4>ÇEKİ, ÇENK, ÇİLE, ÇİNE, ÇİNİ, EKİN, EKLİ, ELÇİ, ELİK, ENİK, ENLİ, İÇEL, İÇİN, İÇKİ, İÇLİ, İKEN, İLÇE, İLİÇ, İLİK, İLKE, İNEÇ, İNEK, İNİK, KEÇİ, KİLE, LİNÇ, LİNK, NİYE, YENİ, YİNE</letters_4>
         </game>
         <game id="20">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YIPRATICI</characters>
+            <letters_9>YIPRATICI</letters_9>
+            <letters_7>ARITICI, AYIRICI, CAYIRTI, CIYIRTI, YIRTICI</letters_7>
+            <letters_6>AYIRTI, YAPICI, YARICI</letters_6>
+            <letters_5>ARICI, ATICI, AYICI, AYRIT, PIRTI, RATIP, YAPIT, YATIR</letters_5>
+            <letters_4>ARTI, AYIP, AYIT, AYRI, CART, CIRT, IRIP, ITIR, TAPI, TIPA, TRAP, YAPI, YARI, YATI</letters_4>
         </game>
         <game id="21">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>YIRTMAÇLI</characters>
+            <letters_9>YIRTMAÇLI</letters_9>
+            <letters_8>YIRTILMA</letters_8>
+            <letters_7>ARTIMLI, AYRIMLI, ÇAYIRLI, TIMARLI, YALITIM, YAMÇILI, YATIRIM, YIRTMAÇ</letters_7>
+            <letters_6>AÇILIM, ARITIM, ATILIM, AYILTI, AYIRTI, AYRILI, ÇATILI, ÇIRALI, ILITMA, YATILI, YIRTIM, YIRTMA</letters_6>
+            <letters_5>ARTÇI, ARTIM, ATILI, AYRIÇ, AYRIM, AYRIT, ÇALIM, ÇALTI, ÇAYIR, ÇAYLI, ILIMA, ILTAR, MARTI, TAÇLI, TARIM, TIMAR, TIRIL, YALIM, YAMÇI, YARIM, YATÇI, YATIM, YATIR, YILMA</letters_5>
+            <letters_4>AÇIM, AÇIT, ALÇI, ALIÇ, ALIM, ALTI, ARLI, ARTI, ATÇI, ATIL, ATIM, ATLI, AYIT, AYLI, AYRI, ÇALI, ÇATI, ÇIMA, ÇIRA, ÇITA, ILIM, ITIR, MALÇ, MALT, MART, YALI, YARI, YATI</letters_4>
+        </game>
+        <game id="2">
+            <characters>YÜZYILLIK</characters>
+            <letters_9>YÜZYILLIK</letters_9>
+            <letters_6>YILLIK, YÜZYIL</letters_6>
+            <letters_5>KILLI, KIZIL, YILIK, YILKI</letters_5>
+            <letters_4>ILIK, KIYI, KLÜZ, YIKI</letters_4>
+        </game>
+        <game id="2">
+            <characters>YÜZÜKOYUN</characters>
+            <letters_9>YÜZÜKOYUN</letters_9>
+            <letters_5>KOYUN, YÜKÜN, YÜZÜK</letters_5>
+            <letters_4>KONU, KOYU, OYUK, OYUN, ZONK</letters_4>
+        </game>
+        <game id="2">
+            <characters>YÜZSÜZLÜK</characters>
+            <letters_9>YÜZSÜZLÜK</letters_9>
+            <letters_6>KÜSÜLÜ, YÜZLÜK, YÜZSÜZ</letters_6>
+            <letters_5>SÜLÜK, SÜZÜK, ÜZLÜK, YÜKLÜ, YÜLÜK, YÜZLÜ, YÜZÜK</letters_5>
+            <letters_4>KLÜZ, KÜSÜ, LÜKS, ÜLKÜ</letters_4>
+        </game>
+        <game id="2">
+            <characters>YUMUŞAKÇA</characters>
+            <letters_9>YUMUŞAKÇA</letters_9>
+            <letters_7>UÇUŞMAK, UYUŞMAK, YUMUŞAK</letters_7>
+            <letters_6>ÇAMUKA, MAŞUKA, UÇUŞMA, UYUMAK, UYUŞMA, YAKMAÇ, YAŞMAK</letters_6>
+            <letters_5>AÇMAK, AKŞAM, AŞMAK, AYMAK, ÇAKMA, ÇAMAŞ, ÇUŞKA, KAÇMA, KAYAÇ, KAYMA, KAYŞA, KUMAŞ, KUMUÇ, KUŞÇU, KUYUM, MAÇKA, MAŞUK, ŞAYAK, ŞAYKA, UÇMAK, UYMAK, UYUMA, YAKMA, YAMAÇ, YAMAK, YAMUK, YAŞAM, YUKAÇ, YUMAK, YUMUK</letters_5>
+            <letters_4>AÇMA, AKAÇ, AKÇA, AKMA, AMAÇ, AŞMA, AYAK, AYAŞ, AYÇA, AYMA, ÇUKA, KAÇA, KAMA, KAMU, KAYA, KUMA, KUYU, MAAŞ, MAÇA, MAŞA, MAYA, ŞAKA, ŞAMA, UÇAK, UÇMA, UÇUK, UÇUŞ, UŞAK, UYAK, UYKU, UYMA, UYUM, YAKA, YAMA, YAŞA, YUMA</letters_4>
+        </game>
+        <game id="2">
+            <characters>YÜKSELMEK</characters>
+            <letters_9>YÜKSELMEK</letters_9>
+            <letters_8>YÜKLEMEK, YÜKSELME</letters_8>
+            <letters_7>YÜKLEME</letters_7>
+            <letters_6>KESMEK, KÜSMEK, MESLEK, SEKLEM, SEKMEK, YELMEK, YÜKLEM, YÜKSEK</letters_6>
+            <letters_5>EKLEM, EKMEK, ELMEK, ESLEK, ESMEK, EYLEM, KELEK, KELEM, KELES, KESEK, KESEL, KESME, KÜLEK, KÜMES, KÜSME, MELEK, MELES, MESEL, SEKEL, SEKME, SELEK, SEYEK, SÜMEK, SÜYEK, YELEK, YELME, YEMEK</letters_5>
+            <letters_4>EKME, ELEK, ELEM, EMEK, EMEL, ESME, KEKE, KELE, KEME, KESE, KÜME, LEKE, LÜKS, MEKE, MÜLK, SELE, SEME, ÜLKE, YEKE, YELE, YEME</letters_4>
+        </game>
+        <game id="2">
+            <characters>YÜKSEKLİK</characters>
+            <letters_9>YÜKSEKLİK</letters_9>
+            <letters_6>KEKLİK, ÜYELİK, YÜKSEK</letters_6>
+            <letters_5>EKSİK, ESKİL, KEKİK, KELİK, KESİK, KESKİ, KİLÜS, KÜLEK, SEKİL, SİKKE, SİYEK, SÜYEK</letters_5>
+            <letters_4>EKLİ, EKSİ, ELİK, ESİK, ESKİ, İLKE, KİLE, KİLS, KLİK, LİSE, LÜKS, SEKİ, ÜLKE, YEİS</letters_4>
         </game>
 </games>
