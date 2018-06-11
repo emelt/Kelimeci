@@ -52,6 +52,26 @@ class ControlPanelView: UIView {
             make.leading.equalToSuperview().offset(40.0)
             make.trailing.equalToSuperview().offset(-40.0)
         }
+        
+        guessButton.snp.makeConstraints { make in
+            make.height.equalToSuperview()
+            make.width.equalTo(guessButton.snp.height)
+        }
+        
+        deleteButton.snp.makeConstraints { make in
+            make.height.equalToSuperview()
+            make.width.equalTo(deleteButton.snp.height)
+        }
+        
+        shuffleButton.snp.makeConstraints { make in
+            make.height.equalToSuperview()
+            make.width.equalTo(shuffleButton.snp.height)
+        }
+        
+        resetButton.snp.makeConstraints { make in
+            make.height.equalToSuperview()
+            make.width.equalTo(resetButton.snp.height)
+        }
     }
     
     fileprivate func style() {

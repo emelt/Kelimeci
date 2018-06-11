@@ -61,7 +61,7 @@ class ScoreView: UIView {
             self.animationView.alpha = 1.0
         }) { _ in
             self.animationView.animation = "check.json"
-            self.animationView.play(fromProgress: 0.3, toProgress: 0.8, withCompletion: { _ in
+            self.animationView.play(fromProgress: 0.3, toProgress: 0.6, withCompletion: { _ in
                 UIView.animate(withDuration: 0.1) {
                     self.titleLabel.alpha = 1.0
                     self.animationView.alpha = 0.0
@@ -77,7 +77,7 @@ class ScoreView: UIView {
             self.animationView.alpha = 1.0
         }) { _ in
             self.animationView.animation = "error.json"
-            self.animationView.play(fromProgress: 0.3, toProgress: 0.7, withCompletion: { _ in
+            self.animationView.play(fromProgress: 0.5, toProgress: 0.65, withCompletion: { _ in
                 UIView.animate(withDuration: 0.1) {
                     self.titleLabel.alpha = 1.0
                     self.animationView.alpha = 0.0
