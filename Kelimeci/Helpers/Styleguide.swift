@@ -32,6 +32,10 @@ extension UIColor {
     class var kDarkGray: UIColor {
         return UIColor(red: 32.0 / 255.0, green: 36.0 / 255.0, blue: 52.0 / 255.0, alpha: 1.0)
     }
+    
+    class var kRed: UIColor {
+        return UIColor(red: 194.0 / 255.0, green: 87.0 / 255.0, blue: 87.0 / 255.0, alpha: 1.0)
+    }
 }
 
 extension UIFont {
@@ -66,7 +70,7 @@ extension TextStyle {
     static let book13White = TextStyle(font: UIFont.mfAvenirBook(size: 13.0), color: UIColor.kWhite)
     static let book13Gray = TextStyle(font: UIFont.mfAvenirBook(size: 13.0), color: UIColor.kGray)
     static let book17Gray = TextStyle(font: UIFont.mfAvenirBook(size: 17.0), color: UIColor.kGray)
-    static let hintTile = TextStyle(font: UIFont.mfAvenirMedium(size: 12.0), color: UIColor.kPink)
+    static let hintTile = TextStyle(font: UIFont.mfAvenirHeavy(size: 12.0), color: UIColor.kDarkGray)
     static let characterTile = TextStyle(font: UIFont.mfAvenirMedium(size: 22.0), color: UIColor.kPink)
     static let matchingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kPink)
     static let missingGuess = TextStyle(font: UIFont.mfAvenirRoman(size: 12.0), color: UIColor.kDarkGray)

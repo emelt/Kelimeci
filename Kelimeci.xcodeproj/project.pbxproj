@@ -12,6 +12,7 @@
 		E80219051F3979160027C662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80219031F3979160027C662 /* LaunchScreen.storyboard */; };
 		E80219101F3979160027C662 /* KelimeciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802190F1F3979160027C662 /* KelimeciTests.swift */; };
 		E802191B1F3979160027C662 /* KelimeciUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802191A1F3979160027C662 /* KelimeciUITests.swift */; };
+		E816CBB320CE2C500041A280 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816CBB220CE2C500041A280 /* UIColor.swift */; };
 		E8654BC520C4E40000A50819 /* games.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654BC420C4E40000A50819 /* games.xml */; };
 		E8654BC720C4E4B700A50819 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BC620C4E4B700A50819 /* Word.swift */; };
 		E8654BD120C4ECA800A50819 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BD020C4ECA800A50819 /* CollectionViewCell.swift */; };
@@ -103,6 +104,7 @@
 		E80219161F3979160027C662 /* KelimeciUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelimeciUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E802191A1F3979160027C662 /* KelimeciUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeciUITests.swift; sourceTree = "<group>"; };
 		E802191C1F3979160027C662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E816CBB220CE2C500041A280 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		E8654BC420C4E40000A50819 /* games.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = games.xml; sourceTree = "<group>"; };
 		E8654BC620C4E4B700A50819 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Word.swift; path = ../../../../../Word.swift; sourceTree = "<group>"; };
 		E8654BD020C4ECA800A50819 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 				E8654C1720C6510C00A50819 /* UIView+NibLoading.swift */,
 				E8654C1620C6510C00A50819 /* UIViewController+Helpers.swift */,
 				E8654BFE20C531B800A50819 /* Sequence.swift */,
+				E816CBB220CE2C500041A280 /* UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -654,6 +657,7 @@
 				E8664E1A1F4F9DCE005D2F53 /* MatchesView.swift in Sources */,
 				E8664E081F4F9D58005D2F53 /* ViewModel.swift in Sources */,
 				E8664E2B1F4FA3C9005D2F53 /* Game.swift in Sources */,
+				E816CBB320CE2C500041A280 /* UIColor.swift in Sources */,
 				E80218FB1F3979160027C662 /* AppDelegate.swift in Sources */,
 				E8664E0A1F4F9D60005D2F53 /* LetterGame.swift in Sources */,
 				E8654C2820C6510E00A50819 /* UIImage+Helpers.swift in Sources */,

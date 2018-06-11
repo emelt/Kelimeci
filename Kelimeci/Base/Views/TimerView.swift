@@ -85,8 +85,8 @@ class TimerView: UIView {
         timerLabel.text = String(format: "%02d:%02d", minutes, seconds)
         let percentage = 1 - (CGFloat(counter) / CGFloat(originalTime))
         progressLayer.strokeEnd = percentage
-        if percentage > 0.9 {
-            progressLayer.strokeColor = UIColor.red.cgColor
+        if percentage > 0.80 {
+            progressLayer.strokeColor = UIColor.blend(colors: [UIColor(cgColor: progressLayer.strokeColor!), UIColor.kRed]).cgColor
         }
     }
     
