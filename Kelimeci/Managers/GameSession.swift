@@ -25,7 +25,7 @@ class GameSession: NSObject {
     var time: Int {
         switch difficulty {
         case .easy:
-            return 20
+            return 180
         case .medium:
             return 240
         case .difficult:
@@ -51,18 +51,30 @@ class GameSession: NSObject {
             availableWords.append(contentsOf: Parser().parseGames(with: "13_characters"))
         }
         availableWords = availableWords.shuffled()
-        let usedWords = KeychainManager.shared.storedGames
+        let usedWords = KeychainManager.shared.getStoredGames(forDifficulty: difficulty)
         for (index, element) in availableWords.enumerated().reversed() {
             let characterSting = element.characters.joined()
             if usedWords.contains(characterSting) {
                 availableWords.remove(at: index)
             }
         }
+        
+        if availableWords.count == 0 {
+            resetUsedWords()
+        }
     }
     
     func finishWord(word: Word) {
         let characterSting = word.characters.joined()
-        KeychainManager.shared.storeGame(withMainWord: characterSting)
+        KeychainManager.shared.storeGame(withMainWord: characterSting, difficulty: difficulty)
         availableWords.removeFirst()
+        if availableWords.count == 0 {
+            resetUsedWords()
+        }
+    }
+    
+    func resetUsedWords() {
+        KeychainManager.shared.clearStoredGames(forDifficulty: difficulty)
+        loadGames()
     }
 }
