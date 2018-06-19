@@ -524,7 +524,7 @@
 				TargetAttributes = {
 					E80218F61F3979160027C662 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = WCBT6498RF;
+						DevelopmentTeam = M8RP4V9R4D;
 						ProvisioningStyle = Automatic;
 					};
 					E802190A1F3979160027C662 = {
@@ -814,7 +814,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WCBT6498RF;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8RP4V9R4D;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS/**",
@@ -823,8 +825,9 @@
 				);
 				INFOPLIST_FILE = Kelimeci/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Topaloglu.Kelimeci;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topaloglu.kelimeci;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Kelimeci/Kelimeci-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
@@ -834,7 +837,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WCBT6498RF;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8RP4V9R4D;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS/**",
@@ -843,8 +848,9 @@
 				);
 				INFOPLIST_FILE = Kelimeci/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Topaloglu.Kelimeci;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topaloglu.kelimeci;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Kelimeci/Kelimeci-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};

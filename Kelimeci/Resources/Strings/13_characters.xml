@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <games>
-    <game id="1">
-        <characters>A,K,L,N,O,O,S,Y,İ</characters>
-        <letters_9>KOALİSYON</letters_9>
-        <letters_8>LOKASYON</letters_8>
-        <letters_7>AKSİYON, KALİNOS, KOLONYA</letters_7>
-        <letters_6>KALYON, KAOLİN, KOLONİ, KONSOL, LOSYON, OYSAKİ, SİKLON, SİNYAL</letters_6>
-        <letters_5>AKSON, ALYON, İSKAN, İSYAN, KOLAN, KOLAY, KOLON, KONSA, KONYA, LAKİN, LASKİ, LİSAN, LİYAN, NAKİL, NAKLİ, ONİKS, OYNAK, SAKİL, SAKİN, SALİK, SALON, SANKİ, SİYAK, SOLAK, SOYKA, YAKİN, YASİN, YOKSA, YOLAK</letters_5>
-        <letters_4>AKİL, AKİS, AKLİ, AKSİ, ASİL, ASLİ, AYİN, AYNİ, AYOL, İKNA, İKON, İLAN, İNAK, İNAL, İSAL, İYON, KAİL, KAİN, KANİ, KANO, KAOS, KİLO, KİLS, KLAN, KLAS, KLON, KOLA, KOLİ, KONİ, KOSA, LAİK, LAİN, LASO, LİKA, LİNK, NAİL, NİSA, OLAY, ONAY, OYSA, SOLO</letters_4>
+    <game id="2">
+        <characters>EKSPRESYONİZM</characters>
+        <letters_13>EKSPRESYONİZM</letters_13>
+        <letters_10>RESEPSİYON, REZEKSİYON</letters_10>
+        <letters_9>PRESESYON</letters_9>
+        <letters_8>KEMERSİZ, KORSESİZ, MİSYONER, PERMİYEN, PİROKSEN, RESESYON, SEKSİYON, SEMERSİZ, SEREMONİ, YEMEKSİZ, YERİNMEK</letters_8>
+        <letters_7>EKSPOZE, EKSPRES, EMEKSİZ, EMİSYON, EPRİMEK, ERİNMEK, ESİRMEK, ESPİYON, ESRİMEK, EYERSİZ, KESESİZ, KESİNME, KİMESNE, KOMİSER, KOMPRES, MERİNOS, MERKEZİ, MERSİYE, MİYOSEN, PERSENK, PRENSES, RENKSİZ, SEKİZER, SEMİNER, SERPMEK, YEKİNME, YERİNME</letters_7>
+        <letters_6>EKSERİ, EKSPER, EMPOZE, EPRİME, ERİMEK, ERİMEZ, ERİNME, ERKSİZ, ERMENİ, ESİRME, ESKİME, ESKİMO, ESKRİM, ESPERİ, ESPİYE, ESRİME, İZOMER, KERİME, KERMEN, KERMES, KİMYON, KİRMEN, KONSER, KONSEY, KREPON, MENİSK, MERKEP, MERKEZ, MERSİN, MESİRE, MESKEN, MİKRON, MİKROP, MİKSER, MİSYON, NEKROZ, NERESİ, PEKMEZ, PEYNİR, PİYORE</letters_6>
+        <letters_5>EKOSE, EKSEN, EKSER, EKSİN, EKSİZ, EMZİK, ENSER, ENSİZ, ENZİM, EOSEN, EPEYİ, ERİME, ERKEN, ERKİN, ERMEK, ERMİN, EROİN, ERSİZ, ERZİN, ESİRE, ESKİZ, ESMEK, ESMER, ESNEK, ESPRİ, ESRİK, EZİNE, EZMEK, İMREN, İMROZ, İNMEK, İRKME, İRSEN, İSMEN, KEMER, KEMRE, KEPEZ, KEPİR, KEPME, KEREM</letters_5>
+        <letters_4>EKİM, EKİN, EKİP, EKME, EKSİ, EMEK, EMEN, EMİK, EMİN, EMİR, ENEK, ENEZ, ENİK, ENİR, ENSE, EPER, EPEY, EPİK, EREK, EREN, ERİK, ERİM, ERİN, ERKE, ERME, EROS, ESEN, ESER, ESİK, ESİM, ESİN, ESİR, ESKİ, ESME, ESRE, EYER, EZİK, EZME, İKEN, İKON</letters_4>
     </game>
-        <game id="2">
-        <characters>K,B,A,M,A,M,U,Ş,K,R,L,A</characters>
-        <letters_12>KAMBURLAŞMAK</letters_12>
-        <letters_11>KAMBURLAŞMA</letters_11>
-        <letters_10>ABUKLAŞMAK, KABUKLAŞMA</letters_10>
-        <letters_9>ABUKLAMAK, ABUKLAŞMA, KARMAŞMAK, KUŞAKLAMA, RUMLAŞMAK</letters_9>
-        <letters_8>ABUKLAMA, AKLAŞMAK, BAŞARMAK, BAŞLAMAK, BULAŞMAK, BUMLAMAK, KABARMAK, KAMAŞMAK, KARLAMAK, KARMAŞMA, KAŞLAMAK, KUBARMAK, KUBAŞMAK, KUMLAMAK, RUMLAŞMA, ŞAKLAMAK, ŞAKRAMAK, ŞARLAMAK, URLAŞMAK</letters_8>
-        <letters_7>ABRAMAK, AKBAKLA, AKLAMAK, AKLAŞMA, ALARMAK, BAKARAK, BAŞARMA, BAŞLAMA, BULAMAK, BULAŞMA, BUMLAMA, BURKMAK, KABALAK, KABARMA, KALAMAR, KAMAŞMA, KAMBURA, KARABAŞ, KARAKAŞ, KARAKUL, KARAKUŞ, KARAMAK, KARAMUK, KARLAMA, KARMAŞA, KAŞLAMA, KUBARMA, KUBAŞMA, KUMBARA, KUMLAMA, MAKRAMA, MALKARA, MUAŞAKA, MUŞAMBA, ŞAKLAMA, ŞAKRAMA, ŞARLAMA, ULAŞMAK, URLAŞMA</letters_7>
-        <letters_6>ABLUKA, ABRAMA, AKLAMA, AKRABA, ALABAŞ, ALARMA, ARAMAK, BAKARA, BAKKAL, BAKMAK, BALAMA, BALKAR, BARAKA, BARLAM, BAŞMAK, BAŞMAL, BULAMA, BULMAK, BURKMA, BURMAK, KABALA, KABARA, KALABA, KALBUR, KALKMA, KALMAK, KAMARA, KAMBUR, KARAMA, KARLUK, KARMAK, KUMRAL, KURAMA, KURMAK, KUŞLAK, KUŞLAR, KUŞMAR, MABLAK, MAKARA, MAKBUL</letters_6>
-        <letters_5>ABLAK, ABRAŞ, AKALA, AKBAŞ, AKKUŞ, AKMAK, AKŞAM, ALAKA, ALARM, ALMAK, ALMAŞ, AMBAR, ARABA, ARAKA, ARAMA, AŞAMA, AŞMAK, BAKAM, BAKLA, BAKMA, BALAR, BARAK, BARKA, BAŞAK, BAŞKA, BULAK, BULMA, BURAK, BURMA, KABAK, KABUK, KABUL, KAKMA, KALAK, KALMA, KARMA, KAŞAR, KUKLA, KULAK, KUMAR</letters_5>
-        <letters_4>ABLA, ABRA, ABUK, AKAK, AKAR, AKMA, AKUR, ALMA, AMAL, AMMA, ARAK, ARKA, ARMA, AŞAR, AŞMA, BALA, BARA, BARK, BLUM, BULA, BURA, KABA, KAKA, KALA, KAMA, KAMU, KARA, KRAL, KUKA, KULA, KUMA, KURA, LAKA, LAMA, MAAŞ, MALA, MAMA, MARK, MARŞ, MAŞA</letters_4>
-        </game>
-        <game id="3">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_12>KAKTÜSGİLLER</letters_12>
-            <letters_9>AKTÜELLİK</letters_9>
-            <letters_8>ASKERLİK, ATGİLLER, KALKERLİ, KASKETLİ, LATEKSLİ</letters_8>
-            <letters_7>ELASTİK, GERİLLA, KARSTİK, KRİSTAL, KÜREKLİ, REALİST, RESİTAL, SELÜLİT, SERTLİK, STEARİK, SÜRATLE, SÜRATLİ, SÜREKLİ, TAKKELİ, TEKASÜL, TELAKKİ, TELKARİ, TERAKKİ, TERSLİK, TÜRKELİ, ÜSTELİK</letters_7>
-            <letters_6>AKSEKİ, AKTRİS, AKTÜEL, AKTÜER, ALEKSİ, ALETLİ, ALGLER, ARKTİK, ASETİK, ASKERİ, EKSTRA, ESATİR, GALERİ, GÜRLEK, İSTEKA, KAKTÜS, KALİTE, KALKER, KALSİT, KARELİ, KARTEL, KASKET, KELKİT, KELLİK, KERTİK, KLASİK, KRİKET, KÜRKAS, LASTİK, LATEKS, RİKKAT, RİSALE, RİTÜEL, SELİKA, SİLÜET, SİRKAT, STERİL, SÜLALE, SÜRELİ, SÜRGİT</letters_6>
-            <letters_5>ALKİL, ALTES, ASKER, ASTİK, EKSİK, EKÜRİ, ELLİK, ERİKA, ERKLİ, ERLİK, ESKİL, ESRİK, ETLİK, GAİLE, GASİL, GELİR, GİTAR, GLASE, GÜLLE, İLKEL, İLLET, İRSAL, İSALE, İSTEK, İSTER, KAGİR, KAKÜL, KARST, KASET, KASTİ, KATİL, KATRE, KELİK, KELLİ, KERKİ, KERTİ, KESAT, KESİK, KESİR, KESİT</letters_5>
-            <letters_4>AGEL, AİLE, AKİK, AKİL, AKİS, AKİT, AKLİ, AKSE, AKSİ, ALET, ALİL, ASİL, ASİT, ASLİ, ASRİ, ATEL, ATİK, EKLİ, EKSİ, EKTİ, ELİK, ELİT, ELLİ, ELTİ, ERAT, ERGİ, ERİK, ERİL, ESİK, ESİR, ESKİ, ETİK, ETİL, ETKİ, ETLİ, GALE, GALİ, GARK, GERİ, GETR</letters_4>
-        </game>
+    <game id="2">
+        <characters>ELVERİŞSİZLİK</characters>
+        <letters_13>ELVERİŞSİZLİK</letters_13>
+        <letters_11>İŞLEVSİZLİK</letters_11>
+        <letters_10>ELVERİŞSİZ, ŞİVESİZLİK</letters_10>
+        <letters_9>ELVERİŞLİ, RİZELİLİK</letters_9>
+        <letters_8>ERSİZLİK, EŞSİZLİK, EVSİZLİK, İSEVİLİK, İŞKİLSİZ, İŞLERLİK, İŞLEVSEL, İŞLEVSİZ, İŞSİZLİK, KİRİŞSİZ, REZİLLİK, SERVİLİK, SEVERLİK, SİVİLİZE, SİVİLLİK, SİVRİLİK, SİVRİLİŞ, ŞEKERSİZ, ŞEKİLSİZ, VEZİRLİK</letters_8>
+        <letters_7>EKLESİL, EKSİLİŞ, ELLİŞER, ERİLLİK, ERSELİK, ESİRLİK, EVLİLİK, EVRİŞİK, İKİZLER, İLERLEK, İLİKSİZ, İLKESEL, İRKİLİŞ, İŞKİLLİ, KEREVİZ, KESİLİŞ, KESİRLİ, KİLİSLİ, KİRİŞLİ, KİŞİSEL, LEKESİZ, REİSLİK, SEKİZER, SEKİZLİ, SERİLİŞ, SEVİLİŞ, SİLİLİK, SİLİVRİ, SİRKELİ, SİVEREK, ŞEKERLİ, ŞEKİLLİ, ŞEVKSİZ, ŞİİRSEL, ŞİKESİZ, ŞİVESİZ, VELİLİK, VERİLİŞ</letters_7>
+        <letters_6>KAMBUREKSERİ, EKŞİLİ, ERİKSİ, ERKSİZ, EŞEKSİ, EZİLİŞ, İKİŞER, İKİZLİ, İLİKLİ, İLİKSİ, İLİŞİK, İLİŞKİ, İRİLİK, İSİLİK, İSKELE, İŞVELİ, KESELİ, KEVSER, KİLİSE, LEKELİ, LEŞKER, LEVREK, LİSELİ, REVİZE, RİSKLİ, RİZELİ, SEKİLİ, SERİLİ, SERKEŞ, ŞEVKLİ, ŞİİLİK, ŞİİRLİ, ŞİİRSİ, ŞİKELİ, ŞİVELİ, VESİLE, ZEVKLİLAŞMAK</letters_6>
+        <letters_5>EKİLİ, EKLER, EKSER, EKSİZ, ELLİK, ERKLİ, ERLİK, ERSİZ, ERZEL, ESİRE, ESKİL, ESKİZ, ESLEK, ESRİK, EŞLEK, EŞLİK, EŞSİZ, EVLEK, EVLİK, EVRİK, EVSEL, EVSİZ, EZELİ, İKİLİ, İKSİR, İLERİ, İLKEL, İSEVİ, İŞKİL, İŞLEK, İŞLEV, İŞLİK, İŞSİZ, İVESİ, İZLEK, KELER, KELES, KELEŞ, KELLE, KELLİ</letters_5>
+        <letters_4>EKLİ, EKSİ, EKŞİ, ELEK, ELİK, ELLİ, EREK, ERİK, ERİL, ERİŞ, ERKE, ESER, ESİK, ESİR, ESKİ, ESRE, EŞEK, EŞİK, EŞLİ, EVLİ, EVRE, EZEL, EZİK, İKİZ, İLİK, İLKE, İLLE, İLLİ, İRİS, İRSİ, İSLİ, İŞLİ, İŞVE, KELE, KERE, KESE, KİLE, KİLS, KİŞİ, KİVİ</letters_4>
+    </game>
+    <game id="2">
+        <characters>EVCİLLEŞTİRME</characters>
+        <letters_13>EVCİLLEŞTİRME</letters_13>
+        <letters_11>ELEŞTİRİLME, ELEŞTİRMECİ, ELEŞTİRMELİ</letters_11>
+        <letters_10>CİLVELEŞME, EVCİLLEŞME</letters_10>
+        <letters_9>ELEŞTİREL, ELEŞTİRİM, ELEŞTİRME, ELVERİŞLİ, İLERLETME, İŞLETİLME, İŞLETMECİ, ŞERİTLEME</letters_9>
+        <letters_8>CEVRETME, CİLTLEME, ELEŞTİRİ, ERİŞİLME, ERİTİLME, EŞİTLEME, EŞLEMELİ, İLERLEME, İLETİLME, İLETİŞME, İRİLEŞME, İŞLEMECİ, İŞLEMELİ, MEŞVERET, ŞECERELİ, TECİMEVİ, TİRELEME</letters_8>
+        <letters_7>CİLTEVİ, CİLVELİ, ELLEŞME, ELLETME, ELLİŞER, ELVERME, EŞTİRME, EVCİLER, EVİRTİM, EVİRTME, EVRİLME, EVRİMCİ, İŞLEMCİ, İŞLETME, İŞLEVCİ, İTELEME, İTLEŞME, MECELLE, REMİLCİ, RİMELLİ, ŞERİTLİ, TECELLİ, TELLEME, TELLİCE, TEMELLİ, TERLEME, VEREMLİ, VERİLİŞ, VERİLME, VERİMLİ</letters_7>
+        <letters_6>CEMEVİ, CEMİLE, CEREME, CETVEL, CİLTLİ, ELEMLİ, ELETME, ELLEME, ERİŞİM, ERİŞME, ERİŞTE, ERİTİŞ, ERİTME, EŞİLME, EŞLEME, EVERME, EVİRME, İLETİM, İLETİŞ, İLETME, İLİŞME, İŞETME, İŞİTME, İŞLEME, İŞVELİ, İTİLME, İTİŞME, MEVLİT, MİLLET, ŞECERE, ŞİİRCE, ŞİVELİ, TELEME, TERECİ, TEŞMİL, TEŞRİİ, VERİCİ, VETİRE</letters_6>
+        <letters_5>CELİL, CEMİL, CEMRE, CEVİR, CİLVE, CİMRİ, CİRİM, CİRİT, ELEME, EMİCİ, ERCİŞ, ERİME, ERMİŞ, EŞLEM, EVCİL, EVRİM, İLERİ, İLETİ, İLLET, İMECE, İRİCE, İRİTE, İŞEME, İŞLEM, İŞLEV, İŞRET, LİMİT, LİRET, LİTRE, MELCE, MELEŞ, MERCİ, MERET, METİL, METRE, MİLEL, MİLLİ, MİTİL, RECİM, REMEL</letters_5>
+        <letters_4>CELİ, CEMİ, CİLT, ECEL, ECİR, ELCİ, ELEM, ELİM, ELİT, ELLİ, ELTİ, EMEL, EMET, EMİR, EMİŞ, ERCE, ERİL, ERİM, ERİŞ, ERME, ERTE, EŞİT, EŞLİ, EŞME, ETER, ETİL, ETLİ, ETME, EVCE, EVCİ, EVET, EVLİ, EVRE, İLİM, İLLE, İLLİ, İLME, İLMİ, İŞLİ, İŞTE</letters_4>
+    </game>
         <game id="4">
             <characters>A,A,C,I,I,I,I,K,K,L,L,Y,Ç</characters>
             <letters_13>AÇIKLAYICILIK</letters_13>
@@ -53,118 +57,107 @@
             <letters_5>AKİDE, AKLEN, AKSON, ALENİ, ANİDE, APİKO, APLİK, ASİDE, ASLEN, CALİP, CANİP, CENAP, CİDAL, CİNAİ, CİNAS, CİNLİ, CİNSİ, DEKAN, DELİK, DENLİ, DİCLE, DİKEL, DİKEN, DİKSE, DİLCİ, DİLEK, DİLSİ, DİNCE, DİNCİ, DİNEK, DİNLİ, DİPLİ, DİSKO, DOLAK, DOLAP, EKİCİ, EKİLİ, EKSİN, ELCİK, ELİPS</letters_5>
             <letters_4>ACEP, ACİL, ADİL, ADLİ, AİLE, AKİL, AKİS, AKLİ, AKNE, AKSE, AKSİ, APEL, APSE, ASİL, ASLİ, CALİ, CANİ, CEDİ, CELİ, CELP, CENK, CİDE, CİLA, CİNS, CİPS, DANE, DANK, DANS, DELİ, DELK, DENİ, DENK, DEPO, DİNE, DİNİ, DİNK, DİSK, DONE, EDİK, EDİP</letters_4>
         </game>
-        <game id="6">
-            <characters>A A B D H K N O R R T İ</characters>
-            <letters_12>KARBONHİDRAT</letters_12>
-            <letters_8>KARBONAT, KARBONİT, KARNABİT</letters_8>
-            <letters_7>AKROBAT, ANARTRİ, ANTİKOR, BARİKAT, BARİTON, BİKARAR, BOTANİK, DOKTRİN, HORANTA, NADİRAT, ORDİNAT, TAHARRİ</letters_7>
-            <letters_6>ABORDA, ANORAK, ANTİKA, ANTROK, ARAROT, ARNİKA, BARDAK, BARDAN, BARKOD, BİNKAT, BOKTAN, BORANİ, BORİNA, BRANDA, BROKAR, HARABİ, HARİKA, HARİTA, HARRAN, HİDRAT, HODBİN, KADRAN, KADRAT, KAİNAT, KANTAR, KARBON, KARİHA, KARİNA, KARTON, KATRAN, KİNDAR, KONTRA, KORİDA, ORADAN, ORTADA, RADİKA, TAHKİR, TAHRİK, TAHRİR, TAKBİH</letters_6>
-            <letters_5>KARAT, ABADİ, ABANİ, AİDAT, AKAİT, AKONT, AKORT, AKRAN, AKTAR, ANTİK, ARABİ, ARDAK, ATARİ, BADAT, BADİK, BAHAİ, BAHAR, BAHİR, BAHRİ, BAKAN, BAKİR, BANAK, BANDO, BANKA, BANKO, BARAK, BARAN, BARDA, BARDO, BARİT, BARKA, BAROK, BARON, BATAK, BATAR, BATİK, BİDAR, BİDAT, BİDON, BORAK</letters_5>
-            <letters_4>ABAT, ABRA, ADAK, AHAR, AHDİ, AHİR, AHİT, AKAR, AKİT, AKOR, ANKA, ANOT, AORT, ARAK, ARDA, ARKA, ATAK, ATİK, BADİ, BAHT, BAKİ, BANA, BANİ, BANK, BANT, BARA, BARİ, BARK, BARO, BATİ, BİAT, BİNA, BİRA, BORA, BRİK, BRİT, DAHA, DAHİ, DAİR, DANA</letters_4>
+        <game id="2">
+            <characters>ENTERNASYONAL</characters>
+            <letters_13>ENTERNASYONAL</letters_13>
+            <letters_9>ANTEROSEL</letters_9>
+            <letters_8>ASALETEN, ORYANTAL, RASYONEL, TOLERANS</letters_8>
+            <letters_7>ETYARAN, LATERNA, LOTARYA, SANTRAL, SENARYO, SERENAT, SERETAN, SEYELAN, TERSANE</letters_7>
+            <letters_6>ALATEN, ALENEN, ALESTA, ALYANS, ANASON, ARSLAN, ASALET, ASETON, ATELYE, ATONAL, EROSAL, ESARET, ETALON, ETANOL, EYALET, LANTAN, LOSTRA, NATRON, NAYLON, NESNEL, NESREN, ORANLA, RASYON, REOSTA, SANTRA, SENATO, SEYRAN, SEYRET, STEROL, TANNAN, TELARO, TENSEL, TERANE, YERSEL</letters_6>
+            <letters_5>ALTES, ALYAN, ALYON, ANANE, ANELE, ANONS, ANTEN, ANTRE, ANYON, ARENA, ASLAN, ASLEN, ASTAR, ATLAS, AYNEN, AYRAN, AYSAR, ENSAR, ENSER, ENTEL, EOSEN, ESTER, ETSEL, LANET, LANSE, LASTA, LENTO, LORTA, NALAN, NANAY, NELER, NESNE, NEYSE, NOTER, ONLAR, ORAYA, ORTAY, RASAT, REAYA, RESEN</letters_5>
+            <letters_4>ALAN, ALAY, ALET, ALTO, ANAL, ANNE, ANOT, AORT, ARSA, ARYA, ASAL, ASAR, ASLA, ASYA, ATEL, ATOL, AYAL, AYAN, AYAR, AYET, AYLA, AYNA, AYOL, ELAN, ENSE, ERAT, EREN, EROS, ERTE, ESEN, ESER, ESNA, ESRE, ETEN, ETER, ETOL, EYER, LASO, LATA, LENS</letters_4>
         </game>
         <game id="7">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>ELEŞTİRMENLİK</characters>
+            <letters_13>ELEŞTİRMENLİK</letters_13>
+            <letters_12>ELEŞTİRİLMEK</letters_12>
+            <letters_11>ELEŞTİRİLME, ELEŞTİRMELİ, İŞLETMENLİK, KENTLİLEŞME</letters_11>
+            <letters_10>EKLENTİLER, EKLEŞTİRME, ELEŞTİRMEK, ELEŞTİRMEN, ERİNLEŞMEK, EŞİTLENMEK, ETKİNLEŞME, İLERLETMEK, İŞKİLLENME, İŞLETİLMEK, KİLİTLENME, ŞEKİLLENME, ŞERİTLEMEK, TENEŞİRLİK, TİLKİLEŞME</letters_10>
+            <letters_9>EKLENTİLER, EKLEŞTİRME, ELEŞTİRMEK, ELEŞTİRMEN, ERİNLEŞMEK, EŞİTLENMEK, ETKİNLEŞME, İLERLETMEK, İŞKİLLENME, İŞLETİLMEK, KİLİTLENME, ŞEKİLLENME, ŞERİTLEMEK, TENEŞİRLİK, TİLKİLEŞME</letters_9>
+            <letters_8>EKLEMELİ, ELEŞKİRT, ELEŞTİRİ, ELLENMEK, ELLEŞMEK, ELLETMEK, ENİKLEME, ERİŞİLME, ERİTİLME, ERMİŞLİK, EŞİTLEME, EŞLEMELİ, EŞLENMEK, EŞTİRMEK, ETKİLEME, ETLENMEK, İKİLENME, İKİLEŞME, İKİLETME, İLERLEME, İLETİLME, İLETİŞME, İLİKLEME, İNEKLEME, İNLETMEK, İRİLEŞME, İRKİLTME, İŞLEMELİ, İŞLENMEK, İŞLERLİK, İŞLETMEK, İŞLETMEN, İTEKLEME, İTELEMEK, İTELENME, İTLENMEK, İTLEŞMEK, KELLEŞME, KERTİLME, KİRLENME</letters_8>
+            <letters_7>EKLEMLİ, EKLENME, EKLENTİ, EKLEŞME, EKLETME, EKŞİTME, EKTİRME, ELEMENT, ELENMEK, ELETMEK, ELİMİNE, ELİTLİK, ELLEMEK, ELLENME, ELLEŞME, ELLETME, ELLİŞER, ELTİLİK, EMİRLİK, ENLİLİK, ERİLLİK, ERİNLİK, ERİNMEK, ERİŞKİN, ERİŞMEK, ERİTMEK, ERMENEK, EŞİLMEK, EŞİNMEK, EŞİTLİK, EŞKİNLİ, EŞLEMEK, EŞLENİK, EŞLENME, EŞTİRME, ETENELİ, ETLENME, İKİLEME, İLENMEK, İLERLEK</letters_7>
+            <letters_6>EKİLME, EKİNTİ, EKLEME, EKŞİLİ, EKŞİME, ELEMEK, ELEMLİ, ELENME, ELENTİ, ELETME, ELLEME, EMEKLİ, ENEMEK, ENİŞTE, ERİMEK, ERİNME, ERİŞİM, ERİŞME, ERİŞTE, ERİTEN, ERİTİŞ, ERİTME, ERKETE, ERMENİ, EŞELEK, EŞİLME, EŞİNME, EŞLEME, ETİLEN, ETKİLİ, ETKİME, İKİLEM, İKİŞER, İLENİŞ, İLENME, İLETİM, İLETİŞ, İLETKİ, İLETME, İLİNEK</letters_6>
+            <letters_5>EKİLİ, EKLEM, EKLER, ELEME, ELLİK, ELMEK, EMLİK, ENEME, ENLEM, ENTEL, ERİME, ERKEN, ERKİN, ERKLİ, ERLİK, ERMEK, ERMİN, ERMİŞ, EŞKİN, EŞLEK, EŞLEM, EŞLİK, EŞMEK, ETENE, ETKEN, ETKİN, ETLİK, ETMEK, ETMEN, ETNİK, İKLİM, İLERİ, İLETİ, İLKEL, İLKİN, İLLET, İLMEK, İLMİK, İMLEK, İMLİK</letters_5>
+            <letters_4>EKİM, EKİN, EKLİ, EKME, EKŞİ, EKTİ, ELEK, ELEM, ELİK, ELİM, ELİT, ELLİ, ELTİ, EMEK, EMEL, EMEN, EMET, EMİK, EMİN, EMİR, EMİŞ, ENEK, ENİK, ENİR, ENLİ, EREK, EREN, ERİK, ERİL, ERİM, ERİN, ERİŞ, ERKE, ERME, ERTE, EŞEK, EŞİK, EŞİT, EŞLİ, EŞME</letters_4>
         </game>
         <game id="8">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>ELEKTROSTATİK</characters>
+            <letters_13>ELEKTROSTATİK</letters_13>
+            <letters_9>TEOKRATİK, TOTALİTER</letters_9>
+            <letters_8>ASKERLİK, ELEKTRİK, ELEKTROT, ETOKRASİ, İSKERLET, KARTOTEK, KASKETLİ, STATOLİT, TELEKART, TEOKRASİ, TETKİKAT</letters_8>
+            <letters_7>ASORTİK, ATLETİK, ELASTİK, ELEKTRO, ERKEKLİ, ERKEKSİ, ERSELİK, ESTETİK, ETEKLİK, İSKARTO, İSKELET, KARSTİK, KATOLİK, KESEKLİ, KOKETRİ, KORSELİ, KORTEKS, KRETASE, KRİSTAL, LATERİT, OKSALİK, REALİST, REALİTE, REKAKET, REKOLTE, RESİTAL, SERTLİK, STEARİK, TAKKELİ, TEKERLİ, TEKSTİL, TELAKKİ, TELKARİ, TEOKRAT, TERAKKİ, TERSLİK, TRAKEİT</letters_7>
+            <letters_6>AKSEKİ, AKTRİS, ALEKSİ, ARKTİK, ARTİST, ASETİK, ASKERİ, ASORTİ, ATEİST, EKARTE, EKSERİ, EKSTRA, EKSTRE, EROSAL, EROTİK, ERTESİ, ESARET, ESATİR, ESKORT, ETİKET, İSKELE, İSKETE, İSKOTA, İSTEKA, KALİKO, KALİTE, KALKER, KALORİ, KALSİT, KAOTİK, KARELİ, KARTEL, KASKET, KASTOR, KELKİT, KERKES, KERTİK, KESELİ, KESRET, KESTEL</letters_6>
+            <letters_5>AKKOR, AKORT, ALTES, ASKER, ASTİK, ATLET, EKLER, EKOSE, EKSER, EKSİK, ERİKA, ERKEK, ERKLİ, ERLİK, ESİRE, ESKİL, ESLEK, ESRİK, ESTER, ESTET, ETLİK, ETSEL, İRSAL, İSALE, İSTEK, İSTER, KARST, KASET, KASKO, KASTİ, KATİL, KATOT, KATRE, KEKRE, KELEK, KELER, KELES, KELİK, KERES, KERKİ</letters_5>
+            <letters_4>AİLE, AKİK, AKİL, AKİS, AKİT, AKLİ, AKOR, AKSE, AKSİ, ALET, ALTO, AORT, ASİL, ASİT, ASLİ, ASRİ, ATEL, ATİK, ATOL, EKLİ, EKOL, EKSİ, EKTİ, ELEK, ELİK, ELİT, ELTİ, ERAT, EREK, ERİK, ERİL, ERKE, EROS, ERTE, ESER, ESİK, ESİR, ESKİ, ESRE, ETEK</letters_4>
         </game>
         <game id="9">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>EDEPSİZLEŞMEK</characters>
+            <letters_13>EDEPSİZLEŞMEK</letters_13>
+            <letters_12>EDEPSİZLEŞME</letters_12>
+            <letters_10>DİZELEŞMEK</letters_10>
+            <letters_9>DEŞELEMEK, DİZELEMEK, DİZELEŞME, ESKİLEŞME, EŞLEMESİZ, PESLEŞMEK, PİSLEŞMEK, SEPELEMEK, SEPİLEMEK, ZEDELEMEK</letters_9>
+            <letters_8>DELEPMEK, DEŞELEME, DEŞİLMEK, DİKLEŞME, DİPLEMEK, DİŞLEMEK, DİZELEME, DİZLEMEK, EKLEMSİZ, EŞELEMEK, KESELEME, PEKLEŞME, PEKMEZLİ, PESLEŞME, PİSLEMEK, PİSLEŞME, SEKİLEME, SEPELEME, SEPİLEME, SEZİLMEK, ZEDELEME</letters_8>
+            <letters_7>DELEPME, DEŞİLME, DİKELME, DİLEMEK, DİPLEME, DİŞEMEK, DİŞLEME, DİZLEME, EDEPSİZ, EDİLMEK, EDİMSEL, EKLEŞME, EKSİLME, ELDESİZ, ELEMSİZ, EMEKSİZ, ESLEMEK, EŞELEME, EŞİLMEK, EŞLEMEK, EZİLMEK, İPLEMEK, İSKEMLE, İSLEMEK, İŞLEMEK, İZLEMEK, KESİLME, KESİŞME, KEŞLEME, LEKESİZ, MESLEKİ, MEŞELİK, MEZELİK, PEKİŞME, PİSLEME, SELZEDE, SEZİLME</letters_7>
+            <letters_6>DELMEK, DEMKEŞ, DEMLİK, DEŞMEK, DİLEME, DİLMEK, DİŞEME, DİŞLEK, DİZMEK, EDEPLİ, EDİLME, EKİLME, EKLEME, EKŞİME, ELEMEK, EMEKLİ, ESKİME, ESLEME, EŞEKSİ, EŞELEK, EŞİLME, EŞLEME, EZİLME, İSKELE, İSLEME, İŞEMEK, İŞLEME, İZLEME, KELEME, KELİME, KESELİ, KEŞİDE, MELEKE, MELİKE, MESELE, MESLEK, PEKMEZ, PELEME, PİŞMEK, SEKLEM</letters_6>
+            <letters_5>DEİZM, DELİK, DELME, DEMEK, DEMLİ, DEŞİK, DEŞME, DİKEL, DİKME, DİKSE, DİLEK, DİLME, DİZEK, DİZEL, DİZEM, DİZME, EKLEM, EKSİZ, ELEME, ELİPS, ELMEK, ELZEM, EMLİK, EMZİK, ESEME, ESKİL, ESKİZ, ESLEK, ESMEK, EŞLEK, EŞLEM, EŞLİK, EŞMEK, EŞSİZ, EZELİ, EZMEK, İLMEK, İMLEK, İŞEME, İŞLEK</letters_5>
+            <letters_4>DELİ, DELK, DEME, DİSK, DİZE, EDEP, EDİK, EDİM, EDİP, EKİM, EKİP, EKLİ, EKME, EKSİ, EKŞİ, ELDE, ELEK, ELEM, ELİK, ELİM, EMEK, EMEL, EMİK, EMİŞ, EPİK, ESİK, ESİM, ESKİ, ESME, EŞEK, EŞİK, EŞLİ, EŞME, EZEL, EZİK, EZME, İLKE, İLME, İPEK, KEDİ</letters_4>
         </game>
         <game id="10">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>EDEBİYATSEVER</characters>
+            <letters_13>EDEBİYATSEVER</letters_13>
+            <letters_8>DAVETİYE, DEREBEYİ, EBEDİYET, EDEBİYAT, VERESİYE, VESTİYER</letters_8>
+            <letters_7>BASİRET, BİDAYET, DESTARİ, DEVRİYE, DİRAYET, DİYABET, RİVAYET, RİYASET, SİRAYET, TARDİYE, TAVSİYE, TEBRİYE, TERBİYE, TESVİYE, TEVRİYE, VABESTE, VARESTE, VARİYET, VARYETE, VASİYET, VERASET, VESAİRE, VESAYET</letters_7>
+            <letters_6>ABDEST, ABSTRE, ARBEDE, ARDİYE, ARİYET, AVDETİ, BADİRE, BADİYE, BATERİ, BEDAYİ, BEDEVİ, DESTAR, EDEVAT, ERTESİ, ESARET, ESATİR, ETRİYE, İBADET, İBARET, İSABET, RİAYET, SABİTE, SERVET, SEVİYE, SEYRET, TASVİR, TEDAVİ, TEDBİR, TEDİYE, TEDRİS, TEDVİR, TERAVİ, TEVABİ, TRİYAS, VARİDE, VERESE, VESAİR, VESAİT, VETİRE, VİTRAY</letters_6>
+            <letters_5>ABİDE, ABİYE, ADESE, ADRES, ASİDE, AVDET, AVRET, AYEVİ, BARET, BARİT, BASİT, BEDİR, BERAT, BESTE, BETER, BEYİT, BİDAR, BİDAT, BİREY, BİTEY, DAİRE, DARBE, DASİT, DAVET, DEİST, DERBİ, DERYA, DESTE, DETAY, DEVİR, DEVRE, DEVRİ, DİREY, DİYAR, DİYET, EBEDİ, EDEBİ, EDVAR, ESİRE, ESTER</letters_5>
+            <letters_4>ABES, ABİS, ADET, ASİT, ASRİ, AYET, BADE, BADİ, BARİ, BATİ, BAYİ, BEİS, BERE, BERİ, BESİ, BETA, BETİ, BİAT, BİDE, BİRA, BİYE, BRİT, DAİR, DART, DAYE, DEBİ, DERE, DERİ, DERS, DERT, DEVA, DEVE, DEYİ, DİBA, DİYA, DİYE, EBAT, EBET, EDAT, EDER</letters_4>
         </game>
         <game id="11">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>EVRENSELLEŞME</characters>
+            <letters_13>EVRENSELLEŞME</letters_13>
+            <letters_9>ESENLEŞME</letters_9>
+            <letters_8>ENSELEME, ESENLEME, EŞELENME, EVRENSEL</letters_8>
+            <letters_7>ELLENME, ELLEŞME, ELVERME, ESENLER, EŞELEME, EŞLENME, EVLENME, NEVESER, ŞENELME, VELENSE</letters_7>
+            <letters_6>ELENME, ELLEME, ERSEME, ESERME, ESLEME, ESNEME, EŞLEME, EVERME, EVSEME, MESELE, RESMEN, SEMERE, VERESE</letters_6>
+            <letters_5>ELEME, ENEME, ENLEM, ENSER, ESEME, ESMER, EŞLEM, EVREN, EVSEL, MELES, MELEŞ, MENŞE, MERES, MESEL, MESEN, NELER, NEMSE, REMEL, RESEN, REŞME, SELEN, SEMEN, SEMER, SEREN, SERME, SEVER, SEVME, ŞEMSE, VEREM, VERME</letters_5>
+            <letters_4>ELEM, EMEL, EMEN, ENSE, EREN, ERME, ESEN, ESER, ESME, ESRE, EŞME, EVRE, LENS, MEŞE, NERE, NEŞE, REEL, SELE, SEME, SENE, SERE, ŞEMS, VERE</letters_4>
         </game>
         <game id="12">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>EVLENDİRİLMEK</characters>
+            <letters_13>EVLENDİRİLMEK</letters_13>
+            <letters_12>DELİNİVERMEK, EVLENDİRİLME</letters_12>
+            <letters_11>DELİNİVERME, EVLENDİRMEK, İVEDİLENMEK</letters_11>
+            <letters_10>DELİLENMEK, DELİVERMEK, DİLİVERMEK, DİRENİLMEK, DİRENLEMEK, ERDEMLİLİK, EVLENDİRME, İVEDİLENME, MERDİVENLİ, VERNİKLEME</letters_10>
+            <letters_9>DELİLENME, DELİVERME, DERLENMEK, DERNEKEVİ, DEVRİLMEK, DİKİVERME, DİLİVERME, DİLLENMEK, DİRENİLME, DİRENLEME, EDİNİLMEK, ELDİVENLİ, İLERLEMEK, İLİKLENME, İRDELEMEK, KİLERMENİ, KREDİLEME, MEDENİLİK, NİKELLEME</letters_9>
+            <letters_8>DELİNMEK, DELİRMEK, DENİLMEK, DENKLEME, DENLİLİK, DERİLMEK, DERİNLİK, DERLEMEK, DERLENME, DEVİNMEK, DEVİRMEK, DEVRİLME, DİKLENME, DİLENMEK, DİLİNMEK, DİLLENME, DİNELMEK, DİNLEMEK, DİRENMEK, DİRİLMEK, EDİNİLME, EDİRNELİ, EKLEMELİ, ELLENMEK, ELVERMEK, ENİKLEME, ERDENLİK, EVLENMEK, EVRİLMEK, İKİLENME, İLERLEME, İLİKLEME, İNDİRMEK, İNEKLEME, İRDELEME, İVDİRMEK, KİRLENME, LİDERLİK, MENDİLLİ, MENDİREK</letters_8>
+            <letters_7>DELİKLİ, DELİLİK, DELİNME, DELİRME, DEMİNKİ, DEMİRLİ, DENEMEK, DENİLME, DENKLEM, DERİLME, DERLEME, DEVELİK, DEVİMLİ, DEVİNEK, DEVİNİM, DEVİNME, DEVİRLİ, DEVİRME, DİKELME, DİKENLİ, DİKİLME, DİLEMEK, DİLENME, DİLİNME, DİNELME, DİNLEME, DİREKLİ, DİREMEK, DİRENİM, DİRENME, DİRİLME, EDİLMEK, EDİNMEK, EKLEMLİ, EKLENME, ELDİVEN, ELENMEK, ELİMİNE, ELLEMEK, ELLENME</letters_7>
+            <letters_6>DELMEK, DEMEVİ, DEMİRİ, DEMLİK, DENEME, DENMEK, DEREKE, DERELİ, DERİLİ, DERKEN, DERLEM, DERMEK, DERNEK, DEVELİ, DEVREK, DEVREN, DEVRİK, DEVRİM, DİKİNE, DİKMEN, DİLEME, DİLLEK, DİLMEK, DİNERİ, DİNMEK, DİREME, DİRLİK, DİVLEK, EDİLME, EDİMLİ, EDİNİM, EDİNME, EDİRNE, EKİLME, EKLEME, ELDELİ, ELEMEK, ELEMLİ, ELENME, ELLEME</letters_6>
+            <letters_5>DELİK, DELİL, DELME, DEMEK, DEMİN, DEMİR, DEMLİ, DENEK, DENİM, DENLİ, DENME, DERİK, DERİN, DERME, DEVİM, DEVİR, DEVRE, DEVRİ, DİKEL, DİKEN, DİKİM, DİKME, DİLEK, DİLİM, DİLLİ, DİLME, DİNEK, DİNLİ, DİNME, DİREK, DİREN, DİRİL, DİRİM, DİVİK, EKİLİ, EKLEM, EKLER, ELDEN, ELEME, ELLİK</letters_5>
+            <letters_4>DELİ, DELK, DEME, DENİ, DENK, DERE, DERİ, DERK, DEVE, DİMİ, DİNE, DİNİ, DİNK, DİRİ, DREN, EDER, EDİK, EDİM, EKİM, EKİN, EKLİ, EKME, ELDE, ELEK, ELEM, ELİK, ELİM, ELLİ, EMEK, EMEL, EMEN, EMİK, EMİN, EMİR, ENEK, ENİK, ENİR, ENLİ, EREK, EREN</letters_4>
         </game>
         <game id="13">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>EVCİLLEŞTİRME</characters>
+            <letters_13>EVCİLLEŞTİRME</letters_13>
+            <letters_11>ELEŞTİRİLME, ELEŞTİRMECİ, ELEŞTİRMELİ</letters_11>
+            <letters_10>CİLVELEŞME, EVCİLLEŞME</letters_10>
+            <letters_9>ELEŞTİREL, ELEŞTİRİM, ELEŞTİRME, ELVERİŞLİ, İLERLETME, İŞLETİLME, İŞLETMECİ, ŞERİTLEME</letters_9>
+            <letters_8>CEVRETME, CİLTLEME, ELEŞTİRİ, ERİŞİLME, ERİTİLME, EŞİTLEME, EŞLEMELİ, İLERLEME, İLETİLME, İLETİŞME, İRİLEŞME, İŞLEMECİ, İŞLEMELİ, MEŞVERET, ŞECERELİ, TECİMEVİ, TİRELEME</letters_8>
+            <letters_7>CİLTEVİ, CİLVELİ, ELLEŞME, ELLETME, ELLİŞER, ELVERME, EŞTİRME, EVCİLER, EVİRTİM, EVİRTME, EVRİLME, EVRİMCİ, İŞLEMCİ, İŞLETME, İŞLEVCİ, İTELEME, İTLEŞME, MECELLE, REMİLCİ, RİMELLİ, ŞERİTLİ, TECELLİ, TELLEME, TELLİCE, TEMELLİ, TERLEME, VEREMLİ, VERİLİŞ, VERİLME, VERİMLİ</letters_7>
+            <letters_6>CEMEVİ, CEMİLE, CEREME, CETVEL, CİLTLİ, ELEMLİ, ELETME, ELLEME, ERİŞİM, ERİŞME, ERİŞTE, ERİTİŞ, ERİTME, EŞİLME, EŞLEME, EVERME, EVİRME, İLETİM, İLETİŞ, İLETME, İLİŞME, İŞETME, İŞİTME, İŞLEME, İŞVELİ, İTİLME, İTİŞME, MEVLİT, MİLLET, ŞECERE, ŞİİRCE, ŞİVELİ, TELEME, TERECİ, TEŞMİL, TEŞRİİ, VERİCİ, VETİRE</letters_6>
+            <letters_5>CELİL, CEMİL, CEMRE, CEVİR, CİLVE, CİMRİ, CİRİM, CİRİT, ELEME, EMİCİ, ERCİŞ, ERİME, ERMİŞ, EŞLEM, EVCİL, EVRİM, İLERİ, İLETİ, İLLET, İMECE, İRİCE, İRİTE, İŞEME, İŞLEM, İŞLEV, İŞRET, LİMİT, LİRET, LİTRE, MELCE, MELEŞ, MERCİ, MERET, METİL, METRE, MİLEL, MİLLİ, MİTİL, RECİM, REMEL
+                </letters_5>
+            <letters_4>CELİ, CEMİ, CİLT, ECEL, ECİR, ELCİ, ELEM, ELİM, ELİT, ELLİ, ELTİ, EMEL, EMET, EMİR, EMİŞ, ERCE, ERİL, ERİM, ERİŞ, ERME, ERTE, EŞİT, EŞLİ, EŞME, ETER, ETİL, ETLİ, ETME, EVCE, EVCİ, EVET, EVLİ, EVRE, İLİM, İLLE, İLLİ, İLME, İLMİ, İŞLİ, İŞTE</letters_4>
         </game>
         <game id="14">
-            <characters>A,K,L,N,O,O,S,Y,İ</characters>
-            <letters_13>KAMBURLAŞMAK</letters_13>
-            <letters_12>KAMBURLAŞMAK</letters_12>
-            <letters_11>KALYON</letters_11>
-            <letters_10>KAMBURLAŞMAK</letters_10>
-            <letters_9>KALYON</letters_9>
-            <letters_8>KAMBURLAŞMAK</letters_8>
-            <letters_7>KALYON</letters_7>
-            <letters_6>KAMBURLAŞMAK</letters_6>
-            <letters_5>KALYON</letters_5>
-            <letters_4>KALYON</letters_4>
+            <characters>ETKİSİZLEŞMEK</characters>
+            <letters_13>ETKİSİZLEŞMEK</letters_13>
+            <letters_12>ETKİSİZLEŞME</letters_12>
+            <letters_10>EKŞİTİLMEK, ESKİLEŞMEK, ESKİTİLMEK, ETKİLEŞMEK, KİSTLEŞMEK, METELİKSİZ</letters_10>
+            <letters_9>EKLEKTİZM, EKSİLTMEK, EKŞİTİLME, ESKİLEŞME, ESKİTİLME, EŞİTLEMEK, EŞLEMESİZ, ETKİLEMEK, ETKİLEŞİM, ETKİLEŞME, İKİLEŞMEK, İKİLETMEK, İKİZLEŞME, İLETİŞMEK, İTEKLEMEK, KELİMESİZ, KEŞİKLEME, KİSTLEŞME, SEKİLEMEK, SİKKELEME, TEKLEŞMEK, TELESİMEK, TEZLEŞMEK, TİZLEŞMEK</letters_9>
+            <letters_8>EKLEMSİZ, EKLEŞMEK, EKLETMEK, EKMEKSİZ, EKSİLMEK, EKSİLTME, EKŞİTMEK, ESKİTMEK, EŞİTLEME, EŞSİZLİK, ETKİLEME, İKİLEMEK, İKİLEŞME, İKİLETME, İLETİŞME, İSTEŞMEK, İŞLETMEK, İTEKLEME, İTELEMEK, İTLEŞMEK, İZLETMEK, KEMİKSİZ, KESİLMEK, KESİMLİK, KESİŞMEK, KESMELİK, KESMİKLİ, KEŞLEMEK, KİTLEMEK, SEKİLEME, SEKİTMEK, SEKİZLİK, SEKİZTEK, SEMİZLİK, SEZİLMEK, ŞEKİLSİZ, TEKLEMEK, TEKLEŞME, TELESİME, TEMELSİZ</letters_8>
+            <letters_7>EKİLMEK, EKLEMEK, EKLEŞME, EKLETME, EKMEKSİ, EKSİKLİ, EKSİLİŞ, EKSİLME, EKSİLTİ, EKŞİLİK, EKŞİMEK, EKŞİMİK, EKŞİMSİ, EKŞİTME, EKTİLİK, ELEMSİZ, ELETMEK, EMEKSİZ, EMZİKLİ, ESKİLİK, ESKİMEK, ESKİTME, ESLEMEK, EŞEKLİK, EŞİLMEK, EŞİTLİK, EŞİTSİZ, EŞLEMEK, ETEKLİK, ETKİMEK, ETKİSİZ, EZİKLİK, EZİLMEK, EZİLMİŞ, İKİLEME, İLETMEK, İLİŞMEK, İSKELET, İSKEMLE, İSLEMEK</letters_7>
+            <letters_6>EKİLME, EKLEME, EKŞİLİ, EKŞİME, ELEMEK, ELETME, EMEKLİ, ESKİME, ESLEME, EŞEKSİ, EŞELEK, EŞİLME, EŞLEME, ETKİLİ, ETKİME, EZİLİŞ, EZİLME, İKİLEM, İKİTEK, İLETİM, İLETİŞ, İLETKİ, İLETME, İLİŞME, İSKELE, İSKETE, İSLEME, İSTEME, İŞEMEK, İŞETME, İŞİTME, İŞLEME, İTİLME, İTİŞME, İZLEME, KEKEME, KELEME, KELİME, KELKİT, KEMLİK</letters_6>
+            <letters_5>EKİLİ, EKLEM, EKMEK, EKSİK, EKSİZ, ELEME, ELMEK, ELZEM, EMLİK, EMZİK, ESEME, ESKİL, ESKİZ, ESLEK, ESMEK, EŞLEK, EŞLEM, EŞLİK, EŞMEK, EŞSİZ, ETLİK, ETMEK, ETSEL, ETSİZ, EZELİ, EZMEK, İKLİM, İLETİ, İLMEK, İLMİK, İMLEK, İMLİK, İSLİM, İSMET, İSTEK, İSTEM, İSTİM, İŞEME, İŞKİL, İŞLEK</letters_5>
+            <letters_4>EKİM, EKLİ, EKME, EKSİ, EKŞİ, EKTİ, ELEK, ELEM, ELİK, ELİM, ELİT, ELTİ, EMEK, EMEL, EMET, EMİK, EMİŞ, ESİK, ESİM, ESKİ, ESME, EŞEK, EŞİK, EŞİT, EŞLİ, EŞME, ETEK, ETİK, ETİL, ETKİ, ETLİ, ETME, EZEL, EZİK, EZME, İKİZ, İLİK, İLİM, İLKE, İLME</letters_4>
         </game>
         <game id="15">
             <characters>A,K,L,N,O,O,S,Y,İ</characters>
