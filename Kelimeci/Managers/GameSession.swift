@@ -27,7 +27,7 @@ class GameSession: NSObject {
         switch difficulty {
         case .easy:
             return 180
-        case .medium:
+        case .medium, .random:
             return 240
         case .difficult:
             return 300

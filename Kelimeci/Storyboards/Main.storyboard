@@ -18,17 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ahe-A4-zsc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_explosion" translatesAutoresizingMaskIntoConstraints="NO" id="Ahe-A4-zsc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <string key="image">Hd-color-explosion-powderus-blast-wallpaper-x-rhwallpapersmugcom-stunning-attractive-new-hd-desktop-rhonlyhdpiccom-stunning-Color-Explosion-Hd-attractive-color-explosion-blast-new</string>
                             </imageView>
-                            <visualEffectView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e5L-z1-q2F">
+                            <visualEffectView alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e5L-z1-q2F">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="eXr-7s-Y1l">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
-                                <blurEffect style="light"/>
+                                <color key="backgroundColor" red="0.1843137255" green="0.20784313730000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <blurEffect style="extraLight"/>
                             </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -88,8 +88,6 @@
         </scene>
     </scenes>
     <resources>
-        <image width="853" height="1517">
-            <string key="name">Hd-color-explosion-powderus-blast-wallpaper-x-rhwallpapersmugcom-stunning-attractive-new-hd-desktop-rhonlyhdpiccom-stunning-Color-Explosion-Hd-attractive-color-explosion-blast-new</string>
-        </image>
+        <image name="color_explosion" width="853" height="1517"/>
     </resources>
 </document>

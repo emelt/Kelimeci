@@ -41,7 +41,7 @@ class GameplayViewController: ViewController {
         
         timerView.delegate = self
         timerView.snp.makeConstraints { make in
-            make.top.equalTo(topLayoutGuide.snp.bottom).offset(-30)
+            make.top.equalTo(topLayoutGuide.snp.bottom).offset(-40)
             make.centerX.equalToSuperview()
             make.width.equalTo(60.0)
             make.height.equalTo(60.0)

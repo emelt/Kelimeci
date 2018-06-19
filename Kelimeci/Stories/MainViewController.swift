@@ -52,7 +52,7 @@ class MainViewController: ViewController {
     }
     
     fileprivate func style() {
-        view.backgroundColor = .kDarkGray
+//        view.backgroundColor = .kDarkGray
         stackView.axis = .vertical
         stackView.spacing = 20.0
         infoLabel.text = Localized("game_info")
