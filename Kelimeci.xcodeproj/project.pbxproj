@@ -14,12 +14,10 @@
 		E802191B1F3979160027C662 /* KelimeciUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802191A1F3979160027C662 /* KelimeciUITests.swift */; };
 		E816CBB320CE2C500041A280 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816CBB220CE2C500041A280 /* UIColor.swift */; };
 		E8654BC520C4E40000A50819 /* games.xml in Resources */ = {isa = PBXBuildFile; fileRef = E8654BC420C4E40000A50819 /* games.xml */; };
-		E8654BC720C4E4B700A50819 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BC620C4E4B700A50819 /* Word.swift */; };
 		E8654BD120C4ECA800A50819 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BD020C4ECA800A50819 /* CollectionViewCell.swift */; };
 		E8654BD320C4ECB500A50819 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BD220C4ECB500A50819 /* TimerView.swift */; };
 		E8654BD520C4ECC300A50819 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BD420C4ECC300A50819 /* TableViewCell.swift */; };
 		E8654BE020C4FA7000A50819 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BDF20C4FA7000A50819 /* ControlPanelView.swift */; };
-		E8654BFF20C531B800A50819 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654BFE20C531B800A50819 /* Sequence.swift */; };
 		E8654C0420C5327400A50819 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8654C0220C5327400A50819 /* SnapKit.framework */; };
 		E8654C0620C537FD00A50819 /* MatchTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8654C0520C537FD00A50819 /* MatchTile.swift */; };
 		E8654C0C20C60F0E00A50819 /* KTCenterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E8654C0A20C60F0E00A50819 /* KTCenterFlowLayout.m */; };
@@ -73,6 +71,8 @@
 		E8664E291F4F9E3C005D2F53 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8664E281F4F9E3C005D2F53 /* Localizable.strings */; };
 		E8664E2B1F4FA3C9005D2F53 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E2A1F4FA3C9005D2F53 /* Game.swift */; };
 		E8664E2D1F4FA49F005D2F53 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8664E2C1F4FA49F005D2F53 /* XMLParser.swift */; };
+		E88D65BA20D8860000461397 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88D65B920D885FF00461397 /* Sequence.swift */; };
+		E88D65BC20D8862D00461397 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88D65BB20D8862D00461397 /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +97,6 @@
 		E80218FA1F3979160027C662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E80219011F3979160027C662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E80219041F3979160027C662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E80219061F3979160027C662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E802190B1F3979160027C662 /* KelimeciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelimeciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E802190F1F3979160027C662 /* KelimeciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeciTests.swift; sourceTree = "<group>"; };
 		E80219111F3979160027C662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,12 +105,10 @@
 		E802191C1F3979160027C662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E816CBB220CE2C500041A280 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		E8654BC420C4E40000A50819 /* games.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = games.xml; sourceTree = "<group>"; };
-		E8654BC620C4E4B700A50819 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Word.swift; path = ../../../../../Word.swift; sourceTree = "<group>"; };
 		E8654BD020C4ECA800A50819 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		E8654BD220C4ECB500A50819 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		E8654BD420C4ECC300A50819 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E8654BDF20C4FA7000A50819 /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
-		E8654BFE20C531B800A50819 /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = ../../../../Sequence.swift; sourceTree = "<group>"; };
 		E8654C0220C5327400A50819 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		E8654C0520C537FD00A50819 /* MatchTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTile.swift; sourceTree = "<group>"; };
 		E8654C0A20C60F0E00A50819 /* KTCenterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTCenterFlowLayout.m; sourceTree = "<group>"; };
@@ -168,6 +165,8 @@
 		E8664E281F4F9E3C005D2F53 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		E8664E2A1F4FA3C9005D2F53 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		E8664E2C1F4FA49F005D2F53 /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		E88D65B920D885FF00461397 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		E88D65BB20D8862D00461397 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,7 +232,6 @@
 				E802196B1F3979490027C662 /* SupportingFiles */,
 				E80218FA1F3979160027C662 /* AppDelegate.swift */,
 				E80219011F3979160027C662 /* Assets.xcassets */,
-				E80219061F3979160027C662 /* Info.plist */,
 				E80219031F3979160027C662 /* LaunchScreen.storyboard */,
 				E8654C1120C6108400A50819 /* Kelimeci-Bridging-Header.h */,
 			);
@@ -261,7 +259,7 @@
 		E80219281F3979490027C662 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E8654BC620C4E4B700A50819 /* Word.swift */,
+				E88D65BB20D8862D00461397 /* Word.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -316,6 +314,7 @@
 		E80219331F3979490027C662 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E88D65B920D885FF00461397 /* Sequence.swift */,
 				E8654C1820C6510C00A50819 /* Array+Helpers.swift */,
 				E8654C1B20C6510D00A50819 /* NSObject+Helpers.swift */,
 				E8654C1520C6510B00A50819 /* String+Helpers.swift */,
@@ -329,7 +328,6 @@
 				E8654C1420C6510B00A50819 /* UIView+Borders.swift */,
 				E8654C1720C6510C00A50819 /* UIView+NibLoading.swift */,
 				E8654C1620C6510C00A50819 /* UIViewController+Helpers.swift */,
-				E8654BFE20C531B800A50819 /* Sequence.swift */,
 				E816CBB220CE2C500041A280 /* UIColor.swift */,
 			);
 			path = Extensions;
@@ -622,13 +620,13 @@
 			files = (
 				E8654C2720C6510E00A50819 /* UIApplication+Helpers.swift in Sources */,
 				E8654C0620C537FD00A50819 /* MatchTile.swift in Sources */,
+				E88D65BA20D8860000461397 /* Sequence.swift in Sources */,
 				E8664E221F4F9DF3005D2F53 /* CharacterTile.swift in Sources */,
 				E8664E121F4F9D89005D2F53 /* LocalizationManager.swift in Sources */,
 				E8654C4B20C7572100A50819 /* KeychainManager.swift in Sources */,
 				E8654BE020C4FA7000A50819 /* ControlPanelView.swift in Sources */,
 				E8654C5C20CA499700A50819 /* HintCell.swift in Sources */,
 				E8654BD120C4ECA800A50819 /* CollectionViewCell.swift in Sources */,
-				E8654BFF20C531B800A50819 /* Sequence.swift in Sources */,
 				E8664E2D1F4FA49F005D2F53 /* XMLParser.swift in Sources */,
 				E8654C2220C6510E00A50819 /* UIView+Borders.swift in Sources */,
 				E8664E0E1F4F9D76005D2F53 /* Styleguide.swift in Sources */,
@@ -637,6 +635,7 @@
 				E8664E141F4F9D92005D2F53 /* GameSession.swift in Sources */,
 				E8664E061F4F9D10005D2F53 /* ViewController.swift in Sources */,
 				E8654BD320C4ECB500A50819 /* TimerView.swift in Sources */,
+				E88D65BC20D8862D00461397 /* Word.swift in Sources */,
 				E8664E101F4F9D7F005D2F53 /* StyleguideHelpers.swift in Sources */,
 				E8654C2C20C6510E00A50819 /* UITableView+Helpers.swift in Sources */,
 				E8654C0C20C60F0E00A50819 /* KTCenterFlowLayout.m in Sources */,
@@ -646,7 +645,6 @@
 				E8654C3520C6617700A50819 /* MainViewController.swift in Sources */,
 				E8654C4D20C8426C00A50819 /* ScoreView.swift in Sources */,
 				E8654C2320C6510E00A50819 /* String+Helpers.swift in Sources */,
-				E8654BC720C4E4B700A50819 /* Word.swift in Sources */,
 				E8654C2420C6510E00A50819 /* UIViewController+Helpers.swift in Sources */,
 				E8664E0C1F4F9D6E005D2F53 /* Constants.swift in Sources */,
 				E8664E1E1F4F9DDF005D2F53 /* GameplayViewModel.swift in Sources */,

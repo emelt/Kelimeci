@@ -115,7 +115,7 @@ class ResultsView: UIView {
         missedWordsButton.setTitleColor(.kPink, for: .normal)
         
         backgroundView.backgroundColor = UIColor.black.withAlphaComponent(0.1)
-        cartView.backgroundColor = UIColor.kSoftWhite.withAlphaComponent(0.9)
+        cartView.backgroundColor = UIColor.kSoftWhite.withAlphaComponent(0.97)
         
         scoreLabel.textAlignment = .center
         scoreLabel.style(.finalScoreLabel)

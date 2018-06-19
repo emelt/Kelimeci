@@ -14,6 +14,7 @@ class MainViewController: ViewController {
     fileprivate var easyLvlButton = GameTypeButton()
     fileprivate var mediumLvlButton = GameTypeButton()
     fileprivate var difficultLvlButton = GameTypeButton()
+    fileprivate var randomLvlButton = GameTypeButton()
     fileprivate var infoLabel = UILabel()
     
     struct Constants {
@@ -34,6 +35,7 @@ class MainViewController: ViewController {
         stackView.addArrangedSubview(easyLvlButton)
         stackView.addArrangedSubview(mediumLvlButton)
         stackView.addArrangedSubview(difficultLvlButton)
+        stackView.addArrangedSubview(randomLvlButton)
         stackView.isUserInteractionEnabled = true
         
         infoLabel.snp.makeConstraints { make in
@@ -53,13 +55,14 @@ class MainViewController: ViewController {
         view.backgroundColor = .kDarkGray
         stackView.axis = .vertical
         stackView.spacing = 20.0
-        infoLabel.text = "Super bilgilendirici oyun mesaji \n Ikinci satir."
+        infoLabel.text = Localized("game_info")
         infoLabel.numberOfLines = 0
         infoLabel.textAlignment = .center
         infoLabel.style(.book13White)
         easyLvlButton.update(forTitle: "Kolay", subtitle: "8-9 Harf 3 dk")
         mediumLvlButton.update(forTitle: "Meh", subtitle: "10-11 Harf 4 dk")
         difficultLvlButton.update(forTitle: "Zor", subtitle: "12-13 Harf 5 dk")
+        randomLvlButton.update(forTitle: "Karışık", subtitle: "8-13 Harf 4 dk")
     }
     
     
@@ -67,6 +70,7 @@ class MainViewController: ViewController {
         easyLvlButton.addTarget(self, action: #selector(easyLvlSelected), for: .touchUpInside)
         mediumLvlButton.addTarget(self, action: #selector(mediumLvlSelected), for: .touchUpInside)
         difficultLvlButton.addTarget(self, action: #selector(difficultLvlSelected), for: .touchUpInside)
+        randomLvlButton.addTarget(self, action: #selector(randomLvlSelected), for: .touchUpInside)
     }
     
     @objc
@@ -84,6 +88,12 @@ class MainViewController: ViewController {
     @objc
     func difficultLvlSelected() {
         GameSession.shared.difficulty = .difficult
+        performSegue(withIdentifier: Constants.gameSegue, sender: self)
+    }
+    
+    @objc
+    func randomLvlSelected() {
+        GameSession.shared.difficulty = .random
         performSegue(withIdentifier: Constants.gameSegue, sender: self)
     }
 }

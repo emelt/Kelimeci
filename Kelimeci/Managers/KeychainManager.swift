@@ -15,6 +15,7 @@ class KeychainManager: NSObject {
         static let playedGamesEasy = "playedGamesEasy"
         static let playedGamesMedium = "playedGamesMedium"
         static let playedGamesDifficult = "playedGamesDifficult"
+        static let playedGamesRandom = "playedGamesRandom"
     }
     
     static let shared: KeychainManager = KeychainManager()
@@ -28,6 +29,8 @@ class KeychainManager: NSObject {
             return Constants.playedGamesMedium
         case .difficult:
             return Constants.playedGamesDifficult
+        case .random:
+            return Constants.playedGamesRandom
         }
     }
     

@@ -41,7 +41,7 @@ class GameplayViewController: ViewController {
         
         timerView.delegate = self
         timerView.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(30.0)
+            make.top.equalTo(topLayoutGuide.snp.bottom).offset(-30)
             make.centerX.equalToSuperview()
             make.width.equalTo(60.0)
             make.height.equalTo(60.0)
@@ -82,7 +82,7 @@ class GameplayViewController: ViewController {
         
         controlView.delegate = self
         controlView.snp.makeConstraints { make in
-            make.bottom.equalToSuperview()
+            make.bottom.equalTo(bottomLayoutGuide.snp.top)
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
             make.height.equalTo(50.0)

@@ -10,3 +10,4 @@
 "next" = "Devam";
 "score" = "Puan: ";
 "words_found_format" = "%d / %d";
+"game_info" = "Karışık olarak verilmiş harflerden anlamlı en uzun kelimeyi bulmaya çalışın."

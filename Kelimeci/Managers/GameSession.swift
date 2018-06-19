@@ -13,6 +13,7 @@ class GameSession: NSObject {
         case easy
         case medium
         case difficult
+        case random
     }
 
     static let shared: GameSession = GameSession()
@@ -47,6 +48,12 @@ class GameSession: NSObject {
             availableWords.append(contentsOf: Parser().parseGames(with: "10_characters"))
             availableWords.append(contentsOf: Parser().parseGames(with: "11_characters"))
         case .difficult:
+            availableWords.append(contentsOf: Parser().parseGames(with: "12_characters"))
+            availableWords.append(contentsOf: Parser().parseGames(with: "13_characters"))
+        case .random:            availableWords.append(contentsOf: Parser().parseGames(with: "8_characters"))
+        availableWords.append(contentsOf: Parser().parseGames(with: "9_characters"))
+            availableWords.append(contentsOf: Parser().parseGames(with: "12_characters"))
+            availableWords.append(contentsOf: Parser().parseGames(with: "13_characters"))
             availableWords.append(contentsOf: Parser().parseGames(with: "12_characters"))
             availableWords.append(contentsOf: Parser().parseGames(with: "13_characters"))
         }

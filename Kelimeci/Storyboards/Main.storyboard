@@ -17,7 +17,31 @@
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w9i-1y-gx1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ahe-A4-zsc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <string key="image">Hd-color-explosion-powderus-blast-wallpaper-x-rhwallpapersmugcom-stunning-attractive-new-hd-desktop-rhonlyhdpiccom-stunning-Color-Explosion-Hd-attractive-color-explosion-blast-new</string>
+                            </imageView>
+                            <visualEffectView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e5L-z1-q2F">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="eXr-7s-Y1l">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="e5L-z1-q2F" firstAttribute="top" secondItem="Ahe-A4-zsc" secondAttribute="top" id="BMI-jK-Njy"/>
+                            <constraint firstItem="Ahe-A4-zsc" firstAttribute="top" secondItem="w9i-1y-gx1" secondAttribute="top" id="BvQ-F6-URi"/>
+                            <constraint firstItem="Ahe-A4-zsc" firstAttribute="leading" secondItem="w9i-1y-gx1" secondAttribute="leading" id="LyI-ET-mwh"/>
+                            <constraint firstAttribute="bottom" secondItem="Ahe-A4-zsc" secondAttribute="bottom" id="U1e-OQ-YAV"/>
+                            <constraint firstItem="e5L-z1-q2F" firstAttribute="trailing" secondItem="Ahe-A4-zsc" secondAttribute="trailing" id="XHY-GK-3iJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ahe-A4-zsc" secondAttribute="trailing" id="haV-Wc-9DK"/>
+                            <constraint firstItem="e5L-z1-q2F" firstAttribute="leading" secondItem="Ahe-A4-zsc" secondAttribute="leading" id="j3J-3V-WVX"/>
+                            <constraint firstItem="e5L-z1-q2F" firstAttribute="bottom" secondItem="Ahe-A4-zsc" secondAttribute="bottom" id="yWK-mx-aHQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="N3w-wS-K9H"/>
                     </view>
                     <navigationItem key="navigationItem" id="5Zt-1p-Ryz"/>
@@ -63,4 +87,9 @@
             <point key="canvasLocation" x="-44" y="-326"/>
         </scene>
     </scenes>
+    <resources>
+        <image width="853" height="1517">
+            <string key="name">Hd-color-explosion-powderus-blast-wallpaper-x-rhwallpapersmugcom-stunning-attractive-new-hd-desktop-rhonlyhdpiccom-stunning-Color-Explosion-Hd-attractive-color-explosion-blast-new</string>
+        </image>
+    </resources>
 </document>
